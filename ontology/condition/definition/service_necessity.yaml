@@ -1,0 +1,254 @@
+name: service_necessity
+patterns:
+- \b(necessary|essential|required)\b
+- \bbasic.?(service|feature)\b
+- \bcore.?(service|feature|function)\b
+- \bfundamental.?(service|feature|function)\b
+- \bprimary.?(service|feature|function)\b
+- \bmandatory\b
+- \bobligatory\b
+- \bindispensable\b
+- \bvital\b
+- \bcritical\b
+- \bcrucial\b
+- \bcompulsory\b
+- \boperational.?(necessity|requirement)\b
+- \bservice.?(operation|functionality)\b
+- \bfunction.?properly\b
+- \benable.?(service|feature|function)\b
+- \bfacilitate.?(service|operation)\b
+- \bperform.?(service|function)\b
+- \bprovide.?(service|feature)\b
+- \bmaintain.?(service|operation)\b
+- \boperate.?(service|system)\b
+- \bdeliver.?(service|feature)\b
+- \bensure.?(service|functionality)\b
+- \baccount.?(management|operation)\b
+- \buser.?(account|registration)\b
+- \btransaction.?(processing|completion)\b
+- \bpayment.?(processing|handling)\b
+- \border.?(fulfillment|processing)\b
+- \bproduct.?(delivery|fulfillment)\b
+- \bcustomer.?(service|support)\b
+- \btechnical.?(support|maintenance)\b
+- \bsystem.?(administration|operation)\b
+- \bservice.?(availability|continuity)\b
+- \bplatform.?(operation|functionality)\b
+- \bwebsite.?(functionality|operation)\b
+- \bapp.?(functionality|operation)\b
+- \bmobile.?(service|functionality)\b
+- (necessary|required|essential).?(for|to).?(provide|operate|function|deliver)
+- (basic|core|primary|fundamental).?(service|feature|functionality)
+- (enable|facilitate|ensure|maintain).?(service|operation|functionality)
+synonym:
+- access control
+- account access
+- account administration
+- account authentication
+- account maintenance
+- account operation
+- account registration
+- account security
+- administrative service
+- alert service
+- application availability
+- application functionality
+- application operation
+- application performance
+- authentication process
+- authentication service
+- authorization service
+- authorized access
+- availability management
+- backup recovery
+- basic
+- basic feature
+- basic function
+- basic functionality
+- basic service
+- billing processing
+- business necessity
+- business requirement
+- checkout processing
+- compulsory
+- configuration service
+- content delivery
+- continuity management
+- core
+- core feature
+- core function
+- core functionality
+- core service
+- critical
+- crucial
+- customer access
+- customer account
+- customer assistance
+- customer authentication
+- customer care
+- customer registration
+- customer service
+- customer support
+- customer verification
+- data service
+- database service
+- deliver feature
+- deliver function
+- deliver service
+- enable access
+- enable feature
+- enable function
+- enable operation
+- enable service
+- ensure access
+- ensure function
+- ensure operation
+- ensure service
+- error handling
+- essential
+- essential feature
+- essential function
+- essential functionality
+- essential service
+- facilitate access
+- facilitate function
+- facilitate operation
+- facilitate service
+- function properly
+- functional necessity
+- functional requirement
+- fundamental
+- fundamental feature
+- fundamental function
+- fundamental functionality
+- fundamental service
+- help desk
+- indispensable
+- information service
+- inquiry handling
+- installation service
+- issue resolution
+- load balancing
+- logging service
+- login process
+- maintain access
+- maintain function
+- maintain operation
+- maintain service
+- management service
+- mandatory
+- mandatory feature
+- mandatory function
+- mandatory functionality
+- mandatory service
+- mobile functionality
+- mobile operation
+- mobile performance
+- mobile service
+- necessary
+- necessary feature
+- necessary function
+- necessary functionality
+- necessary service
+- network service
+- obligatory
+- operate properly
+- operational necessity
+- operational requirement
+- operational service
+- order completion
+- order fulfillment
+- order handling
+- order processing
+- payment completion
+- payment handling
+- payment processing
+- perform properly
+- performance management
+- platform availability
+- platform functionality
+- platform maintenance
+- platform operation
+- platform performance
+- primary
+- primary feature
+- primary function
+- primary functionality
+- primary service
+- problem resolution
+- product delivery
+- protection service
+- provide access
+- provide feature
+- provide function
+- provide service
+- purchase processing
+- registration process
+- reliability management
+- request handling
+- required
+- required feature
+- required function
+- required functionality
+- required service
+- resource management
+- run properly
+- secure access
+- security control
+- server service
+- service accessibility
+- service administration
+- service availability
+- service continuity
+- service delivery
+- service maintenance
+- service management
+- service necessity
+- service operation
+- service performance
+- service provision
+- service recovery
+- service reliability
+- service requirement
+- service ticket
+- setup service
+- signin process
+- support access
+- support desk
+- support function
+- support operation
+- support service
+- support ticket
+- sync service
+- synchronization service
+- system availability
+- system functionality
+- system maintenance
+- system operation
+- system performance
+- system protection
+- system recovery
+- technical assistance
+- technical necessity
+- technical requirement
+- technical support
+- traffic management
+- transaction completion
+- transaction handling
+- transaction processing
+- troubleshooting
+- update service
+- user access
+- user account
+- user authentication
+- user registration
+- user support
+- user verification
+- verification process
+- vital
+- web service
+- website availability
+- website functionality
+- website operation
+- website performance
+- work properly

@@ -1,0 +1,1347 @@
+- name: unspecified
+  patterns:
+    - '\b(unspecified)\b'
+    - '[^a-z](unspecified)[^a-z]'
+    - 'unspecified entity'
+- name: third_parties
+  patterns:
+  - '[^a-z]third[_\s]*parties[^a-z]'
+  - '[^a-z]third[_\s]*party[^a-z]'
+  - '\b(third[_\s]*parties)\b'
+  - 'authorized personnel within institution'
+  - 'third_partie'
+  - '3rd-party'
+- name: advertiser
+  patterns:
+  - '[^a-z]advertiser[^a-z]'
+  - '\b(advertiser)\b'
+  - 'advertising (company|organization|agency|firm|business|partner|provider|platform|network|service|solution|tool|technology|system|strategy|campaign|channel|medium|model|method|practice|tactic|approach)'
+  - '[^a-z]advertiser[^a-z]'
+  - '\b(advertiser)\b'
+  - 'paid[\s_]*advertiser'
+  - 'advertising[\s_]*(partner|provider|platform|network|service|solution|tool|technology|system|strategy|campaign|channel|medium|model|method|practice|tactic|approach|company|organization|agency|firm|business)'
+  - '[^a-z]advertising[^a-z]'
+  - '\b(advertising)\b'
+  - 'online[\s_]*advertising'
+  - 'digital[\s_]*marketing'
+- name: analytics
+  patterns:
+    - '[^a-z]analytics[^a-z]'
+    - '\b(analytics)\b'
+    - 'analytic (company|organization|agency|firm|business|partner|provider|platform|network|service|solution|tool|technology|system|strategy|campaign|channel|medium|model|method|practice|tactic|approach)'
+- name: social_media
+  patterns:
+    - 'social media'
+    - '[^a-z]social[_\s]*media[^a-z]'
+    - '\b(social[_\s]*media)\b'
+    - 'social media (company|organization|agency|firm|business|partner|provider|platform|network|service|solution|tool|technology|system|strategy|campaign|channel|medium|model|method|practice|tactic|approach)'
+- name: content_provider
+  patterns:
+    - '[^a-z]content[_\s]*provider[^a-z]'
+    - '\b(content)[_\s]*provider\b'
+    -  'content provider (company|organization|agency|firm|business|partner|provider|platform|network|service|solution|tool|technology|system|strategy|campaign|channel|medium|model|method|practice|tactic|approach)'
+- name: auth_provider
+  patterns:
+    - '[^a-z]auth[_\s]*provider[^a-z]'
+    - '\b(auth)[_\s]*(provider)\b'
+    - 'auth provider (company|organization|agency|firm|business|partner|provider|platform|network|service|solution|tool|technology|system|strategy|campaign|channel|medium|model|method|practice|tactic|approach)'
+    - 'authentication (provider|service) (company|organization|agency|firm|business|partner|provider|platform|network|service|solution|tool|technology|system|strategy|campaign|channel|medium|model|method|practice|tactic|approach)'
+    - '\b(authentication)\b'
+- name: email_provider
+  patterns:
+    - '[^a-z]email[_\s]*provider[^a-z]'
+    - '\b(email)[_\s]*provider\b'
+    - 'e?mail provider (company|organization|agency|firm|business|partner|provider|platform|network|service|solution|tool|technology|system|strategy|campaign|channel|medium|model|method|practice|tactic|approach)'
+    - 'e?mail (service|provider) (company|organization|agency|firm|business|partner|provider|platform|network|service|solution|tool|technology|system|strategy|campaign|channel|medium|model|method|practice|tactic|approach)'
+- name: google
+  patterns:
+  - '[^a-z]gms[^a-z]'
+  - '[^a-z]google[^a-z]'
+  - '\b(google)\b'
+  - '^google$'
+  - '[^a-z]google[^a-z]'
+  - 'google[\s_]*inc'
+  - 'google[\s_]*llc'
+  - 'google[\s_]*maps'
+  - 'google[\s_]*search'
+- name: android
+  patterns:
+    - '[^a-z]androidx?[^a-z]'
+    - '\bandroidx?\b'
+    - '^android$'
+- name: firebase
+  patterns:
+    - '[^a-z]firebase[^a-z]'
+    - '\bfirebase\b'
+    - '^firebase$'
+- name: youtube
+  patterns:
+    - '[^a-z]youtube[^a-z]'
+    - '[^a-z]ytb[^a-z]'
+    - '\byoutube\b'
+    - '^youtube$'
+- name: admob
+  patterns:
+    - '[^a-z]admob[^a-z]'
+    - '\badmob\b'
+    - '^admob$'
+- name: crashlytics
+  patterns:
+    - '[^a-z]crashlytics[^a-z]'
+    - '\bcrashlytics\b'
+    - '^crashlytics$'
+- name: google_ads
+  patterns:
+    - '[^a-z]google\s*ads[^a-z]'
+    - '[^a-z]google[^a-z]*ads[^a-z]'
+    - '[^a-z]adsense[^a-z]'
+    - '\bgoogle[_\s]*ads\b'
+    - '^google_ads$'
+    - '^google ads$'
+- name: google_analytics
+  patterns:
+    - '[^a-z]googleanalytics[^a-z]'
+    - '[^a-z]google[^a-z]*analytics[^a-z]'
+    - '\bgoogle[_\s]*analytics\b'
+    - '^google_analytics$'
+- name: google_cloud
+  patterns:
+    - '[^a-z]googlecloud[^a-z]'
+    - '[^a-z]gcp[^a-z]'
+    - '\bgoogle[_\s]*cloud\b'
+    - '^google_cloud$'
+- name: google_maps
+  patterns:
+    - '[^a-z]googlemaps[^a-z]'
+    - '[^a-z]maps[^a-z]'
+    - '\bgoogle[_\s]*maps\b'
+    - '^google_maps?$'
+- name: google_play
+  patterns:
+    - '[^a-z]googleplay[^a-z]'
+    - '[^a-z]playstore[^a-z]'
+    - '[^a-z]playstore[^a-z]'
+    - '\bgoogle[_\s]*play\b'
+    - '^google_play$'
+- name: google_auth
+  patterns:
+    - '[^a-z]google[^a-z]*auth[^a-z]'
+    - '\bgoogle[_\s]*auth\b'
+    - '^google_auth$'
+#- name: gemini
+#  patterns:
+#    - '[^a-z]gemini[^a-z]'
+#    - '\bgemini\b'
+#    - '^gemini$'
+- name: gmail
+  patterns:
+    - '[^a-z]gmail[^a-z]'
+    - \b(gmail)\b'
+    - '^gmail$'
+- name: facebook
+  patterns:
+  - '[^a-z]facebook[^a-z]'
+  - '\b(facebook)\b'
+  - '^facebook$'
+  
+- name: meta
+  patterns:
+    - '\b(meta)[_\s]*(?!data|t|cognition|verse|physics)\b'
+    - '^meta$'
+    - '[^a-z]meta[^a-z]'
+    - 'meta company'
+    - 'meta org(anization)?'
+- name: instagram
+  patterns:
+    - '[^a-z]instagram[^a-z]'
+    - '\binstagram\b'
+    - '^instagram$'
+- name: whatsapp
+  patterns:
+    - '[^a-z]whatsapp[^a-z]'
+    - '\bwhatsapp\b'
+    - '^whatsapp$'
+- name: oculus
+  patterns:
+    - '[^a-z]oculus[^a-z]'
+    - '\boculus\b'
+    - '^oculus$'
+- name: messenger
+  patterns:
+    - '[^a-z]messenger[^a-z]'
+    - '\bmessenger\b'
+    - '^messenger$'
+- name: facebook_ads
+  patterns:
+    - '[^a-z]facebookads[^a-z]'
+    - '[^a-z]ads[^a-z]*facebook[^a-z]'
+    - '[^a-z]facebook[^a-z]*ads[^a-z]'
+    - '\bfacebook[_\s]*ads\b'
+    - '^facebook_ads$'
+- name: facebook_gaming
+  patterns:
+    - '[^a-z]facebookgaming[^a-z]'
+    - '[^a-z]gaming[^a-z]*facebook[^a-z]'
+    - '\bfacebook[_\s]*gaming\b'
+    - '^facebook_gaming$'
+#- name: llama
+#  patterns:
+#    - '[^a-z]llama[^a-z]'
+#    - '\bllama\b'
+#    - '^llama$'
+- name: amazon
+  patterns:
+  - '[^a-z]amazon[^a-z]'
+  - '\bamazon\b'
+  - '^amazon$'
+- name: aws
+  patterns:
+    - '[^a-z]aws[^a-z]'
+    - '[^a-z]amazonwebservices[^a-z]'
+    - '\baws\b'
+    - '^aws$'
+#- name: attribution
+#  patterns:
+#    - '[^a-z]appsflyer[^a-z]*attribution[^a-z]'
+#    - '\battribution\b'
+#    - '^attribution$'
+- name: alexa
+  patterns:
+    - '[^a-z]alexa[^a-z]'
+    - '\balexa\b'
+    - '^alexa$'
+- name: amazon_prime
+  patterns:
+    - '[^a-z]amazonprime[^a-z]'
+    - '[^a-z]prime[^a-z]*amazon[^a-z]'
+    - '\bamazon[_\s]*prime\b'
+    - '^amazon_prime$'
+    - '[^a-z]amazon[\s_]*prime[^a-z]'
+    - '\b(amazon[\s_]*prime)\b'
+    - 'prime[\s_]*membership'
+- name: kindle
+  patterns:
+    - '[^a-z]kindle[^a-z]'
+    - '\bkindle\b'
+    - '^kindle$'
+- name: amazon_music
+  patterns:
+    - '[^a-z]amazonmusic[^a-z]'
+    - '\bamazon[_\s]*music\b'
+    - '^amazon_music$'
+- name: amazon_video
+  patterns:
+    - '[^a-z]amazonvideo[^a-z]'
+    - '\bamazon[_\s]*video\b'
+    - '^amazon_video$'
+- name: apple
+  patterns:
+  - '[^a-z]apple[^a-z]'
+  - '\bapple\b'
+  - '^apple$'
+  
+- name: appstore
+  patterns:
+    - '[^a-z]appstore[^a-z]'
+    - '\bappstore\b'
+    - '^appstore$'
+- name: icloud
+  patterns:
+    - '[^a-z]icloud[^a-z]'
+    - '\bicloud\b'
+    - '^icloud$'
+- name: itunes
+  patterns:
+    - '[^a-z]itunes[^a-z]'
+    - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_\s]*itunes'
+    - '\bitunes\b'
+    - '^itunes$'
+    - 'itunes[_\s]*store'
+- name: apple_music
+  patterns:
+    - '[^a-z]applemusic[^a-z]'
+    - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_\s]*apple[_\s]*music'
+    - '\bapple[_\s]*music\b'
+    - '^apple_music$'
+- name: apple_tv
+  patterns:
+    - '[^a-z]appletv[^a-z]'
+    - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_\s]*apple[_\s]*tv'
+    - '\bapple[_\s]*tv\b'
+    - '^apple_tv$'
+- name: facetime
+  patterns:
+    - '[^a-z]facetime[^a-z]'
+    - '\bfacetime\b'
+    - '^facetime$'
+- name: siri
+  patterns:
+    - '[^a-z]siri[^a-z]'
+    - '\bsiri\b'
+    - '^siri$'
+- name: microsoft
+  patterns:
+  - '[^a-z]microsoft[^a-z]'
+  - '[^a-z]Microsoft[^a-z]'
+  - '[^a-z]msft[^a-z]'
+  - '[^a-z]stca[^a-z]'
+  - '\bmicrosoft\b'
+  - '^microsoft$'
+  
+- name: linkedin
+  patterns:
+    - '[^a-z]linkedin[^a-z]'
+    - '\blinkedin\b'
+    - '^linkedin$'
+- name: azure
+  patterns:
+    - '[^a-z]azure[^a-z]'
+    - '\bazure\b'
+    - '^azure$'
+- name: xbox
+  patterns:
+    - '[^a-z]xbox[^a-z]'
+    - '\bxbox\b'
+    - '^xbox$'
+- name: outlook
+  patterns:
+    - '[^a-z]outlook[^a-z]'
+    - '\boutlook\b'
+    - '^outlook$'
+- name: teams
+  patterns:
+    - '[^a-z]teams[^a-z]'
+    - '\bteams\b'
+    - '^teams$'
+- name: onedrive
+  patterns:
+    - '[^a-z]onedrive[^a-z]'
+    - '\bonedrive\b'
+    - '^onedrive$'
+- name: twitter
+  patterns:
+  - '[^a-z]twitter[^a-z]'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_\s]*twitter'
+  - '^twitter$'
+  - '\b(twitter)\b'
+  - 'twitter[\s_]*inc'
+  - 'twitter[\s_]*llc'
+  - 'twitter[\s_]*ads'
+  - 'twitter[\s_]*for business'
+  - 'twitter[\s_]*api'
+  
+- name: tweepy
+  patterns:
+    - '[^a-z]tweepy[^a-z]'
+    - '\btweepy\b'
+    - '^tweepy$'
+- name: tweetdeck
+  patterns:
+    - '[^a-z]tweetdeck[^a-z]'
+    - '\btweetdeck\b'
+    - '^tweetdeck$'
+#- name: periscope
+#  patterns:
+#    - '[^a-z]periscope[^a-z]'
+#    - '\bperiscope\b'
+#    - '^periscope$'
+#- name: vine
+#  patterns:
+#    - '[^a-z]vine[^a-z]'
+#    - '\bvine\b'
+#    - '^vine$'
+- name: snapchat
+  patterns:
+  - '[^a-z]snapchat[^a-z]'
+  - '\bsnapchat\b'
+  - '^snapchat$'
+  
+- name: snap
+  patterns:
+    - '[^a-z]snap[^a-z]'
+    - '\bsnap\b'
+    - '^snap$'
+#- name: spectacles
+#  patterns:
+#    - '[^a-z]spectacles[^a-z]'
+#    - '\bspectacles\b'
+#    - '^spectacles$'
+- name: bitmoji
+  patterns:
+    - '[^a-z]bitmoji[^a-z]'
+    - '\bbitmoji\b'
+    - '^bitmoji$'
+- name: snap_map
+  patterns:
+    - '[^a-z]snapmap[^a-z]'
+    - '\bsnap[_\s]*map\b'
+    - '^snap_map$'
+- name: unity
+  patterns:
+  - '[^a-z]unity[^a-z]'
+  - '\bunity\b'
+  - '^unity$'
+  
+- name: unity_ads
+  patterns:
+    - '[^a-z]unity[^a-z]*ads[^a-z]'
+    - '\bunity[_\s]*ads\b'
+    - '^unity_ads$'
+#- name: unity_playables
+#  patterns:
+#    - '[^a-z]unity[^a-z]*playables[^a-z]'
+#    - '\bunity[_\s]*playables\b'
+#    - '^unity_playables$'
+- name: multiplayer
+  patterns:
+    - '[^a-z]unity[^a-z]*multiplayer[^a-z]'
+    - '\bmultiplayer\b'
+    - '^multiplayer$'
+- name: vungle
+  patterns:
+  - '[^a-z]vungle[^a-z]'
+  - '\bvungle\b'
+  - '^vungle$'
+  
+- name: vungle_ads
+  patterns:
+    - '[^a-z]vungle[^a-z]*ads[^a-z]'
+    - '\bvungle[_\s]*ads\b'
+    - '^vungle_ads$'
+- name: yahoo
+  patterns:
+  - '[^a-z]yahoo[^a-z]'
+  - '\byahoo\b'
+  - '^yahoo$'
+  - 'yahoo !'
+  - 'yahoo!'
+
+- name: yahoo_mail
+  patterns:
+    - '[^a-z]yahoo[^a-z]*mail[^a-z]'
+    - '\byahoo[_\s]*mail\b'
+    - '^yahoo_mail$'
+- name: yahoo_finance
+  patterns:
+    - '[^a-z]yahoo[^a-z]*finance[^a-z]'
+    - '\byahoo[_\s]*finance\b'
+    - '^yahoo_finance$'
+- name: yahoo_sports
+  patterns:
+    - '[^a-z]yahoo[^a-z]*sports[^a-z]'
+    - '\byahoo[_\s]*sports\b'
+    - '^yahoo_sports$'
+- name: adcolony
+  patterns:
+  - '[^a-z]adcolony[^a-z]'
+  - '\badcolony\b'
+  - '^adcolony$'
+  
+- name: adcolony_ads
+  patterns:
+    - '[^a-z]adcolony[^a-z]*ads[^a-z]'
+    - '\badcolony[_\s]*ads\b'
+    - '^adcolony_ads$'
+- name: airbnb
+  patterns:
+  - '[^a-z]airbnb[^a-z]'
+  - '\bairbnb\b'
+  - '^airbnb$'
+  
+- name: aircover
+  patterns:
+    - '[^a-z]aircover[^a-z]'
+    - '\baircover\b'
+    - '^aircover$'
+- name: experiences
+  patterns:
+    - '[^a-z]airbnb[^a-z]*experiences[^a-z]'
+    - '\bexperiences\b'
+    - '^experiences$'
+- name: homes
+  patterns:
+    - '[^a-z]airbnb[^a-z]*homes[^a-z]'
+    - '\bhomes\b'
+    - '^homes$'
+- name: appsflyer
+  patterns:
+  - '[^a-z]appsflyer[^a-z]'
+  - '\bappsflyer\b'
+  - '^appsflyer$'
+  
+- name: appsflyer_analytics
+  patterns:
+    - '[^a-z]appsflyer[^a-z]*analytics[^a-z]'
+    - '\bappsflyer[^a-z]*analytics\b'
+    - '^appsflyer_analytics$'
+- name: adjust
+  patterns:
+  - '[^a-z]adjust[^a-z]'
+  - '\badjust\b'
+  - '\badjust[_\s]*(ltd|company|org)'
+  - '^adjust$'
+- name: comcast
+  patterns:
+  - '[^a-z]comcast[^a-z]'
+  - '\bcomcast\b'
+  - '^comcast$'
+  
+- name: xfinity
+  patterns:
+    - '[^a-z]xfinity[^a-z]'
+    - '\bxfinity\b'
+    - '^xfinity$'
+#- name: peacock
+#  patterns:
+#    - '[^a-z]peacock[^a-z]'
+#    - '\bpeacock\b'
+#    - '^peacock$'
+- name: comcast_business
+  patterns:
+    - '[^a-z]comcast[^a-z]*business[^a-z]'
+    - '\bcomcast[_\s]*business\b'
+    - '^comcast_business$'
+- name: disney
+  patterns:
+  - '[^a-z]disney[^a-z]'
+  - '\bdisney\b'
+  - '^disney$'
+  
+- name: disney_plus
+  patterns:
+    - '[^a-z]disney[^a-z]*plus[^a-z]'
+    - '\bdisney[_\s]*plus\b'
+    - '^disney_plus$'
+- name: pixar
+  patterns:
+    - '[^a-z]pixar[^a-z]'
+    - '\bpixar\b'
+    - '^pixar$'
+- name: marvel
+  patterns:
+    - '[^a-z]marvel[^a-z]'
+    - '\bmarvel\b'
+    - '^marvel$'
+- name: ebay
+  patterns:
+  - '[^a-z]ebay[^a-z]'
+  - '\bebay\b'
+  - '^ebay$'
+  
+- name: ebay_auctions
+  patterns:
+    - '[^a-z]ebay[^a-z]*auctions[^a-z]'
+    - '\bebay[_\s]*auctions\b'
+    - '^ebay_auctions$'
+- name: ebay_sellers
+  patterns:
+    - '[^a-z]ebay[^a-z]*sellers[^a-z]'
+    - '\bebay[_\s]*sellers\b'
+    - '^ebay_sellers$'
+- name: ebay_store
+  patterns:
+    - '[^a-z]ebay[^a-z]*store[^a-z]'
+    - '\bebay[_\s]*store\b'
+    - '^ebay_store$'
+- name: fluct
+  patterns:
+  - '[^a-z]fluct[^a-z]'
+  - '\bfluct\b'
+  - '^fluct$'
+- name: iab
+  patterns:
+  - '[^a-z]iab[^a-z]'
+  - '\biab\b'
+  - '^iab$'
+- name: inmobi
+  patterns:
+  - '[^a-z]inmobi[^a-z]'
+  - '\binmobi\b'
+  - '^inmobi$'
+  
+- name: inmobi_ads
+  patterns:
+    - '[^a-z]inmobi[^a-z]*ads[^a-z]'
+    - '\binmobi[_\s]*ads\b'
+    - '^inmobi_ads$'
+- name: inmobi_analytics
+  patterns:
+    - '[^a-z]inmobi[^a-z]*analytics[^a-z]'
+    - '\binmobi[_\s]*analytics\b'
+    - '^inmobi_analytics$'
+#- name: inmobi_audience
+#  patterns:
+#    - '[^a-z]inmobi[^a-z]*audience[^a-z]'
+#    - '\binmobi[_\s]*audience\b'
+#    - '^inmobi_audience$'
+- name: oracle
+  patterns:
+  - '[^a-z]oracle[^a-z]'
+  - '\boracle\b'
+  - '^oracle$'
+  
+- name: moat
+  patterns:
+    - '[^a-z]moat[^a-z]'
+    - '\bmoat\b'
+    - '^moat$'
+- name: oracle_cloud
+  patterns:
+    - '[^a-z]oracle[^a-z]*cloud[^a-z]'
+    - '\boracle[_\s]*cloud\b'
+    - '^oracle_cloud$'
+- name: oracle_database
+  patterns:
+    - '[^a-z]oracle[^a-z]*database[^a-z]'
+    - '\boracle[_\s]*database\b'
+    - '^oracle_database$'
+- name: oracle_erp
+  patterns:
+    - '[^a-z]oracle[^a-z]*erp[^a-z]'
+    - '\boracle[_\s]*erp\b'
+    - '^oracle_erp$'
+- name: oracle_hcm
+  patterns:
+    - '[^a-z]oracle[^a-z]*hcm[^a-z]'
+    - '\boracle[_\s]*hcm\b'
+    - '^oracle_hcm$'
+- name: oracle_cx
+  patterns:
+    - '[^a-z]oracle[^a-z]*cx[^a-z]'
+    - '\boracle[_\s]*cx\b'
+    - '^oracle_cx$'
+- name: oracle_scm
+  patterns:
+    - '[^a-z]oracle[^a-z]*scm[^a-z]'
+    - '\boracle[_\s]*scm\b'
+    - '^oracle_scm$'
+- name: oracle_analytics
+  patterns:
+    - '[^a-z]oracle[^a-z]*analytics[^a-z]'
+    - '\boracle[_\s]*analytics\b'
+    - '^oracle_analytics$'
+- name: applovin
+  patterns:
+  - '[^a-z]applovin[^a-z]'
+  - '\bapplovin\b'
+  - '^applovin$'
+  
+- name: mopub
+  patterns:
+    - '[^a-z]mopub[^a-z]'
+    - '\bmopub\b'
+    - '^mopub$'
+- name: mytarget
+  patterns:
+  - '[^a-z]mytarget[^a-z]'
+  - '\bmytarget\b'
+  - '^mytarget$'
+  
+- name: mytarget_ads
+  patterns:
+    - '[^a-z]mytarget[^a-z]*ads[^a-z]'
+    - '\bmytarget[_\s]*ads\b'
+    - '^mytarget_ads$'
+- name: mytarget_audience
+  patterns:
+    - '[^a-z]mytarget[^a-z]*audience[^a-z]'
+    - '\bmytarget[_\s]*audience\b'
+    - '^mytarget_audience$'
+- name: pinterest
+  patterns:
+  - '[^a-z]pinterest[^a-z]'
+  - '\bpinterest\b'
+  - '^pinterest$'
+  
+- name: pinterest_ads
+  patterns:
+    - '[^a-z]pinterest[^a-z]*ads[^a-z]'
+    - '\bpinterest[_\s]*ads\b'
+    - '^pinterest_ads$'
+- name: pinterest_analytics
+  patterns:
+    - '[^a-z]pinterest[^a-z]*analytics[^a-z]'
+    - '\bpinterest[_\s]*analytics\b'
+    - '^pinterest_analytics$'
+- name: roku
+  patterns:
+  - '[^a-z]roku[^a-z]'
+  - '\broku\b'
+  - '^roku$'
+  
+#- name: roku_channel
+#  patterns:
+#    - '[^a-z]roku[^a-z]*channel[^a-z]'
+#    - '\broku[_\s]*channel\b'
+#    - '^roku_channel$'
+- name: roku_ads
+  patterns:
+    - '[^a-z]roku[^a-z]*ads[^a-z]'
+    - '\broku[_\s]*ads\b'
+    - '^roku_ads$'
+- name: tapjoy
+  patterns:
+  - '[^a-z]tapjoy[^a-z]'
+  - '\btapjoy\b'
+  - '^tapjoy$'
+  
+- name: tapjoy_ads
+  patterns:
+    - '[^a-z]tapjoy[^a-z]*ads[^a-z]'
+    - '\btapjoy[_\s]*ads\b'
+    - '^tapjoy_ads$'
+#- name: tapjoy_analytics
+#  patterns:
+#    - '[^a-z]tapjoy[^a-z]*analytics[^a-z]'
+#    - '\btapjoy[_\s]*analytics\b'
+#    - '^tapjoy_analytics$'
+- name: paypal
+  patterns:
+  - '[^a-z]paypal[^a-z]'
+  - '\bpaypal\b'
+  - '^paypal$'
+  
+- name: venmo
+  patterns:
+    - '[^a-z]venmo[^a-z]'
+    - '\bvenmo\b'
+    - '^venmo$'
+- name: braintree
+  patterns:
+    - '[^a-z]braintree[^a-z]'
+    - '\bbraintree\b'
+    - '^braintree$'
+- name: xoom
+  patterns:
+    - '[^a-z]xoom[^a-z]'
+    - '\bxoom\b'
+    - '^xoom$'
+- name: square
+  patterns:
+  - '[^a-z]square[_\s]*(ltd|company|org|up)[^a-z]'
+  - '\bsquare[_\s]*(ltd|company|org|up)\b'
+  - '^square$'
+  
+- name: cashapp
+  patterns:
+    - '[^a-z]cashapp[^a-z]'
+    - '\bcashapp\b'
+    - '^cashapp$'
+- name: tock
+  patterns:
+    - '[^a-z]tock[^a-z]'
+    - '\btock\b'
+    - '^tock$'
+- name: afterpay
+  patterns:
+    - '[^a-z]afterpay[^a-z]'
+    - '\bafterpay\b'
+    - '^afterpay$'
+- name: adobe
+  patterns:
+  - '[^a-z]adobe[^a-z]'
+  - '\b(adobe)\b'
+  - '^adobe$'
+  
+- name: photoshop
+  patterns:
+    - '[^a-z]photoshop[^a-z]'
+    - '\bphotoshop\b'
+    - '^photoshop$'
+- name: acrobat
+  patterns:
+    - '[^a-z]acrobat[^a-z]'
+    - '\bacrobat\b'
+    - '^acrobat$'
+- name: illustrator
+  patterns:
+    - '[^a-z]illustrator[^a-z]'
+    - '\billustrator\b'
+    - '^illustrator$'
+- name: stripe
+  patterns:
+  - '[^a-z]stripe[^a-z]'
+  - '\bstripe\b'
+  - '^stripe$'
+  
+#- name: atlas
+#  patterns:
+#    - '[^a-z]atlas[^a-z]'
+#    - '\batlas\b'
+#    - '^atlas$'
+#- name: sigma
+#  patterns:
+#    - '[^a-z]sigma[^a-z]'
+#    - '\bsigma\b'
+#    - '^sigma$'
+#- name: radar
+#  patterns:
+#    - '[^a-z]radar[^a-z]'
+#    - '\bradar\b'
+#    - '^radar$'
+- name: bytedance
+  patterns:
+  - '[^a-z]bytedance[^a-z]'
+  - '[^a-z]douyin[^a-z]'
+  - '\bbytedance\b'
+  - '^bytedance$'
+  
+#- name: huoshan
+#  patterns:
+#    - '[^a-z]huoshan[^a-z]'
+#    - '[^a-z]volcengine[^a-z]'
+#    - '[^a-z]volc[^a-z]'
+#    - '\bhuoshan\b'
+#    - '^huoshan$'
+- name: tiktok
+  patterns:
+    - '[^a-z]tiktok[^a-z]'
+    - '\btiktok\b'
+    - '^tiktok$'
+- name: xigua
+  patterns:
+    - '[^a-z]xigua[^a-z]'
+    - '[^a-z]xgplayer[^a-z]'
+    - '\bxigua\b'
+    - '^xigua$'
+- name: doubao
+  patterns:
+    - '[^a-z]doubao[^a-z]'
+    - '\bdoubao\b'
+    - '^doubao$'
+- name: toutiao
+  patterns:
+    - '[^a-z]toutiao[^a-z]'
+    - '[^a-z]toutiaohao[^a-z]'
+    - '\btoutiao\b'
+    - '^toutiao$'
+#- name: pipixia
+#  patterns:
+#    - '[^a-z]pipixia[^a-z]'
+#    - '\bpipixia\b'
+#    - '^pipixia$'
+#- name: dongchedi
+#  patterns:
+#    - '[^a-z]dongchedi[^a-z]'
+#    - '\bdongchedi\b'
+#    - '^dongchedi$'
+- name: alibaba
+  patterns:
+  - '[^a-z]alibaba[^a-z]'
+  - '\balibaba\b'
+  - '^alibaba$'
+  
+- name: taobao
+  patterns:
+    - '[^a-z]taobao[^a-z]'
+    - '\btaobao\b'
+    - '^taobao$'
+- name: alipay
+  patterns:
+    - '[^a-z]alipay[^a-z]'
+    - '\balipay\b'
+    - '^alipay$'
+- name: alicloud
+  patterns:
+    - '[^a-z]alicloud[^a-z]'
+    - '[^a-z]aliyuncs[^a-z]'
+    - '\balicloud\b'
+    - '^alicloud$'
+- name: tmall
+  patterns:
+    - '[^a-z]tmall[^a-z]'
+    - '\btmall\b'
+    - '^tmall$'
+- name: aliexpress
+  patterns:
+    - '[^a-z]aliexpress[^a-z]'
+    - '\baliexpress\b'
+    - '^aliexpress$'
+- name: lazada
+  patterns:
+    - '[^a-z]lazada[^a-z]'
+    - '\blazada\b'
+    - '^lazada$'
+#- name: tongyi
+#  patterns:
+#    - '[^a-z]tongyi[^a-z]'
+#    - '[^a-z]qwen[^a-z]'
+#    - '[^a-z]qianwen[^a-z]'
+#    - '[^a-z]dashscope[^a-z]'
+#    - '\btongyi\b'
+#    - '^tongyi$'
+- name: eleme
+  patterns:
+    - '[^a-z]eleme[^a-z]'
+    - '[^a-z]elemeshipping[^a-z]'
+    - '[^a-z]eleme[^a-z]*delivery[^a-z]'
+    - \beleme\b
+    - '^eleme$'
+- name: xianyu
+  patterns:
+    - '[^a-z]xianyu[^a-z]'
+    - '[^a-z]xianyu[^a-z]*secondhand[^a-z]'
+    - '\bxianyu\b'
+    - '^xianyu$'
+#- name: koubei
+#  patterns:
+#    - '[^a-z]koubei[^a-z]'
+#    - '[^a-z]koubei[^a-z]*delivery[^a-z]'
+#    - '[^a-z]koubei[^a-z]*food[^a-z]'
+#    - '\bkoubei\b'
+#    - '^koubei$'
+#- name: koubei_merchant
+#  patterns:
+#    - '[^a-z]koubei[^a-z]*merchant[^a-z]'
+#    - '\bkoubei[_\s]*merchant\b'
+#    - '^koubei_merchant$'
+- name: baidu
+  patterns:
+  - '[^a-z]baidu[^a-z]'
+  - '\bbaidu\b'
+  - '^baidu$'
+  
+- name: baidu_map
+  patterns:
+    - '[^a-z]baidumap[^a-z]'
+    - '[^a-z]baidu[^a-z]*map[^a-z]'
+    - '\bbaidu[_\s]*map\b'
+    - '^baidu_map$'
+- name: baidu_search
+  patterns:
+    - '[^a-z]baidusearch[^a-z]'
+    - '[^a-z]baidu[^a-z]*search[^a-z]'
+    - '\bbaidu[_\s]*search\b'
+    - '^baidu_search$'
+- name: huawei
+  patterns:
+  - '[^a-z]huawei[^a-z]'
+  - '\bhuawei\b'
+  - '^huawei$'
+  
+- name: huawei_cloud
+  patterns:
+    - '[^a-z]huaweicloud[^a-z]'
+    - '[^a-z]huawei[^a-z]*cloud[^a-z]'
+    - '\bhuawei[_\s]*cloud\b'
+    - '^huawei_cloud$'
+- name: huawei_mobile
+  patterns:
+    - '[^a-z]huaweimobile[^a-z]'
+    - '[^a-z]huawei[^a-z]*mobile[^a-z]'
+    - '\bhuawei[_\s]*mobile\b'
+    - '^huawei_mobile$'
+- name: harmonyos
+  patterns:
+    - '[^a-z]harmonyos[^a-z]'
+    - '[^a-z]huawei[^a-z]*harmonyos[^a-z]'
+    - '\bharmonyos\b'
+    - '^harmonyos$'
+#- name: hiSilicon
+#  patterns:
+#    - '[^a-z]hisilicon[^a-z]'
+#    - '[^a-z]huawei[^a-z]*hisilicon[^a-z]'
+#    - '\bhiSilicon\b'
+#    - '^hiSilicon$'
+- name: sankuai
+  patterns:
+  - '[^a-z]sankuai[^a-z]'
+  - '\bsankuai\b'
+  - '^sankuai$'
+  
+- name: meituan
+  patterns:
+    - '[^a-z]meituan[^a-z]'
+    - '\bmeituan\b'
+    - '^meituan$'
+- name: dianping
+  patterns:
+    - '[^a-z]dianping[^a-z]'
+    - '\bdianping\b'
+    - '^dianping$'
+- name: meizu
+  patterns:
+  - '[^a-z]meizu[^a-z]'
+  - '\bmeizu\b'
+  - '^meizu$'
+  
+#- name: flyme
+#  patterns:
+#    - '[^a-z]flyme[^a-z]'
+#    - '\bflyme\b'
+#    - '^flyme$'
+- name: tencent
+  patterns:
+  - '[^a-z]tencent[^a-z]'
+  - '[^a-z]qq[^a-z]'
+  - '[^a-z]tengxun[^a-z]'
+  - '\btencent\b'
+  - '^tencent$'
+  
+- name: ihoc
+  patterns:
+    - '[^a-z]ihoc[^a-z]'
+    - '\bihoc\b'
+    - '^ihoc$'
+- name: wechat
+  patterns:
+    - '[^a-z]wechat[^a-z]'
+    - '[^a-z]weixin[^a-z]'
+    - '\bwechat\b'
+    - '^wechat$'
+- name: qqmusic
+  patterns:
+    - '[^a-z]qqmusic[^a-z]'
+    - '[^a-z]qqyinyue[^a-z]'
+    - '\bqqmusic\b'
+    - '^qqmusic$'
+- name: tencentvideo
+  patterns:
+    - '[^a-z]tencentvideo[^a-z]'
+    - '[^a-z]tencentshipin[^a-z]'
+    - '\btencentvideo\b'
+    - '^tencentvideo$'
+- name: tencentcloud
+  patterns:
+    - ' [^a-z]tencentcloud[^a-z]'
+    - ' [^a-z]tencentyun[^a-z]'
+    - '\btencentcloud\b'
+    - '^tencentcloud$'
+- name: tencentgames
+  patterns:
+    - ' [^a-z]tencentgames[^a-z]'
+    - ' [^a-z]tencent[^a-z]*games[^a-z]'
+    - '\btencentgames\b'
+    - '^tencentgames$'
+- name: unionpay
+  patterns:
+  - '[^a-z]unionpay[^a-z]'
+  - '\bunionpay\b'
+  - '^unionpay$'
+- name: xiaomi
+  patterns:
+  - '[^a-z]xiaomi[^a-z]'
+  - '\bxiaomi\b'
+  - '^xiaomi$'
+  
+- name: miui
+  patterns:
+    - '[^a-z]miui[^a-z]'
+    - '\bmiui\b'
+    - '^miui$'
+- name: xiaomi_store
+  patterns:
+    - '[^a-z]xiaomistore[^a-z]'
+    - '\bxiaomi[_\s]*store\b'
+    - '^xiaomi_store$'
+#- name: ztuni
+#  patterns:
+#  - '[^a-z]ztuni[^a-z]'
+#  - '\bztuni\b'
+#  - '^ztuni$'
+- name: sogou
+  patterns:
+  - '[^a-z]sogou[^a-z]'
+  - '\bsogou\b'
+  - '^sogou$'
+  
+#- name: tugele
+#  patterns:
+#    - '[^a-z]tugele[^a-z]'
+#    - '\btugele\b'
+#    - '^tugele$'
+#- name: sogou_input
+#  patterns:
+#    - '[^a-z]sogouinput[^a-z]'
+#    - '\bsogou[_\s]*input\b'
+#    - '^sogou_input$'
+- name: sohu
+  patterns:
+  - '[^a-z]sohu[^a-z]'
+  - '\bsohu\b'
+  - '^sohu$'
+  
+- name: sohu_video
+  patterns:
+    - '[^a-z]sohuvideo[^a-z]'
+    - '\bsohu[_\s]*video\b'
+    - '^sohu_video$'
+- name: sohu_news
+  patterns:
+    - '[^a-z]sohunews[^a-z]'
+    - '\bsohu[_\s]*news\b'
+    - '^sohu_news$'
+- name: bbk
+  patterns:
+  - '[^a-z]bbk[^a-z]'
+  - '[^a-z]bubugao[^a-z]'
+  - '\bbbk\b'
+  - '^bbk$'
+- name: vivo
+  patterns:
+  - '[^a-z]vivo[^a-z]'
+  - '\bvivo\b'
+  - '^vivo$'
+- name: oppo
+  patterns:
+  - '[^a-z]oppo[^a-z]'
+  - '[^a-z]coloros[^a-z]'
+  - '\boppo\b'
+  - '^oppo$'
+  
+#- name: heytap
+#  patterns:
+#    - '[^a-z]heytap[^a-z]'
+#    - '\bheytap\b'
+#    - '^heytap$'
+- name: qihoo360
+  patterns:
+  - '[^a-z]qihoo360[^a-z]'
+  - '\bqihoo360\b'
+  - '^qihoo360$'
+- name: iflytek
+  patterns:
+  - '[^a-z]iflytek[^a-z]'
+  - '\b(iflytek)\b'
+  - '^iflytek$'
+- name: fengmap
+  patterns:
+  - '[^a-z]fengmap[^a-z]'
+  - '\b(fengmap)\b'
+  - '^fengmap$'
+  - '^hellofengmap$'
+- name: cmic
+  patterns:
+  - '[^a-z]cmic[^a-z]'
+  - '\bcmic\b'
+  - '^cmic$'
+- name: chinatelecom
+  patterns:
+  - '[^a-z]chinatelecom[^a-z]'
+  - '\bchinatelecom\b'
+  - '^chinatelecom$'
+- name: sina
+  patterns:
+  - '[^a-z]sina[^a-z]'
+  - '[^a-z]weibo[^a-z]'
+  - '\bsina\b'
+  - '^sina$'
+- name: we
+  patterns:
+  - '[^a-z]app[^a-z]'
+  - '[^a-z]we[^a-z]'
+  - '\b(app)\b'
+  - '^app$'
+  - '^we$'
+  - '^our service$'
+  - '^our site$'
+  - 'our privacy policy'
+  - 'our terms of service'
+  - 'our app'
+# new added
+- name: regulatory
+  patterns:
+  - '(regulatory|government)[\s_]*(body|bodies|agency|agencies|department|departments|commission|commissions|authority|authorities)'
+  - 'regulatory[\s_]*(authority|authorities)'
+  - 'government[\s_]*(authority|authorities)'
+- name: netscape
+  patterns:
+    - '[^a-z]netscape[^a-z]'
+    - '[^a-z]netscape navigator[^a-z]'
+    - '\b(netscape navigator)\b'
+    - 'netscape[\s_]*navigator'
+- name: redorbit
+  patterns:
+    - '[^a-z]redorbit[^a-z]'
+    - '[^a-z]redorbit news[^a-z]'
+    - '\b(redorbit news)\b'
+    - 'redorbit[\s_]*news'
+    - 'redorbit[\s_]*science'
+    - 'redorbit inc'
+    - 'redorbit[\s_]*llc'
+- name: aol
+  patterns:
+    - '[^a-z]aol[^a-z]'
+    - '\b(aol)\b'
+    - 'aol[\s_]*news'
+    - 'aol[\s_]*inc'
+    - 'aol[\s_]*llc'
+    - 'aol[\s_]*time warner'
+    - 'aol[\s_]*toolbar'
+    - 'aol[\s_]*desktop[\s_]*software'
+    - 'aol[\s_]*instant[\s_]*messenger'
+    - 'aol[\s_]*isp'
+    - 'aol[\s_]*search'
+- name: mapquest
+  patterns:
+    - '[^a-z]mapquest[^a-z]'
+    - '\b(mapquest)\b'
+    - 'mapquest[\s_]*maps'
+    - 'mapquest[\s_]*directions'
+    - 'mapquest[\s_]*traffic'
+    - 'mapquest[\s_]*travel'
+- name: verizon
+  patterns:
+    - '[^a-z]verizon[^a-z]'
+    - '\b(verizon)\b'
+    - 'verizon[\s_]*wireless'
+    - 'verizon[\s_]*fios'
+    - 'verizon[\s_]*media'
+    - 'verizon[\s_]*business'
+    - 'verizon[\s_]*telecom'
+- name: doubleclick
+  patterns:
+    - '[^a-z]doubleclick[^a-z]'
+    - '\b(doubleclick)\b'
+    - 'doubleclick[\s_]*ads'
+    - 'doubleclick[\s_]*by google'
+    - 'doubleclick[\s_]*for publishers'
+    - 'doubleclick[\s_]*for advertisers'
+- name: honda
+  patterns:
+    - '[^a-z]honda[^a-z]'
+    - '\b(honda)\b'
+    - 'honda[\s_]*company'
+    - 'honda[\s_]*co'
+    - 'honda[\s_]*inc'
+    - 'honda[\s_]*llc'
+- name: honda_motor
+  patterns:
+    - '[^a-z]honda[\s_]*motor[^a-z]'
+    - '\b(honda motor)\b'
+    - 'honda[\s_]*motor[\s_]*company'
+    - 'honda[\s_]*motor[\s_]*co'
+    - 'honda[\s_]*motor[\s_]*inc'
+- name: marketer
+  patterns:
+    - 'marketer'
+    - 'marketing[\s_]*agency'
+    - 'marketing[\s_]*company'
+    - '[^a-z]company[\s_]*who[\s_]*assist[\s_]*we[\s_]*in[\s_]*marketing[^a-z]'
+    - '\b(company[\s_]*who[\s_]*assist[\s_]*we[\s_]*in[\s_]*marketing)\b'
+    - 'marketing[\s_]*service[\s_]*provider'
+    - 'digital[\s_]*marketing[\s_]*agency'
+    - 'marketing[\s_]*(consultant|consulting|firm|agency|company|service|provider|department)'
+- name: service_company
+  patterns:
+    - '[^a-z]service[\s_]*company[^a-z]'
+    - '\b(service[\s_]*company)\b'
+    - 'professional[\s_]*service[\s_]*firm'
+    - 'business[\s_]*service[\s_]*provider'
+- name: financial_service
+  patterns:
+    - '[^a-z](financial|finance|loan|investment)[\s_]*service[^a-z]'
+    - '\b((financial|finance|loan|investment)[\s_]*service)\b'
+    - '(financial|finance|loan|investment)[\s_]*service[\s_]*provider'
+    - '(financial|finance|loan|investment)[\s_]*service[\s_]*company'
+    - '(financial|finance|loan|investment)[\s_]*service[\s_]*firm'
+    - '(financial|finance|loan|investment)[\s_]*service[\s_]*agency'
+    - '(financial|finance|loan|investment)[\s_]*service[\s_]*department'
+    - '(financial|finance|loan|investment)[\s_]*service[\s_]*institution'
+    - '[^a-z](financial|finance|loan|investment)[\s_]*service[\s_]*provider[^a-z]'
+    - '\b((financial|finance|loan|investment)[\s_]*service[\s_]*provider)\b'
+    - '(financial|finance|loan|investment)[\s_]*service[\s_]*provider'
+- name: isp
+  patterns:
+    - '[^a-z]internet[\s_]*service[\s_]*provider[^a-z]'
+    - '\b(internet[\s_]*service[\s_]*provider)\b'
+    - '\b(isp)\b'
+    - '[^a-z](isp)[^a-z]'
+    - 'online[\s_]*service[\s_]*provider'
+    - 'internet provider'
+- name: bank
+  patterns:
+    - '[^a-z]bank[^a-z]'
+    - '\b(bank)\b'
+    - '(bank|banking)[\s_]*(services|company|provider|institution|agency|department|institution|firm|service|provider)'
+    - 'bank[\s_]*account'
+    - 'bank[\s_]*loan'
+    - 'bank[\s_]*credit'
+    - 'bank[\s_]*deposit'
+    - 'bank[\s_]*savings'
+- name: automobile_dealer
+  patterns:
+    - '[^a-z]automobile[\s_]*dealer[^a-z]'
+    - '\b(automobile[\s_]*dealer)\b'
+    - 'car[\s_]*dealer'
+    - 'vehicle[\s_]*sales'
+- name: northern_tool
+  patterns:
+    - '[^a-z]northern[\s_]*tool[^a-z]'
+    - '\b(northern[\s_]*tool)\b'
+    - 'northern[\s_]*tool'
+- name: att
+  patterns:
+    - '[^a-z]at&t[^a-z]'
+    - '[^a-z]att[^a-z]'
+    - '\b(at&t)\b'
+    - '\b(att)\b'
+    - '[^a-z]at[\s_]*and[\s_]*t[^a-z]'
+- name: starbucks
+  patterns:
+    - '[^a-z]starbucks[^a-z]'
+    - '\b(starbucks)\b'
+    - 'starbucks'
+- name: sprint
+  patterns:
+    - '[^a-z]sprint[^a-z]'
+    - '\b(sprint)\b'
+    - 'sprint[\s_]*corporation'
+    - 'sprint[\s_]*llc'
+- name: t_mobile
+  patterns:
+    - '[^a-z]t[\s_]*mobile[^a-z]'
+    - '\b(t[\s_]*mobile)\b'
+    - 't[\s_]*mobile[\s_]*usa'
+- name: jr_electronics
+  patterns:
+    - '[^a-z]j[\s_]*(&|and)?[\s_]*r[\s_]*electronics[^a-z]'
+    - '\b(j[\s_]*(&|and)?[\s_]*r[\s_]*electronics)\b'
+    - 'j[\s_]*(&|and)?[\s_]*r[\s_]*electronics'
+- name: officemax
+  patterns:
+    - '[^a-z]officemax[^a-z]'
+    - '\b(officemax)\b'
+    - 'office[\s_]*max'
+- name: eddie_bauer
+  patterns:
+    - '[^a-z]eddie[\s_]*bauer[^a-z]'
+    - '\b(eddie[\s_]*bauer)\b'
+    - 'eddie[\s_]*bauer[\s_]*outfitters'
+- name: vendor
+  patterns:
+    - '\b(vendor|supplier|manufacturer|distributor)\b'
+    - 'vendor[\s_]*management'
+    - 'vendor[\s_]*relationship'
+    - 'vendor[\s_]*selection'
+- name: china
+  patterns:
+    - '[^a-z]china[^a-z]'
+    - '\b(china)\b'
+- name: usa
+  patterns:
+    - '[^a-z]usa[^a-z]'
+    - '\b(usa)\b'
+    - 'united[\s_]*states[\s_]*of[\s_]*america'
+    - 'us[\s_]*of[\s_]*a'
+    - 'us[\s_]*of[\s_]*america'
+    - 'us[\s_]*america'
+    - 'unit[\s_]*states'
+    - 'america'
+    - 'us[\s_]*country'
+- name: europe
+  patterns:
+    - '[^a-z]europe[^a-z]'
+    - '\b(europe)\b'
+    - '\b(eu)\b'
+    - 'european[\s_]*union'
+    - 'eu[\s_]*country'
+    - 'continent[\s_]*of[\s_]*europe'
+    - 'european[\s_]*continent'
+    - '\b(european union)\b'
+    - '\b(european council)\b'
+- name: subsplash
+  patterns:
+      - '[^a-z]subsplash[^a-z]'
+      - '\b(subsplash)\b'
+      - 'subsplash'

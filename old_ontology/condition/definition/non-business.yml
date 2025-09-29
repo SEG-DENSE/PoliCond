@@ -1,0 +1,105 @@
+name: 'non-business'
+patterns:
+  - (not|never|cannot|no) (sell|rent|lease|trade)
+  - (research|education(al)) (use|purpose|research)
+  - '(research|education(al)?)[_\s]*purposes?'
+  - 'for[_\s]*(the)?(purpose|purposes)[_\s]*of[_\s]*(research|education)'
+  - 'for[_\s]*(the)?[_\s]*(research|education)'
+  - 'not (sell|trade|rent|lease|disclose|share|lend|give)'
+  - 'for use[^.。?!\n]*(research|education|regulation|law|legislation)'
+synonym:
+  - research use
+  - for educational purposes
+  - educational use
+  - NON_BUSINESS
+  - NON BUSINESS
+  - NON-BUSINESS
+  - non business
+  - non-business
+  - non_business
+  - non-commercial
+  - non commercial
+  - non economic
+  - not business
+  - not profit
+  - not engage in business
+  - not effecting commerce
+  - will not sell
+  - will not rent
+  - will not lease
+  - will not trade
+  - will not disclose
+  - will not share
+  - will not provide
+  - will not give
+  - not in the business of selling it
+  - not in the business of sharing it
+  - not in the business of providing it
+  - not in the business of disclosing it
+  - do not sell
+  - do not rent
+  - do not trade
+  - do not lease
+  - do not disclose
+  - do not specifically collect
+  - do not share or sell
+  - do not provide
+  - do not give
+  - do not share
+  - for training and educational purposes to faculty physicians
+  - for instructional and learning purposes for staff doctors
+  - for the instruction of our physician educators
+  - for the education and professional development of our medical instructors
+  - for training and educational purposes to faculty physicians
+  - for instructional and learning purposes for staff doctors
+  - for use in the training
+  - for the instruction of our research team
+  - for the education
+  - for the development
+  - for the research
+  - for the training
+  - for the instruction
+  - for the education of
+  - for the training of
+  - for the research of
+  - for the development of
+  - for the instruction of
+  - for the education of our faculty
+  - for the professional development of our teaching
+  - for use in the education of
+  - to facilitate our research activities
+  - to support the educational needs of our faculty
+  - for the professional development of our teaching
+  - for use in the education of
+  - to enhance the training of
+  - for the advancement of education
+  - for the advancement of research
+  - for the advancement of training
+  - to assist in the educational
+  - for the purpose of educating
+  - for the purpose of training
+  - for the purpose of research
+  - non-business
+  - non-commercial
+  - non-commercial
+  - non-economic
+  - not business
+  - non-profit
+  - not for profit
+  - not engaged in business
+  - not involved in commerce
+  - not conducting business
+  - not affecting commerce
+  - outside of commercial activities
+  - without commercial intent
+  - without profit motive
+  - unrelated to business
+  - devoid of commercial interests
+  - free from business considerations
+  - not for commercial purposes
+  - not part of business operations
+  - educate our staff on how to improve the care
+  - educate our staff on how to improve the service
+  - teach our staff on
+  - train our staff on
+  - to provide advocacy and education

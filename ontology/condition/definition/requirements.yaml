@@ -1,0 +1,78 @@
+name: requirements
+patterns:
+- \b(requirement|requirements)\b
+- \b(obligation|obligations)\b
+- \b(compliance|comply)\s+(with|to)\b
+- \b(external|outside|third[_\s]*party)\s+(requirement|obligation|demand)\b
+- \b(must|shall|required\s+to|obligated\s+to)\b
+- \b(necessary|needed|essential)\s+(for|to)\b
+- \b(in\s+order\s+to\s+)?(meet|satisfy|fulfill)\s+(requirement|obligation)\b
+- \b(mandate|mandated|mandatory)\b
+- \b(as\s+)?(required|necessary|needed|demanded)\s+(by|under)\b
+synonym:
+- as demanded
+- as mandated
+- as necessary
+- as needed
+- as obligated
+- as required
+- business obligation
+- business requirement
+- compliance
+- compliance obligation
+- compliance requirement
+- contractual obligation
+- contractual requirement
+- essential obligation
+- essential requirement
+- essential to comply
+- essential to fulfill
+- essential to meet
+- essential to satisfy
+- external obligation
+- external requirement
+- legal obligation
+- legal requirement
+- mandatory obligation
+- mandatory requirement
+- must comply
+- must fulfill
+- must meet
+- must satisfy
+- necessary obligation
+- necessary requirement
+- necessary to comply
+- necessary to fulfill
+- necessary to meet
+- necessary to satisfy
+- need to comply
+- need to fulfill
+- need to meet
+- need to satisfy
+- obligated to comply
+- obligated to fulfill
+- obligated to meet
+- obligated to satisfy
+- obligation
+- obligations
+- operational obligation
+- operational requirement
+- outside obligation
+- outside requirement
+- regulatory obligation
+- regulatory requirement
+- required to comply
+- required to fulfill
+- required to meet
+- required to satisfy
+- requirement
+- shall comply
+- shall fulfill
+- shall meet
+- shall satisfy
+- statutory obligation
+- statutory requirement
+- technical obligation
+- technical requirement
+- third-party obligation
+- third-party requirement

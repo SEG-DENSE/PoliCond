@@ -1,0 +1,125 @@
+name: 'third party'
+patterns:
+  - third(-| )part(y|ies) (data|sharing|processing|storage)
+synonym:
+  - third party
+  - third-party
+  - third party activity
+  - third-parties
+  - thirdparty
+  - thirdparties
+  - third-party data
+  - third-party sharing
+  - THIRD_PARTY
+  - third party
+  - 3rd parties
+  - 3rd party
+  - 3rd-parties
+  - 3rd-party
+  - 3rd-party data
+  - 3rd-party data processing
+  - 3rd-party data sharing
+  - 3rd-party data storage
+  - 3rd-party data transfer
+  - 3rd-party processing
+  - 3rd-party sharing
+  - 3rdparties
+  - 3rdparty
+  - APPLE
+  - Analytics Services
+  - Apple
+  - Apple Card
+  - Apple ID
+  - Apple Inc.
+  - Apple Music
+  - Apple News
+  - Apple Pay
+  - Apple Podcast
+  - Apple TV
+  - Apple Wallet
+  - Chrome
+  - Cooperation Organizations
+  - Cooperation Partners
+  - Disney
+  - Empyr, Inc.
+  - Facebook
+  - Facebook Connect
+  - Facebook Gameroom
+  - Facebook Inc.
+  - Facebook Ireland
+  - Facebook Limited
+  - Firebase
+  - Google
+  - Google AdSense
+  - Google AdWords
+  - Google Advertising
+  - Google Analytics
+  - Google Analytics for Firebase
+  - Google Chrome
+  - Google Docs
+  - Google Drive
+  - Google Earth
+  - Google Firebase
+  - Google Firebase Analytics
+  - Google Firebase Cloud Messaging
+  - Google Inc.
+  - Google Maps
+  - Google Play
+  - Google Sheets
+  - Google Slides
+  - Google Tag Manager
+  - Marketing Services
+  - Meta
+  - Microsoft
+  - Microsoft Advertising
+  - Microsoft Azure
+  - Microsoft Bing
+  - Microsoft Bing Ads
+  - Microsoft Bing Webmaster
+  - Microsoft Bing Webmaster Tools
+  - Microsoft Corporation
+  - Mixpanel GPE
+  - Oracle
+  - Oracle Cloud
+  - Oracle Corporation
+  - Plaid Technologies
+  - Quovo
+  - Social Network Services
+  - Third-Party
+  - Third-Party Analytic
+  - Third-Party Service Providers
+  - Third-Party Services
+  - Yahoo
+  - When you receive third-party email offers
+  - When you receive third-party offers
+  - When you use Amazon
+  - When you use Apple Pay
+  - When you use Azure
+  - When you use Bing
+  - When you use Facebook Connect, OpenID or another multisite ID to log in to an Online
+    Service
+  - When you use Google AdSense
+  - When you use Google Analytics
+  - When you use Google to serve
+  - When you use Oracle
+  - by our third-party advertising companies
+  - cooperation partner
+  - service provider
+  - service-provider
+  - social media
+  - social network
+  - social-media
+  - social-network
+  - third parties
+  - third party
+  - third-parties
+  - third-party
+  - third-party data
+  - third-party processing
+  - third-party sharing
+  - third-party storage
+  - thirdparties
+  - thirdparty
+  - use Google to serve
+  - use third party advertising companies
+  - when using certain third party social networking services

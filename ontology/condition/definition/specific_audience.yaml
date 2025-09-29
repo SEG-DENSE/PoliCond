@@ -1,0 +1,302 @@
+name: specific_audience
+patterns:
+- \b(specific|particular|special|certain|select|designated|targeted)\b.?(audience|group|people|individuals|users|members|participants|recipients|beneficiaries)
+- \b(specific|particular|special|certain|select|designated|targeted)\b.?(user|individual|person|member|participant|recipient|beneficiary)
+- \b(specific|particular|special|certain|select|designated|targeted)\b.?(category|type|class|segment|demographic)
+- \b(eligible|qualified|authorized|approved|certified|registered|verified)\b.?(users|individuals|people|members|participants)
+- \b(eligible|qualified|authorized|approved|certified|registered|verified)\b.?(user|individual|person|member|participant)
+- \b(subset|subgroup|portion|selection)\b.?of.?(users|individuals|people|members)
+- \b(limited|restricted|exclusive|selective)\b.?(access|group|audience|membership)
+- \b(professional|corporate|business|institutional|organizational)\b.?(users|members|clients|customers)
+- \b(premium|vip|priority|privileged|preferred)\b.?(users|members|customers|subscribers)
+- \b(beta|trial|test|pilot|preview)\b.?(users|participants|members|testers)
+- \b(account|subscription|membership)\b.?holders
+- \b(active|current|existing|enrolled|registered)\b.?(users|members|subscribers|participants)
+- \b(invited|selected|chosen|nominated)\b.?(users|individuals|people|members|participants)
+- users?.?with.?(specific|particular|special|certain).?(characteristics|attributes|features|properties|qualifications)
+- users?.?meeting.?(specific|particular|certain).?(criteria|requirements|conditions|qualifications)
+- users?.?in.?(specific|particular|certain).?(categories|groups|segments|classifications)
+- members?.?of.?(specific|particular|certain).?(organizations|groups|associations|unions|clubs)
+- individuals?.?with.?(specific|particular|special|certain).?(needs|requirements|characteristics|qualifications)
+- people?.?in.?(specific|particular|certain).?(situations|circumstances|conditions|categories)
+synonym:
+- account holders
+- active members
+- active subscribers
+- active users
+- approved individuals
+- approved members
+- approved participants
+- approved users
+- authorized individuals
+- authorized members
+- authorized participants
+- authorized users
+- beta participants
+- beta testers
+- beta users
+- business members
+- business users
+- certain audience
+- certain category
+- certain class
+- certain demographic
+- certain group
+- certain individuals
+- certain members
+- certain participants
+- certain people
+- certain recipients
+- certain segment
+- certain type
+- certain users
+- certified individuals
+- certified members
+- certified participants
+- certified users
+- chosen individuals
+- chosen members
+- chosen participants
+- chosen users
+- corporate members
+- corporate users
+- current members
+- current subscribers
+- current users
+- designated audience
+- designated category
+- designated class
+- designated demographic
+- designated group
+- designated individuals
+- designated members
+- designated participants
+- designated people
+- designated recipients
+- designated segment
+- designated type
+- designated users
+- eligible individuals
+- eligible members
+- eligible participants
+- eligible users
+- enrolled members
+- enrolled subscribers
+- enrolled users
+- exclusive access group
+- exclusive audience
+- exclusive group
+- existing members
+- existing subscribers
+- existing users
+- individuals with certain characteristics
+- individuals with certain needs
+- individuals with certain requirements
+- individuals with particular characteristics
+- individuals with particular needs
+- individuals with particular requirements
+- individuals with special characteristics
+- individuals with special needs
+- individuals with special requirements
+- individuals with specific characteristics
+- individuals with specific needs
+- individuals with specific requirements
+- institutional members
+- institutional users
+- invited individuals
+- invited members
+- invited participants
+- invited users
+- limited access group
+- limited audience
+- limited group
+- members of certain associations
+- members of certain clubs
+- members of certain organizations
+- members of certain unions
+- members of particular associations
+- members of particular clubs
+- members of particular organizations
+- members of particular unions
+- members of specific associations
+- members of specific clubs
+- members of specific organizations
+- members of specific unions
+- membership holders
+- nominated individuals
+- nominated members
+- nominated participants
+- nominated users
+- organizational members
+- organizational users
+- particular audience
+- particular category
+- particular class
+- particular demographic
+- particular group
+- particular individuals
+- particular members
+- particular participants
+- particular people
+- particular recipients
+- particular segment
+- particular type
+- particular users
+- people in certain categories
+- people in certain circumstances
+- people in certain conditions
+- people in certain situations
+- people in particular categories
+- people in particular circumstances
+- people in particular conditions
+- people in particular situations
+- people in specific categories
+- people in specific circumstances
+- people in specific conditions
+- people in specific situations
+- pilot participants
+- pilot testers
+- pilot users
+- portion of individuals
+- portion of members
+- portion of users
+- preferred members
+- preferred subscribers
+- preferred users
+- premium members
+- premium subscribers
+- premium users
+- preview participants
+- preview testers
+- preview users
+- priority members
+- priority subscribers
+- priority users
+- privileged members
+- privileged subscribers
+- privileged users
+- professional members
+- professional users
+- qualified individuals
+- qualified members
+- qualified participants
+- qualified users
+- registered individuals
+- registered members
+- registered participants
+- registered users
+- restricted access group
+- restricted audience
+- restricted group
+- select audience
+- select category
+- select class
+- select demographic
+- select group
+- select individuals
+- select members
+- select participants
+- select people
+- select recipients
+- select segment
+- select type
+- select users
+- selected individuals
+- selected members
+- selected participants
+- selected users
+- selection of individuals
+- selection of members
+- selection of users
+- selective access group
+- selective audience
+- selective group
+- special audience
+- special category
+- special class
+- special demographic
+- special group
+- special individuals
+- special members
+- special participants
+- special people
+- special recipients
+- special segment
+- special type
+- special users
+- specific audience
+- specific category
+- specific class
+- specific demographic
+- specific group
+- specific individuals
+- specific members
+- specific participants
+- specific people
+- specific recipients
+- specific segment
+- specific type
+- specific users
+- subgroup of individuals
+- subgroup of members
+- subgroup of users
+- subscription holders
+- subset of individuals
+- subset of members
+- subset of users
+- targeted audience
+- targeted category
+- targeted class
+- targeted demographic
+- targeted group
+- targeted individuals
+- targeted members
+- targeted participants
+- targeted people
+- targeted recipients
+- targeted segment
+- targeted type
+- targeted users
+- test participants
+- test testers
+- test users
+- trial participants
+- trial testers
+- trial users
+- users in certain categories
+- users in certain groups
+- users in certain segments
+- users in particular categories
+- users in particular groups
+- users in particular segments
+- users in specific categories
+- users in specific groups
+- users in specific segments
+- users meeting certain conditions
+- users meeting certain criteria
+- users meeting certain requirements
+- users meeting particular conditions
+- users meeting particular criteria
+- users meeting particular requirements
+- users meeting specific conditions
+- users meeting specific criteria
+- users meeting specific requirements
+- users with certain attributes
+- users with certain characteristics
+- users with certain qualifications
+- users with particular attributes
+- users with particular characteristics
+- users with particular qualifications
+- users with special attributes
+- users with special characteristics
+- users with special qualifications
+- users with specific attributes
+- users with specific characteristics
+- users with specific qualifications
+- verified individuals
+- verified members
+- verified participants
+- verified users
+- vip members
+- vip subscribers
+- vip users

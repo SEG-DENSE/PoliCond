@@ -1,0 +1,127 @@
+name: advertising
+patterns:
+- \b(marketing|advertis|promotional|promotion)\b
+- \b(advertising|advertisement|promote|promoted|promotiv)\b
+- advertising purposes
+- for advertising
+- for marketing
+- marketing purposes
+- promotional materials
+- promotional activities
+- marketing campaigns
+- ad targeting
+- targeted ads
+- commercial purposes
+synonym:
+- ad personalization
+- ad targeting
+- advertising alliances
+- advertising bidding
+- advertising collection
+- advertising costs
+- advertising data
+- advertising delivery
+- advertising earnings
+- advertising effectiveness
+- advertising frequency
+- advertising impressions
+- advertising insights
+- advertising metrics
+- advertising networks
+- advertising optimization
+- advertising partnerships
+- advertising placement
+- advertising platforms
+- advertising purposes
+- advertising revenue
+- advertising revenue streams
+- advertising spend
+- advertising targeting
+- advertising technology
+- affiliate marketing
+- behavioral advertising
+- brand promotion
+- branded content
+- campaign analysis
+- co-marketing
+- commercial marketing
+- commercial purposes
+- content marketing
+- contextual advertising
+- cross-promotions
+- cross-selling
+- direct marketing
+- display advertising
+- email marketing
+- event promotion
+- exclusive deals
+- influencer marketing
+- joint promotions
+- limited-time offers
+- loyalty programs
+- marketing allocation
+- marketing analytics
+- marketing attribution
+- marketing automation
+- marketing campaigns
+- marketing collaborations
+- marketing communications
+- marketing conversion
+- marketing efforts
+- marketing engagement
+- marketing integrations
+- marketing intelligence
+- marketing investment
+- marketing outreach
+- marketing performance
+- marketing preferences
+- marketing profits
+- marketing programs
+- marketing purposes
+- marketing reach
+- marketing research
+- marketing ROI
+- marketing strategies
+- marketing value
+- member promotions
+- mobile advertising
+- native advertising
+- partnership marketing
+- personalized ads
+- product promotion
+- programmatic advertising
+- promotional activities
+- promotional budget
+- promotional campaigns
+- promotional communications
+- promotional content
+- promotional distribution
+- promotional events
+- promotional expenses
+- promotional gains
+- promotional income
+- promotional materials
+- promotional messaging
+- promotional offers
+- promotional optimization
+- promotional partnerships
+- promotional pricing
+- promotional response
+- promotional segmentation
+- promotional services
+- promotional tie-ins
+- promotional timing
+- promotional tracking
+- promotions
+- referral programs
+- remarketing
+- retargeting
+- search marketing
+- seasonal promotion
+- service promotion
+- social media marketing
+- special offers
+- sponsored content
+- targeted advertising
+- upselling
+- video advertising

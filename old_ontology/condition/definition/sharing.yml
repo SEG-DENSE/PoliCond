@@ -1,0 +1,119 @@
+name: 'sharing'
+patterns:
+  - sell or share [collected information] with any third party
+  - share personal information about you for any other purpose(s)
+  - share some of this data with partners who referred you to our site(s)
+  - \b(sharing)\b
+  - \b(SHARING)\b
+synonym:
+  - share your contact data
+  - share this data with partners
+  - share personal information with
+  - share Personally Identifiable Information
+  - share the personal information we have
+  - share or sell your personal information to anyone
+  - disclose your information to third parties
+  - disclose Personally Identifiable Information to third parties
+  - disclose personal information of customers to third parties
+  - transfer personal information to third parties
+  - provide personal information to third parties
+  - share information in order to
+  - share your personal information with
+  - share non-personal information in any manner that we deem appropriate or necessary
+  - share children's personal information with
+  - share information with third parties who help us in the delivery of our own products and services to you
+  - share aggregated anonymous information about visitors
+  - share any information collected through our Services
+  - share our users' email addresses with service providers
+  - share your email address and any other information you provided with
+  - share with each of these Provider Partners
+  - share with these companies any information
+  - share the information with service providers
+  - share your email address with a third-party
+  - share aggregated or de-identified information
+  - share your personally-identifiable information
+  - share your name or information
+  - share your PII and non-personal information with
+  - share information
+  - share aggregated anonymous information about visitors to Science websites with
+  - share your Personal Information with third parties as
+  - share aggregated Anonymous Information about you with
+  - share some or all of your Personal Information with
+  - share your Personal Information with
+  - share information in order to investigate
+  - share your personally identifiable information with
+  - share personal information about you
+  - disclose your information to third parties
+  - transfer your information to third parties
+  - provide your information to third parties
+  - make your information accessible to third parties
+  - share aggregate information
+  - share personally identifiable information with others
+  - share your information, including personally identifiable information
+  - share your personal contact information with our affiliates and business partners
+  - share your content with other
+  - share your personal information with our other business units and operations
+  - share your personal information with our partners
+  - share your information with Microsoft and its affiliates and subsidiaries
+  - share information between Barnes & Noble and the third party
+  - share your information with your college or university, lenders or other providers
+  - share information regarding Minors under the age of 13
+  - share personal information with other users
+  - share personal information with companies who are not affiliated with us
+  - share your information within
+  - share or transfer your information in connection with a substantial corporate transaction
+  - share your health information
+  - share your information with other health care providers and payors for their payment activities
+  - share your health information with other health care providers and payors for certain of their business operations
+  - share your information with a disaster relief organization
+  - share your health information with government officials
+  - share your e-mail with another federal government agency
+  - share your information with select third parties
+  - share certain information with overseas institutions and service providers
+  - share certain information about you for the purposes of promoting IFSA-Butler programs
+  - share aggregate demographic and usage information with
+  - share Personally Identifiable Information about you
+  - share information with them in accordance with your
+  - share information about the content you have viewed to third parties
+  - share your email contact information with third parties
+  - share your postal mailing contact information with third parties
+  - share personal information with
+  - share aggregated, non-personally identifiable information publicly and with our partners
+  - share information with others, such as advertisers interested on advertising on the Liquor
+  - disclose your information to third parties
+  - transfer your information to third parties
+  - provide your information to third parties
+  - make your information accessible to third parties
+  - share information with vendors providing contractual services to us
+  - share your information, including your payment information
+  - share your personal information as we believe is necessary
+  - share your information with that social media service
+  - share information about you with third parties whenever you consent to or direct such sharing
+  - share user information with other companies
+  - share all of the types of information we collect with vendors who provide services
+  - share your e-mail addresses with third parties
+  - share personal information with third parties for their own direct marketing purposes
+  - share user information with our parent corporation
+  - share user information related to those offerings with that business
+  - share personally identifiable information with
+  - share information about your activities, including what you view on the Sites, with that social networks users
+  - share information we may collect in web beacons or store in Web Storage to unaffiliated third parties
+  - share our subscribers names and addresses directly with these companies
+  - share information about our audience in aggregate or de-identified form
+  - share information about attendees to our live events with sponsors or other third parties
+  - share, sell, rent, swap or authorize any third party to use your email address for commercial purposes
+  - share information obtained in user surveys with third parties
+  - share addresses you provide in the "Email" share feature with third parties
+  - share this information with event or promotion sponsors
+  - share your device's unique advertising identifier, its IP address, and a list of subreddits with third parties
+  - share information with third parties for
+  - share your personally identifiable offline information with third parties not
+  - share your email address with third parties not owned by Time Inc
+  - share Usage Data and Non-Personal Information to
+  - share aggregated User Information with third parties
+  - share any User Information publicly if you identify it as public
+  - share your video viewing with [unspecified party]
+  - disclose your information to third parties
+  - transfer your information to third parties
+  - provide your information to third parties
+  - make your information accessible to third parties

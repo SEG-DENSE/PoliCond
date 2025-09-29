@@ -1,0 +1,265 @@
+name: prohibited_use
+patterns:
+- \b(prohibit|forbidden|ban|restrict|limit|prevent)[_\s]*(use|usage|utilization)\b
+- \b(not\s+)?(sell|sale|commercialize|monetize|profit)\b
+- \b(not\s+)?(share|transfer|disclose|reveal|distribute)\b
+- \b(not\s+)?(analyze|analysis|profiling|tracking|monitoring)\b
+- \b(unauthorized|illegal|improper|inappropriate)\s+(use|access|disclosure)\b
+- \b(restricted\s+use|limited\s+use|controlled\s+use)\b
+- \b(shall\s+not|will\s+not|cannot|must\s+not|may\s+not)\b
+- \b(except|unless|only\s+for|solely\s+for|exclusively\s+for)\b
+- \b(compliance\s+only|legal\s+requirement\s+only)\b
+- \b(no\s+)?(commercial|marketing|advertising|promotional)\s+(use|purpose)\b
+- \b(no\s+)?(third[_\s]*party|external|outside)\s+(sharing|access|disclosure)\b
+- \b(internal\s+use\s+only|confidential\s+use\s+only)\b
+- \b(data\s+retention\s+limit|storage\s+limit|time\s+limit)\b
+- \b(delete|destroy|purge|remove)\s+(after|within|by)\b
+- \b(opt[_\s]*out|withdraw\s+consent|revoke\s+permission)\b
+synonym:
+- access rights
+- advertising use forbidden
+- advertising use prohibited
+- advertising use restricted
+- analysis forbidden
+- analysis prohibited
+- analysis restricted
+- authorized use only
+- automatic destruction
+- automatic purging
+- ban on sale
+- ban on selling
+- banned use
+- best practice requirements
+- boundaries
+- breach notification
+- cannot be sold
+- cannot sell
+- commercial purpose forbidden
+- commercial purpose prohibited
+- commercial purpose restricted
+- commercial use forbidden
+- commercial use prohibited
+- commercial use restricted
+- compliance requirements
+- compliance use only
+- conditions
+- confidential use only
+- consent withdrawal
+- constraints
+- contractual requirements
+- control rights
+- controlled retention
+- controlled use
+- controls
+- correction rights
+- data subject rights
+- delete after use
+- deletion deadline
+- deletion rights
+- destroy after use
+- destruction deadline
+- duties
+- external access forbidden
+- external access prohibited
+- external access restricted
+- external disclosure forbidden
+- external disclosure prohibited
+- external disclosure restricted
+- external sharing forbidden
+- external sharing prohibited
+- external sharing restricted
+- for authorized use only
+- for compliance only
+- for confidential use only
+- for internal purposes only
+- for internal use only
+- for lawful use only
+- for legal use only
+- for legitimate use only
+- for regulatory purposes only
+- forbidden access
+- forbidden disclosure
+- forbidden sale
+- forbidden selling
+- forbidden sharing
+- forbidden transfer
+- forbidden use
+- illegal access
+- illegal disclosure
+- illegal sale
+- illegal selling
+- illegal sharing
+- illegal transfer
+- illegal use
+- improper use
+- inappropriate use
+- incident reporting
+- individual rights
+- internal purposes only
+- internal use only
+- lawful use only
+- legal requirements
+- legal use only
+- legitimate use only
+- limitations
+- limited retention
+- limited storage
+- limited use
+- marketing use forbidden
+- marketing use prohibited
+- marketing use restricted
+- may not sell
+- monetization forbidden
+- monetization prohibited
+- monetization restricted
+- monitoring forbidden
+- monitoring prohibited
+- monitoring restricted
+- must not sell
+- no advertising use
+- no analysis
+- no commercial purpose
+- no commercialization
+- no external access
+- no external disclosure
+- no external sharing
+- no marketing use
+- no monetization
+- no monitoring
+- no outside access
+- no outside disclosure
+- no outside sharing
+- no profiling
+- no profit
+- no promotional use
+- no sale
+- no selling
+- no surveillance
+- no third-party access
+- no third-party disclosure
+- no third-party sharing
+- no tracking
+- non-commercial use only
+- not accessible externally
+- not accessible outside
+- not accessible to third parties
+- not disclosed externally
+- not disclosed outside
+- not disclosed to third parties
+- not for advertising
+- not for analysis
+- not for commercial purpose
+- not for commercial use
+- not for marketing
+- not for monetization
+- not for monitoring
+- not for profiling
+- not for profit
+- not for promotion
+- not for sale
+- not for selling
+- not for surveillance
+- not for tracking
+- not shared externally
+- not shared outside
+- not shared with third parties
+- not to be sold
+- objection rights
+- obligations
+- opt-out available
+- outside access forbidden
+- outside access prohibited
+- outside access restricted
+- outside disclosure forbidden
+- outside disclosure prohibited
+- outside disclosure restricted
+- outside sharing forbidden
+- outside sharing prohibited
+- outside sharing restricted
+- permission revocation
+- policy requirements
+- portability rights
+- privacy rights
+- profiling forbidden
+- profiling prohibited
+- profiling restricted
+- profit forbidden
+- profit prohibited
+- profit restricted
+- prohibited access
+- prohibited disclosure
+- prohibited sale
+- prohibited selling
+- prohibited sharing
+- prohibited transfer
+- prohibited use
+- prohibition of sale
+- prohibition of selling
+- prohibitions
+- promotional use forbidden
+- promotional use prohibited
+- promotional use restricted
+- protection measures
+- purge after use
+- regulatory requirements
+- regulatory use only
+- remove after use
+- requirements
+- responsibilities
+- restricted access
+- restricted disclosure
+- restricted retention
+- restricted sale
+- restricted selling
+- restricted sharing
+- restricted transfer
+- restricted use
+- restriction on sale
+- restriction on selling
+- restriction rights
+- restrictions
+- retention deadline
+- retention period limit
+- revocation option
+- right to opt-out
+- right to revoke
+- right to withdraw
+- safeguards
+- scheduled destruction
+- scheduled purging
+- security measures
+- shall not sell
+- standard requirements
+- statutory requirements
+- storage deadline
+- storage time limit
+- surveillance forbidden
+- surveillance prohibited
+- surveillance restricted
+- third-party access forbidden
+- third-party access prohibited
+- third-party access restricted
+- third-party disclosure forbidden
+- third-party disclosure prohibited
+- third-party disclosure restricted
+- third-party sharing forbidden
+- third-party sharing prohibited
+- third-party sharing restricted
+- time-bound retention
+- time-limited storage
+- tracking forbidden
+- tracking prohibited
+- tracking restricted
+- unauthorized access
+- unauthorized disclosure
+- unauthorized sale
+- unauthorized selling
+- unauthorized sharing
+- unauthorized transfer
+- unauthorized use
+- user choice
+- user control
+- user decision
+- user discretion
+- will not sell
+- withdrawal option

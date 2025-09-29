@@ -1,0 +1,36 @@
+name: 'no condition'
+patterns:
+  - not? (mention(ed)?|state|indicated?|specify?|disclosed?|list|described?|explain(ed)?|declared?|outlined?|report(ed)?|reveal(ed)?)
+synonym:
+  - no condition
+  - not mentioned
+  - no limitation
+  - no restriction
+  - no constraints
+  - always
+  - not specified
+  - NO_COND
+  - no condition
+  - no_condition
+  - always
+  - in any case
+  - in any condition
+  - in any situation
+  - NO_CONDITION
+  - not mentioned
+  - no condition
+  - no limitation
+  - no restriction
+  - no constraints
+  - too ambiguous
+  - not specified
+  - not disclosed
+  - not outlined
+  - not declared
+  - not reported
+  - not revealed
+  - not explained
+  - not described
+  - not stated
+  - not specify
+  - not list

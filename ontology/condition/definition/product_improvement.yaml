@@ -1,0 +1,298 @@
+name: product_improvement
+patterns:
+- \b(product|service)[_\s]*(improvement|enhance|develop|optimize|refine|upgrade)\b
+- \b(improve|enhance|develop|optimize|refine|upgrade)[_\s]*(product|service|feature|function)\b
+- \b(research|development|R&D|innovation|advancement)\b
+- \b(user\s+experience|UX|customer\s+experience|CX)\s+(improvement|enhancement)\b
+- \b(quality\s+assurance|quality\s+control|QA|QC)\b
+- \b(performance\s+optimization|efficiency\s+improvement)\b
+- \b(bug\s+fix|issue\s+resolution|problem\s+solving)\b
+- \b(feature\s+development|functionality\s+enhancement)\b
+- \b(design\s+improvement|interface\s+enhancement)\b
+- \b(usability\s+testing|user\s+testing|beta\s+testing)\b
+- \b(feedback\s+analysis|user\s+feedback|customer\s+feedback)\b
+- \b(market\s+research|competitive\s+analysis)\b
+- \b(innovation|modernization|advancement|evolution)\b
+- \b(technical\s+improvement|system\s+enhancement)\b
+- \b(security\s+enhancement|safety\s+improvement)\b
+synonym:
+- accessibility improvement
+- accreditation improvement
+- adherence improvement
+- adjustment improvement
+- administration improvement
+- AI improvement
+- algorithm improvement
+- alignment improvement
+- alpha testing
+- analysis and improvement
+- analytics improvement
+- application improvement
+- approval improvement
+- architecture improvement
+- assessment improvement
+- audit improvement
+- authorization improvement
+- automation improvement
+- availability improvement
+- best practice improvement
+- beta testing
+- bug fixing
+- business improvement
+- calibration improvement
+- centralization improvement
+- certification improvement
+- co-creation improvement
+- coherence improvement
+- collaboration improvement
+- commerce improvement
+- communication improvement
+- community improvement
+- compatibility improvement
+- compatibility testing
+- competitive research
+- compliance improvement
+- configuration improvement
+- conformance improvement
+- connection improvement
+- consistency improvement
+- consolidation improvement
+- contribution improvement
+- coordination improvement
+- crowdsourcing improvement
+- customer experience enhancement
+- customer experience improvement
+- customer experience optimization
+- customer feedback
+- customer research
+- customer testing
+- customization improvement
+- CX enhancement
+- CX improvement
+- CX optimization
+- data analysis
+- debugging
+- decentralization improvement
+- decision improvement
+- defect repair
+- delivery improvement
+- deployment improvement
+- design enhancement
+- design improvement
+- design innovation
+- design modernization
+- design optimization
+- design refinement
+- development research
+- digitization improvement
+- distribution improvement
+- documentation improvement
+- ecosystem improvement
+- effectiveness improvement
+- efficiency improvement
+- end-to-end testing
+- engagement improvement
+- enhancement feedback
+- enhancement research
+- environment improvement
+- error correction
+- evaluation improvement
+- exchange improvement
+- execution improvement
+- fault elimination
+- feature advancement
+- feature development
+- feature enhancement
+- feature evolution
+- feature feedback
+- feature improvement
+- feature optimization
+- feature refinement
+- feature testing
+- feature upgrade
+- feedback analysis
+- feedback collection
+- feedback evaluation
+- feedback implementation
+- feedback processing
+- firmware improvement
+- framework improvement
+- functionality development
+- functionality enhancement
+- functionality improvement
+- functionality optimization
+- functionality refinement
+- functionality upgrade
+- globalization improvement
+- governance improvement
+- hardware improvement
+- harmonization improvement
+- help improvement
+- hotfix improvement
+- improvement feedback
+- improvement research
+- infrastructure improvement
+- innovation research
+- insight improvement
+- inspection improvement
+- integration improvement
+- integration testing
+- intelligence improvement
+- interaction improvement
+- interface enhancement
+- interface improvement
+- interface modernization
+- interface optimization
+- interface redesign
+- internationalization improvement
+- interoperability improvement
+- involvement improvement
+- issue resolution
+- licensing improvement
+- load testing
+- localization improvement
+- machine learning improvement
+- maintenance
+- management improvement
+- market research
+- marketplace improvement
+- measurement improvement
+- methodology improvement
+- migration improvement
+- model improvement
+- modernization improvement
+- monitoring improvement
+- network improvement
+- normalization improvement
+- onboarding improvement
+- operation improvement
+- optimization improvement
+- optimization research
+- oversight improvement
+- participation improvement
+- partnership improvement
+- patch improvement
+- pattern analysis
+- performance enhancement
+- performance feedback
+- performance improvement
+- performance optimization
+- performance testing
+- performance tuning
+- permission improvement
+- personalization improvement
+- planning improvement
+- platform improvement
+- privacy improvement
+- problem solving
+- procedure improvement
+- process improvement
+- product advancement
+- product development
+- product enhancement
+- product evolution
+- product feedback
+- product improvement
+- product innovation
+- product modernization
+- product optimization
+- product refinement
+- product research
+- product testing
+- product upgrade
+- productivity improvement
+- quality analysis
+- quality assurance
+- quality control
+- quality enhancement
+- quality feedback
+- quality improvement
+- quality management
+- quality monitoring
+- quality testing
+- R&D
+- registration improvement
+- regression testing
+- regulation improvement
+- relationship improvement
+- release improvement
+- reliability improvement
+- research and development
+- review improvement
+- safety improvement
+- satisfaction feedback
+- scalability improvement
+- security improvement
+- security testing
+- service advancement
+- service development
+- service enhancement
+- service evolution
+- service feedback
+- service improvement
+- service innovation
+- service modernization
+- service optimization
+- service refinement
+- service testing
+- service upgrade
+- simplification improvement
+- software improvement
+- stability improvement
+- standard improvement
+- standardization improvement
+- strategy improvement
+- streamlining improvement
+- stress testing
+- support improvement
+- synchronization improvement
+- system enhancement
+- system improvement
+- system integration
+- system modernization
+- system optimization
+- system testing
+- system upgrade
+- technical advancement
+- technical enhancement
+- technical improvement
+- technical innovation
+- technical optimization
+- technical research
+- technology advancement
+- technology enhancement
+- technology improvement
+- technology innovation
+- technology optimization
+- technology upgrade
+- tool improvement
+- tracking improvement
+- training improvement
+- transaction improvement
+- transformation improvement
+- troubleshooting
+- tuning improvement
+- update improvement
+- upgrade improvement
+- usability analysis
+- usability enhancement
+- usability feedback
+- usability improvement
+- usability research
+- usability testing
+- usage analysis
+- user acceptance testing
+- user experience enhancement
+- user experience improvement
+- user experience optimization
+- user feedback
+- user research
+- user testing
+- utility improvement
+- UX enhancement
+- UX improvement
+- UX optimization
+- validation improvement
+- verification improvement
+- version improvement
+- workflow improvement

@@ -1,0 +1,10 @@
+.vscode/
+.idea/
+.specstory/
+__pycache__/
+app.log
+*.pyc
+*log
+local*
+*.jsonl
+*.com/

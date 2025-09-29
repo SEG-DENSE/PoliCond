@@ -1,0 +1,143 @@
+name: 'specific operation'
+patterns:
+  - (user|customer)[s]? (use|browse|access|visit|interact).? our (service[s]|app[s]|website[s]|platform[s]|software[s]|product[s])
+  - visit [a-z_ ]+ web without( identif[a-z]+ information)?
+  - \b(specific)\b
+synonym:
+  - SPECIFIC
+  - specific operation
+  - specific_operation
+  - SPECIFIC_OPERATION
+  - specific user operation
+  - subscribe
+  - subscription
+  - register
+  - location
+  - advertising
+  - recommendation
+  - marketing
+  - if you create an account through one of our sites
+  - if you use our service moviefone
+  - when medianews shares pin and cin with third parties
+  - when yahoo! displays ads on our sites
+  - when pixel tags and web beacons are used
+  - when we implement security measures in our facilities
+  - when we measure visitor traffic and behavior on our website
+  - when we redirect you to a secure server
+  - when we send html-based emails to our users
+  - when we send non-personal information to yahoo!
+  - when we track the online usage patterns of our users
+  - when we transfer or receive certain types of sensitive data
+  - when you access certain pages on our website
+  - when you access the pages
+  - when you are notified of information affecting the status of current subscriptions
+  - when you click on an advertisement
+  - when you create an account
+  - when you follow the advertiser's unsubscribe link
+  - when you fulfill subscription requests
+  - when you give us your zip code
+  - when you join our loyalty programs
+  - when you log in
+  - when you log off
+  - when you log on
+  - when you log out
+  - when you open emails sent to you
+  - when you open or click an email
+  - when you prevent the collection of email response information
+  - when you purchase one of our paid services
+  - when you purchase products
+  - when you receive a communication from customer care representatives
+  - when you receive newsletters or promotional offers
+  - when you register
+  - when you renewal of subscriptions
+  - "when you review google\u9225\u6A9A privacy policy"
+  - when you sign in
+  - when you sign out
+  - when you sign up for an aol account
+  - when you track your use of our website pages
+  - when you use any other online products or websites that we own (our "sites") and
+    mobile applications (our "apps")
+  - when you use clear gifs
+  - when you use our mobile applications
+  - when you use the "my portfolios" feature
+  - when you use the service
+  - when you view an ad on medianews websites
+  - when you visit our about ads page
+  - if your subscriptions are cancelled
+  - make a purchase from an advertise
+  - uer setting up an account
+  - user registering to set up an account
+  - user use our app
+  - user use our service
+  - user use our website
+  - user visit an advertiser's web site
+  - visit an advertiser's web site
+  - when registering to set up an account
+  - when setting up an account
+  - when user buy
+  - when user contact us
+  - when user fill out a questionnaire
+  - when user in registration
+  - when user join our user survey
+  - when user log in
+  - when user log into
+  - when user log off
+  - when user log off of
+  - when user log on
+  - when user log out
+  - when user log out of
+  - when user order
+  - when user pay
+  - when user payment
+  - when user purchase
+  - when user register
+  - when user register an account
+  - when user send us a message
+  - when user send us an email
+  - when user sign in
+  - when user sign up
+  - when user submit a form
+  - when user subscribe
+  - when user subscribe to our newsletter
+  - when user unsubscribe
+  - when user unsubscribe from our newsletter
+  - when user use our advertising
+  - when user use our call service
+  - when user use our chat service
+  - when user use our communication
+  - when user use our customer service
+  - when user use our delivery service
+  - when user use our email service
+  - when user use our feedback service
+  - when user use our help service
+  - when user use our location service
+  - when user use our marketing
+  - when user use our message service
+  - when user use our opinion service
+  - when user use our payment
+  - when user use our payment service
+  - when user use our recommendation
+  - when user use our return service
+  - when user use our shipping service
+  - when user use our social media
+  - when user use our support service
+  - when using our services and to make them more valuable to you
+  - when you  participate in  promotions.
+  - when you  participate in chat rooms
+  - when you  participate in chat rooms, forums, polls, surveys, questionnaires, contests,
+    sweepstakes or other promotions.
+  - when you  participate in contests, sweepstakes or other promotions.
+  - when you  participate in polls
+  - when you  participate in surveys
+  - when you contact us
+  - when you create an account
+  - when you create an account, subscribe to our mailing list, purchase a product
+  - when you make a purchase from an advertise
+  - when you purchase a product
+  - when you receive customer or technical support, or participate in chat rooms, forums,
+    polls, surveys, questionnaires, contests
+  - when you request products or services from us
+  - when you subscribe to our mailing list, purchase a product
+  - when you visit an advertiser's web site
+  - when you visit our web site
+  - you make a purchase from an advertise

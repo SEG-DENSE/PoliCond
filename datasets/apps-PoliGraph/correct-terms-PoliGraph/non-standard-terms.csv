@@ -1,0 +1,11 @@
+type,term,def_count,use_count,possible_meanings
+DATA,information about you,12,54,advertising id|age|browsing / search history|coarse geolocation|contact information|cookie / pixel tag|date of birth|device identifier|email address|gender|geolocation|identifier|internet activity|ip address|person name|personal identifier|personal information|phone number
+DATA,information we collect,3,27,email address|precise geolocation
+DATA,payment information,9,26,credit / debit card number|date of birth|person name|postal address
+DATA,information about,1,23,coarse geolocation
+DATA,information you provide,1,17,contact information
+DATA,account information,3,16,email address|person name
+DATA,information you provide to we,4,13,biometric information|contact information|credit / debit card number|email address|geolocation|person name|personal information|phone number|postal address
+DATA,commercial information,1,13,contact information|email address|person name
+DATA,billing information,1,12,credit / debit card number
+DATA,profile information,4,11,email address|gender|person name

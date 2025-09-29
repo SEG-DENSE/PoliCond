@@ -1,0 +1,461 @@
+name: children
+patterns:
+- (\d+)-year-old
+- (age|baby|child|kid|youth|teen|minor|juvenile|preteen|toddler|infant) privacy
+- COPPA
+- \b(child|children|kid|kids|youth|teen|teens|minor|minors|juvenile|preteen|toddler|baby|infant)\b
+- \bunder \d+
+- \d+ or older
+- \d+ years? old
+- age \d+
+- ages? (\d+)-(\d+)
+- ages? \d+
+- between the ages of \d+ and \d+
+- guardian
+- parental consent
+- under \d+
+- under age \d+
+synonym:
+- 10 or older
+- 10 years of age or older
+- 10 years old
+- 10-years-of-age
+- 13 years of age or older
+- 13 years old
+- 13 years old or younger
+- 13-years-of-age
+- 18 or older
+- 18 years of age or older
+- 18 years old
+- 18 years old or younger
+- 18-years-of-age
+- 21 or older
+- 21 years of age or older
+- 21 years old
+- 21 years old or younger
+- 21-years-of-age
+- 24 or older
+- 24 years of age or older
+- 24 years old
+- 24-years-of-age
+- 8 years of age or older
+- about children
+- about children under the age of 13
+- about children under the age of 13, except for Kids Club Registrations or similar
+  alternatives including camps
+- about children under the age of 13, knowingly
+- about children's personal information in the United States and Latin America
+- adolescent
+- adolescents
+- age 10
+- age 10 or older
+- age 13 or younger
+- age 18 or younger
+- age 21 or younger
+- age eighteen
+- age eighteen or older
+- age gate
+- age gating
+- age limit
+- age requirement
+- age restriction
+- age ten
+- age ten or older
+- age thirteen
+- age thirteen or older
+- age twenty-four
+- age twenty-four or older
+- age twenty-one
+- age twenty-one or older
+- age-appropriate
+- ages 10-18
+- ages 21-24
+- ages eighteen
+- ages eighteen-twenty-four
+- ages from 0 to 10
+- ages from 0 to 13
+- ages from 0 to 18
+- ages from 0 to 21
+- ages from 0 to 24
+- ages from 0 to eighteen
+- ages from 0 to ten
+- ages from 0 to thirteen
+- ages from 0 to twenty-four
+- ages from 0 to twenty-one
+- ages ten
+- ages ten-24
+- ages ten-eighteen
+- ages ten-thirteen
+- ages thirteen
+- ages thirteen-24
+- ages thirteen-eighteen
+- ages thirteen-twenty-four
+- ages twenty-four
+- ages twenty-four-24
+- ages twenty-one
+- ages twenty-one-24
+- as a parent or guardian to review, modify, or delete account information regarding
+  your daughter or son
+- as well as the child's first name
+- at Buffalo General Medical Center, Gates Vascular Institute, Women's and Children's
+  Hospital of Buffalo, Millard Fillmore Suburban Hospital, DeGraff Memorial Hospital,
+  and Kaleida Health affiliated clinics and laboratories
+- at least 10 years old
+- at least 13 years old
+- at least eighteen
+- at least eighteen years old
+- at least ten
+- at least ten years old
+- at least thirteen
+- at least thirteen years old
+- at least twenty-four
+- at least twenty-four years old
+- at least twenty-one
+- at least twenty-one years old
+- at your request, once we verify that you are the parent or legal guardian and you
+  believe your Minor under the age of 13 has submitted personal information to us
+  without your consent
+- 'Audience Type: Children'
+- babies
+- baby
+- based on personal information, for example women ages 18-24 from a particular geographic
+  area
+- because our sites are not intended for children and we are concerned about protecting
+  their safety and privacy
+- before granting access as the child's parent/guardian
+- between the ages of 10 and 17
+- between the ages of eight and seventeen
+- between the ages of seventetn and twenty-four
+- between the ages of seventetn and twenty-one
+- between the ages of ten and seventeen
+- between the ages of thirteen and seventeen
+- child
+- child account
+- child privacy
+- child profile
+- child protection
+- child safety
+- child's
+- child's information
+- child's information, further collection or use
+- child's privacy
+- child-directed
+- child-friendly
+- children
+- children is treated
+- children protection
+- children safety
+- children under 12
+- children under 13
+- children under 18
+- children's account
+- children's data
+- children's information
+- Children's Online Privacy Protection Act
+- children's privacy
+- children's products
+- children's profile
+- childrens information
+- childrens privacy
+- childrens privacy policy
+- childrens' information
+- childrens' privacy
+- childrens' privacy policy
+- collected from your child
+- COPPA
+- data from children
+- designed for children
+- directed to children
+- directly from children on such sites and services
+- due to Children's Online Privacy Protection Act of 1998
+- eight years old
+- eighteen or older
+- eighteen years of age or older
+- eighteen years old
+- eighteen-years-of-age
+- family account
+- family-friendly
+- for audience type classification regarding children under 13
+- for certain entries into Promotions, subject to corporate and regulatory recordkeeping
+  requirements, unless the entrant is a child under the age of 13 years old
+- for certain promotions, if the child wins or if more than the child's email address
+  is needed to enter the promotion
+- for certain promotions, to obtain more personalized information for prize fulfillment
+  or to notify the parent if more than the child's email address is needed
+- for child profile review or deletion through account settings or by contacting us
+- for child users
+- for children
+- for children and follow COPPA principles
+- for children to participate in a particular activity
+- for children with parental consent
+- for children's online privacy inquiries
+- for children's privacy
+- for children's privacy questions
+- for community administration and, depending on your child's age, marketing purposes
+- for details on children's privacy practices
+- for email newsletters and offers from children
+- for minors including children under the age of 13
+- for parents or legal guardians
+- for parents to give access or ability to request access, change, or delete, collected
+  from children
+- for users under age 13
+- from a child as part of an activity
+- from a child as part of an activity, in accordance with COPPA
+- from a child under 13
+- from a child under 13 if we learn that we have collected it
+- from a child under 13 years of age upon request by parent or guardian
+- from a child under the age of 13
+- from a child under the age of thirteen without the consent of that child's parent
+  or guardian
+- from a child with parents' consent
+- from a child without consenting to disclosure to third parties
+- from anyone under 13
+- from anyone under the age of 13 without prior verifiable parental consent
+- from child under age 13
+- from children
+- from children consistent with COPPA
+- from children for participating in activities without giving unnecessary personal
+  information
+- from children for participation in activities (e.g., completing polls, posting content,
+  playing games)
+- from children in connection with age-gated features
+- from children or ineligible teenagers
+- from children so they can participate in activities
+- from children to allow participation in activities without giving unnecessary personal
+  information
+- from children under 13
+- from children under 13 to obtain verifiable parental consent for new uses of Personally
+  Identifiable Information
+- from children under 13 without parental consent
+- from children under 13 years of age
+- from children under 13 years of age for most MediaNews Web sites
+- from children under 13 years of age via our websites
+- from children under 13 years old
+- from children under 13, to protect children's privacy and safety online
+- from children under age 13
+- from children under age 13 directly
+- from children under age 13 for any ongoing activity without notifying the parent
+  via e-mail and giving the parent the option to remove their child's e-mail address
+  from the applicable database for that activity
+- from children under age 13 that we know to be under 13
+- from children under COPPA regulations
+- from children under the age of 13
+- from children under the age of 13 for Kids Club Registrations or similar alternatives
+- from children under the age of 13 without first providing the parent or legal guardian
+  with notice and obtaining prior verifiable consent
+- from children under the age of 13 without parental consent, unless permitted by
+  law
+- from children under the age of 13 without prior parental consent
+- from children under the age of 13 without prior parental consent except as permitted
+  by the Children's Online Privacy Protection Act
+- from children under the age of 13 without prior parental consent, except as permitted
+  by COPPA
+- from children under the age of 13, knowingly allow such persons to register for
+  an online account or to post personal information on the Barnes & Noble Websites
+- from children under the age of 13, only with prior parental consent or as permitted
+  by law
+- from children under the age of thirteen
+- from children under the age of thirteen (13)
+- from children under the age of thirteen, complying fully with the Children's Online
+  Privacy Protection Act of 1998
+- from children under the age of thirteen, knowingly
+- from children under the age of thirteen, on the Website
+- from children users
+- from children via websites and mobile services
+- from children with parental consent
+- from children without prior parental consent except as permitted by COPPA
+- from children younger than 13 years of age
+- from children, knowingly
+- from children, to no more than is reasonably necessary to participate in an online
+  activity
+- from individuals under 13 years of age
+- from minors under 18 years old
+- from or about a child
+- guardian
+- guardian account
+- guardian approval
+- guardian consent
+- guardian permission
+- guardian supervision
+- guardian verification
+- guardian's approval
+- guardian's consent
+- guardian's permission
+- infant
+- infants
+- intended for children
+- juvenile
+- juveniles
+- kid
+- kids
+- kids aged 10
+- kids aged 13
+- kids aged 18
+- kids aged 21
+- kids aged 24
+- kids aged eighteen
+- kids aged ten
+- kids aged thirteen
+- kids aged twenty-four
+- kids aged twenty-one
+- kids under 13
+- kids under 18
+- kids-friendly
+- legal guardian
+- minimum age
+- minor
+- minor account
+- minor privacy
+- minor profile
+- minor protection
+- minor safety
+- minor's data
+- minor's information
+- minor's privacy
+- minors
+- minors under 10
+- minors under 13
+- minors under 18
+- minors under 21
+- minors under 24
+- minors under eighteen
+- minors under ten
+- minors under thirteen
+- minors under twenty-four
+- minors under twenty-one
+- minors' data
+- minors' information
+- parent account
+- parent or guardian
+- parent verification
+- parental approval
+- parental consent
+- parental control
+- parental permission
+- parental supervision
+- parents
+- preteen
+- preteens
+- prior parental consent
+- student account
+- student profile
+- targeted at children
+- teen
+- teen account
+- teen privacy
+- teen profile
+- teenager
+- teenagers
+- teens
+- ten or older
+- ten years of age or older
+- ten years old
+- ten-years-of-age
+- the age of 10
+- the age of 10 years old
+- the age of 13
+- the age of 13 years old
+- the age of 18
+- the age of 18 years old
+- the age of 21
+- the age of 21 years old
+- the age of 24
+- the age of 24 years old
+- the age of eighteen
+- the age of eighteen years old
+- the age of ten
+- the age of ten years old
+- the age of thirteen
+- the age of thirteen years old
+- the age of twenty-four
+- the age of twenty-four years old
+- the age of twenty-one
+- the age of twenty-one years old
+- thirteen or older
+- thirteen years of age or older
+- thirteen years old
+- thirteen-years-of-age
+- toddler
+- toddlers
+- toddlers (ages 1-3)
+- twenty-four or older
+- twenty-four years of age or older
+- twenty-four years old
+- twenty-four-years-of-age
+- twenty-one or older
+- twenty-one years of age or older
+- twenty-one years old
+- twenty-one-years-of-age
+- under 10 years of age
+- under 10 years old
+- under 13
+- under 13 years of age
+- under 13 years old
+- under 18
+- under 18 years of age
+- under 18 years old
+- under 21
+- under 21 years of age
+- under 21 years old
+- under 24 years of age
+- under 24 years old
+- under 8 years of age
+- under age 10
+- under age 13
+- under age 18
+- under age 21
+- under age 24
+- under age eighteen
+- under age ten
+- under age thirteen
+- under age twenty-four
+- under age twenty-one
+- under eighteen
+- under eighteen 13
+- under eighteen years of age
+- under eighteen years old
+- under ten
+- under ten 13
+- under ten years of age
+- under ten years old
+- under thirteen
+- under thirteen 10
+- under thirteen 13
+- under thirteen 18
+- under thirteen 21
+- under thirteen 24
+- under thirteen eighteen
+- under thirteen ten
+- under thirteen thirteen
+- under thirteen twenty-four
+- under thirteen twenty-one
+- under thirteen years of age
+- under thirteen years old
+- under twenty-four
+- under twenty-four 13
+- under twenty-four years of age
+- under twenty-four years old
+- under twenty-one
+- under twenty-one 13
+- under twenty-one years of age
+- under twenty-one years old
+- verifiable parental consent
+- When a child under thirteen 13 enters a contest or sweepstakes, or participates
+  in another activity
+- When a child under thirteen enters a contest or sweepstakes, or participates in
+  another activity that requires the use of personal information
+- young adults
+- youth
+- youth account
+- youth privacy
+- youth profile
+- youth under 10
+- youth under 13
+- youth under 18
+- youth under 21
+- youth under 24
+- youth under eighteen
+- youth under ten
+- youth under thirteen
+- youth under twenty-four
+- youth under twenty-one

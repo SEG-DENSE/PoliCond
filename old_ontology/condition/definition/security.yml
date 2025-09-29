@@ -1,0 +1,57 @@
+name: 'security'
+patterns:
+  - user data security
+  - encrypts? information
+  - (is|are|were|be|would be) encrypt(ed)?
+  - \b(SSL|HTTPS)\b
+  - \bSecure Socket Layers\b
+  - encryption
+  - encrypted
+synonym:
+  - SECURITY
+  - security
+  - encryption
+  - data encryption
+  - data security
+  - 128-bit SSL
+  - https encryption
+  - pci-dss (payment card industry data security standard)
+  - payment card industry data security standard
+  - SSL encryption
+  - secure socket layer (SSL) technology
+  - secure sockets layer (SSL) encryption software
+  - confidentiality of any password
+  - controlled, secure environments
+  - credit card information security
+  - data encryption
+  - encrypts all information
+  - ensure that your personal information is protected
+  - ensuring the security of your information
+  - encryption of cardholder data
+  - encryption software
+  - information is encrypted
+  - information security
+  - is protected with the best encryption software in the industry - SSL
+  - locked, secure facilities
+  - password-protected
+  - safeguard against loss, theft, unauthorized access
+  - secure commerce transactions
+  - secure server software
+  - secure servers
+  - secure systems and applications
+  - secure the information we collect online
+  - secured environment
+  - secured information
+  - security and confidentiality
+  - security measures
+  - security procedures and policies
+  - security software
+  - stored on our secure servers
+  - the best encryption
+  - the best encryption software in the industry - SSL
+  - threats to security
+  - transmitted through a secured sockets layer (SSL) connection
+  - use SSL encryption
+  - using SSL
+  - using secure socket layers
+  - with the best encryption

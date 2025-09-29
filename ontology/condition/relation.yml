@@ -1,0 +1,90 @@
+# Condition hierarchy relations
+# source: parent condition, target: child condition (more specific)
+
+# Special conditions
+- source: "any_condition"
+  target: "third_party"
+
+- source: "any_condition"
+  target: "specific_audience"
+
+- source: "any_condition"
+  target: "data_protection"
+
+- source: "any_condition"
+  target: "user_action"
+
+- source: "any_condition"
+  target: "purpose"
+
+- source: "any_condition"
+  target: "requirements"
+
+# Data sharing hierarchy
+- source: "third_party"
+  target: "data_sharing"
+
+- source: "third_party"
+  target: "third_party_service"
+
+# Audience hierarchy
+- source: "specific_audience"
+  target: "children"
+
+- source: "specific_audience"
+  target: "region"
+
+
+# Data protection hierarchy
+- source: "data_protection"
+  target: "retention"
+
+- source: "data_protection"
+  target: "security"
+
+# User action hierarchy
+
+# Operation hierarchy
+- source: "user_action"
+  target: "specific_operation"
+
+- source: "user_action"
+  target: "consent"
+
+- source: "user_action"
+  target: "input"
+
+# Purpose hierarchy
+- source: "purpose"
+  target: "advertising"
+
+- source: "purpose"
+  target: "analytics"
+
+- source: "purpose"
+  target: "personalization"
+
+- source: "purpose"
+  target: "product_improvement"
+
+- source: "purpose"
+  target: "research"
+
+- source: "purpose"
+  target: "fraud_detection"
+
+- source: "purpose"
+  target: "prohibited_use"
+
+- source: "purpose"
+  target: "service_necessity"
+
+# External requirements hierarchy
+- source: "requirements"
+  target: "region"
+
+- source: "requirements"
+  target: "industry"
+
+- source: "requirements"
+  target: "government"

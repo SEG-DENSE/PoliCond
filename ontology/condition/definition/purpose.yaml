@@ -1,0 +1,55 @@
+name: purpose
+patterns:
+- \b(purpose|intent|goal|target|objective|aim)\b
+- \b(for\s+)?(business|operational|commercial|legitimate)\s+(purpose|reason|need)\b
+- \b(general|broad|various|multiple|different)\s+(purpose|use|reason)\b
+- \b(as\s+)?(needed|necessary|required|appropriate)\b
+- \b(internal|external|related|relevant)\s+(purpose|use|operation)\b
+- \b(in\s+order\s+to|so\s+that|for\s+the\s+purpose\s+of)\b
+- \b(vague|unclear|unspecified|undetermined)\s+(purpose|reason|use)\b
+synonym:
+- aim
+- aims
+- all purpose
+- broad purpose
+- business need
+- business needs
+- business purpose
+- business requirement
+- business requirements
+- commercial need
+- commercial needs
+- commercial purpose
+- different purpose
+- diverse purpose
+- external purpose
+- general purpose
+- goal
+- goals
+- institutional purpose
+- intent
+- intention
+- intentions
+- internal purpose
+- legitimate interest
+- legitimate interests
+- legitimate purpose
+- multiple purpose
+- need
+- needs
+- objective
+- objectives
+- operational need
+- operational needs
+- operational purpose
+- organizational purpose
+- purpose
+- reason
+- reasons
+- related purpose
+- relevant purpose
+- requirement
+- requirements
+- target
+- targets
+- various purpose

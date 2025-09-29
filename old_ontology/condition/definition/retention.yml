@@ -1,0 +1,55 @@
+name: 'retention'
+patterns:
+  - user data retention
+  - retention (period|policy|of personal information)
+  - '\b(retention)\b'
+synonym:
+  - data retention
+  - RETENTION
+  - data retention
+  - retention of personal information
+  - retention of personal data
+  - the retention, use or privacy of profile information
+  - retain your Personal Information in conformance with our data retention policy
+  - records retention policies
+  - data retention policy
+  - personal information retention
+  - retention of personal information
+  - retention period
+  - information retention
+  - data preservation
+  - data storage
+  - data maintenance
+  - Preservation
+  - Storage
+  - Maintenance
+  - preservation of personal information
+  - storage of personal information
+  - maintenance of personal information
+  - preservation of personal data
+  - storage of personal data
+  - maintenance of personal data
+  - the preservation, utilization or confidentiality of profile information
+  - the storage, use or secrecy of profile information
+  - the maintenance, employment or privacy of profile information
+  - keep your Personal Information in line with our data preservation policy
+  - hold your Personal Information in accordance with our data storage policy
+  - maintain your Personal Information conforming to our data maintenance policy
+  - records preservation policies
+  - records storage policies
+  - records maintenance policies
+  - data preservation policy
+  - data storage policy
+  - data maintenance policy
+  - personal information preservation
+  - personal information storage
+  - personal information maintenance
+  - preservation of personal information
+  - storage of personal information
+  - maintenance of personal information
+  - retention period
+  - preservation period
+  - storage period
+  - information preservation
+  - information storage
+  - information maintenance

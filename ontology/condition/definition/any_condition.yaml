@@ -1,0 +1,138 @@
+name: any_condition
+patterns:
+- not? (mention(ed)?|state|indicated?|specify?|disclosed?|list|described?|explain(ed)?|declared?|outlined?|report(ed)?|reveal(ed)?)
+- \b(unclear|ambiguous|vague|indefinite|unspecified|undetermined)\b
+- \b(no\s+(condition|constraint|limitation|restriction|requirement))\b
+- \b(without\s+(condition|constraint|limitation|restriction|requirement))\b
+- \b(general|broad|wide|universal|comprehensive)\s+(purpose|use|collection)\b
+- \b(any\s+(purpose|use|reason|condition|situation|case))\b
+- \b(all\s+(purpose|use|reason|condition|situation|case))\b
+- \b(various|multiple|different|diverse)\s+(purpose|use|reason)\b
+- \b(as\s+needed|when\s+necessary|if\s+required)\b
+- \b(flexible|adaptable|variable|changeable)\s+(condition|purpose|use)\b
+- \b(catch[_\s]*all|blanket|generic|standard)\b
+- \b(undisclosed|unrevealed|unmentioned|unstated)\b
+synonym:
+- adaptable condition
+- all cases
+- all conditions
+- all reasons
+- all scenarios
+- all situations
+- all uses
+- ambiguous adherence
+- ambiguous condition
+- any case
+- any condition
+- any purpose
+- any reason
+- any scenario
+- any situation
+- any use
+- approximate condition
+- as applicable
+- blanket condition
+- broad condition
+- broad purpose
+- broad use
+- catch-all
+- changeable condition
+- comprehensive condition
+- comprehensive purpose
+- comprehensive use
+- default condition
+- different reasons
+- different uses
+- diverse reasons
+- diverse uses
+- fallback condition
+- flexible condition
+- general condition
+- general purpose
+- general use
+- generic condition
+- if needed
+- if required
+- imprecise condition
+- indefinite adherence
+- indefinite condition
+- indeterminate condition
+- inexact condition
+- loose condition
+- multiple reasons
+- multiple uses
+- no clear condition
+- no condition
+- no constraints
+- no defined condition
+- no explicit condition
+- no limitation
+- no particular condition
+- no requirement
+- no restriction
+- no specific condition
+- not clarified
+- not declared
+- not defined
+- not described
+- not detailed
+- not disclosed
+- not explained
+- not indicated
+- not mentioned
+- not outlined
+- not reported
+- not revealed
+- not specified
+- not stated
+- rough condition
+- standard condition
+- too ambiguous
+- too broad
+- too general
+- too unclear
+- too vague
+- too wide
+- uncertain adherence
+- uncertain condition
+- unclarified
+- unclear adherence
+- unclear condition
+- unconditional
+- unconstrained
+- undeclared
+- undefined
+- undefined condition
+- undescribed
+- undetailed
+- undetermined adherence
+- undetermined condition
+- undisclosed
+- unexplained
+- universal condition
+- universal purpose
+- universal use
+- unlimited
+- unmentioned
+- unoutlined
+- unreported
+- unrequired
+- unrestricted
+- unrevealed
+- unspecified
+- unspecified adherence
+- unspecified condition
+- unstated
+- vague adherence
+- vague condition
+- variable condition
+- various conditions
+- various reasons
+- various uses
+- when appropriate
+- when necessary
+- when suitable
+- where relevant
+- wide condition
+- wide purpose
+- wide use

@@ -1,0 +1,253 @@
+name: data_sharing
+patterns:
+- \b(sharing|share|shared)\b
+- \b(disclose|disclosure|disclosed)\b
+- \b(transfer|transferred|transferring)\b
+- \b(sell|selling|sold)\b
+- data sharing
+- information sharing
+- share data
+- share information
+- disclose data
+- disclose information
+- transfer data
+- transfer information
+- third party sharing
+- with third parties
+- to third parties
+synonym:
+- advertising disclosure
+- advertising sharing
+- advertising transfer
+- affiliate disclosure
+- affiliate sharing
+- affiliate transfer
+- aggregated sharing
+- anonymous sharing
+- authorized disclosure
+- authorized sharing
+- authorized transfer
+- business disclosure
+- business partner disclosure
+- business partner sharing
+- business partner transfer
+- business sharing
+- business transfer
+- commercial disclosure
+- commercial sharing
+- commercial transfer
+- compliance sharing
+- confidential sharing
+- consent-based sharing
+- contractual sharing
+- controlled disclosure
+- controlled sharing
+- controlled transfer
+- corporate disclosure
+- corporate sharing
+- corporate transfer
+- cross-border disclosure
+- cross-border sharing
+- cross-border transfer
+- data disclosure
+- data dissemination
+- data distribution
+- data exchange
+- data forwarding
+- data leasing
+- data licensing
+- data provision
+- data rental
+- data sale
+- data sales
+- data sending
+- data sharing
+- data supply
+- data trading
+- data transfer
+- data transmission
+- de-identified sharing
+- disclose data
+- disclose information
+- disclose to others
+- disclose to third parties
+- disclosing data
+- disclosing information
+- disclosure to affiliates
+- disclosure to business partners
+- disclosure to others
+- disclosure to partners
+- disclosure to service providers
+- disclosure to vendors
+- disseminate data
+- disseminate information
+- disseminating data
+- disseminating information
+- distribute data
+- distribute information
+- distributing data
+- distributing information
+- encrypted sharing
+- exchange data
+- exchange information
+- exchanging data
+- exchanging information
+- external disclosure
+- external sharing
+- external transfer
+- forward data
+- forward information
+- forwarding data
+- forwarding information
+- global disclosure
+- global sharing
+- global transfer
+- information disclosure
+- information dissemination
+- information distribution
+- information exchange
+- information forwarding
+- information leasing
+- information licensing
+- information provision
+- information rental
+- information sale
+- information sales
+- information sending
+- information sharing
+- information supply
+- information trading
+- information transfer
+- information transmission
+- institutional disclosure
+- institutional sharing
+- institutional transfer
+- internal disclosure
+- internal sharing
+- internal transfer
+- international disclosure
+- international sharing
+- international transfer
+- lease data
+- lease information
+- leasing data
+- leasing information
+- legal sharing
+- license data
+- license information
+- licensing data
+- licensing information
+- limited disclosure
+- limited sharing
+- limited transfer
+- local disclosure
+- local sharing
+- local transfer
+- mandatory sharing
+- marketing disclosure
+- marketing sharing
+- marketing transfer
+- opt-in sharing
+- opt-out sharing
+- organizational disclosure
+- organizational sharing
+- organizational transfer
+- partner disclosure
+- partner sharing
+- partner transfer
+- permitted disclosure
+- permitted sharing
+- permitted transfer
+- private disclosure
+- private sharing
+- private transfer
+- promotional disclosure
+- promotional sharing
+- promotional transfer
+- proprietary sharing
+- provide data
+- provide information
+- providing data
+- providing information
+- pseudonymized sharing
+- public disclosure
+- public sharing
+- public transfer
+- regional disclosure
+- regional sharing
+- regional transfer
+- regulatory sharing
+- rent data
+- rent information
+- renting data
+- renting information
+- required sharing
+- restricted disclosure
+- restricted sharing
+- restricted transfer
+- secure sharing
+- selective disclosure
+- selective sharing
+- selective transfer
+- sell data
+- sell information
+- selling data
+- selling information
+- send data
+- send information
+- sending data
+- sending information
+- service provider disclosure
+- service provider sharing
+- service provider transfer
+- share data
+- share information
+- share with others
+- share with third parties
+- sharing data
+- sharing information
+- sharing with affiliates
+- sharing with business partners
+- sharing with others
+- sharing with partners
+- sharing with service providers
+- sharing with vendors
+- supply data
+- supply information
+- supplying data
+- supplying information
+- targeted disclosure
+- targeted sharing
+- targeted transfer
+- third party disclosure
+- third party sharing
+- third party transfer
+- third-party disclosure
+- third-party sharing
+- third-party transfer
+- trade data
+- trade information
+- trading data
+- trading information
+- transfer data
+- transfer information
+- transfer to affiliates
+- transfer to business partners
+- transfer to others
+- transfer to partners
+- transfer to service providers
+- transfer to third parties
+- transfer to vendors
+- transferring data
+- transferring information
+- transmit data
+- transmit information
+- transmitting data
+- transmitting information
+- unauthorized disclosure
+- unauthorized sharing
+- unauthorized transfer
+- vendor disclosure
+- vendor sharing
+- vendor transfer
+- voluntary sharing

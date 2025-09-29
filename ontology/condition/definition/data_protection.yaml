@@ -1,0 +1,102 @@
+name: data_protection
+patterns:
+- (information|data|privacy) (protection|management)
+- \b(protect|protection|safeguard|anonymize|pseudonymize)\b
+- data protection
+- privacy protection
+- protective measures
+- data safeguards
+- information protection
+- privacy safeguards
+synonym:
+- access management
+- account management
+- accreditation controls
+- administrative safeguards
+- approval controls
+- assessment controls
+- attribute-based access
+- audit controls
+- authorization controls
+- backup procedures
+- breach response
+- certificate management
+- certification controls
+- compliance controls
+- consent controls
+- contractual safeguards
+- credential management
+- data access controls
+- data anonymization
+- data availability
+- data awareness
+- data confidentiality
+- data deletion controls
+- data governance
+- data integrity
+- data masking
+- data minimization
+- data monitoring
+- data obfuscation
+- data policies
+- data protection
+- data protocols
+- data pseudonymization
+- data recovery
+- data retention controls
+- data safeguards
+- data sanitization
+- data standards
+- data training
+- disaster recovery
+- evaluation controls
+- identity management
+- incident response
+- information access controls
+- information assurance
+- information awareness
+- information monitoring
+- information protection
+- information protocols
+- information standards
+- information training
+- key management
+- least privilege access
+- legal safeguards
+- logging controls
+- monitoring controls
+- operational safeguards
+- organizational safeguards
+- oversight controls
+- password management
+- permission controls
+- physical safeguards
+- privacy awareness
+- privacy by default
+- privacy by design
+- privacy controls
+- privacy governance
+- privacy monitoring
+- privacy policies
+- privacy protection
+- privacy protocols
+- privacy safeguards
+- privacy standards
+- privacy training
+- procedural safeguards
+- protective measures
+- recovery procedures
+- regulatory compliance
+- review controls
+- role-based access
+- secure handling
+- session management
+- supervision controls
+- surveillance controls
+- technical safeguards
+- testing controls
+- token management
+- tracking controls
+- user management
+- validation controls
+- verification controls

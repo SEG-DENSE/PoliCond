@@ -1,0 +1,196 @@
+name: region
+patterns:
+- \b(GDPR|CCPA|COPPA|PIPEDA|LGPD|PDPA|POPIA)\b
+- \b(California|European|Australian|Canadian|Brazilian|Singapore|Korean|Japanese|Chinese)\s+(Privacy|Data
+  Protection)\s+(Act|Law|Regulation)\b
+- \b(European Union|United States|United Kingdom|Switzerland|Australia|Canada|Brazil|Singapore|Korea|Japan|China|India)\b
+- \b(federal|state|provincial|national|regional|local)\s+(law|regulation|requirement|compliance)\b
+- \b(jurisdiction|jurisdictional|cross[_\s]*border|international)\b
+- \b(Safe Harbor|Privacy Shield|Adequacy Decision)\b
+- \b(Data Protection Authority|DPA|Information Commissioner)\b
+- \b(California resident|European resident|Canadian resident)\b
+- \b(Shine the Light|Right to be Forgotten|Data Subject Rights)\b
+- \b(regional\s+compliance|jurisdictional\s+requirement)\b
+synonym:
+- Accountability Principle
+- Accuracy Principle
+- Act on Protection of Personal Information
+- Adequacy Decision
+- Administrative fine
+- APPI
+- Approval requirement
+- Australian Data Protection
+- Australian Privacy Act
+- Australian Privacy Principles
+- Australian resident
+- Authorization requirement
+- Authorized representative
+- BDSG
+- Binding Corporate Rules
+- Brazilian Data Protection
+- Brazilian Privacy Law
+- Brazilian resident
+- Breach Notification
+- British Data Protection
+- Bundesdatenschutzgesetz
+- California Civil Code
+- California Consumer Privacy Act
+- California Data Protection
+- California Online Privacy Protection Act
+- California Privacy Law
+- California Privacy Rights Act
+- California resident
+- CalOPPA
+- Canadian Data Protection
+- Canadian Privacy Law
+- Canadian resident
+- CCPA
+- Certification requirement
+- Children's Online Privacy Protection Act
+- Chinese Data Protection
+- Chinese Privacy Law
+- Chinese resident
+- Choice of forum
+- Choice of law
+- Civil penalty
+- Compliance obligation
+- Compliance order
+- Consent Requirements
+- COPPA
+- Corrective measure
+- Court jurisdiction
+- Criminal penalty
+- cross-border compliance
+- Cross-Border Data Transfer
+- cross-border law
+- cross-border regulation
+- Cross-border restriction
+- Data localization
+- Data Protection Act
+- Data Protection Authority
+- Data Protection Impact Assessment
+- Data protection officer
+- Data residency
+- Data Subject Rights
+- Data Transfer Agreement
+- Enforcement action
+- European Data Protection
+- European Privacy Law
+- European resident
+- European Union law
+- European Union regulation
+- Exception clause
+- Exemption provision
+- federal compliance
+- federal law
+- federal regulation
+- French Data Protection Act
+- GDPR
+- General Data Protection Regulation
+- German Data Protection
+- Governing law clause
+- Hong Kong Data Protection
+- Hong Kong Privacy Law
+- In-country storage
+- Indian Data Protection
+- Indian Privacy Law
+- Individual Rights
+- Information Commissioner
+- Inspection right
+- international compliance
+- International Data Transfer
+- international law
+- international regulation
+- Japanese Data Protection
+- Japanese Privacy Law
+- Japanese resident
+- Jurisdiction clause
+- jurisdictional compliance
+- jurisdictional law
+- jurisdictional requirement
+- Korean Data Protection
+- Korean Privacy Law
+- Korean resident
+- Lawful Basis
+- Legal Obligation
+- Legal representative
+- Legal requirement
+- Legitimate Interest
+- Lei Geral de Proteção de Dados
+- LGPD
+- License requirement
+- local compliance
+- Local data storage
+- local law
+- Local office
+- local regulation
+- Local representative
+- Mandatory requirement
+- Monetary penalty
+- national compliance
+- national law
+- national regulation
+- Non-monetary penalty
+- Notification requirement
+- PDPA
+- PDPO
+- Permit requirement
+- Personal Data Privacy Ordinance
+- Personal Data Protection Act
+- Personal Information Protection and Electronic Documents Act
+- Personal Information Protection Law
+- PIPEDA
+- PIPL
+- POPIA
+- Privacy Act 1988
+- Privacy by Default
+- Privacy by Design
+- Privacy Commissioner
+- Privacy Impact Assessment
+- Privacy Rights
+- Privacy Shield Framework
+- Protection of Personal Information Act
+- provincial compliance
+- provincial law
+- provincial regulation
+- Public Task
+- Purpose Limitation
+- regional compliance
+- Regional data storage
+- regional law
+- Regional office
+- regional regulation
+- Regional representative
+- regional requirement
+- Registration requirement
+- Regulatory Authority
+- Regulatory fine
+- Regulatory requirement
+- Remedial action
+- Reporting requirement
+- Safe Harbor Framework
+- Safe harbor provision
+- Shine the Light law
+- Singapore Data Protection
+- Singapore Privacy Law
+- Singapore resident
+- South African Data Protection
+- South African Privacy Law
+- Standard Contractual Clauses
+- state compliance
+- state law
+- state regulation
+- Statutory requirement
+- Storage Limitation
+- Storage restriction
+- Supervisory Authority
+- Swiss Data Protection
+- Swiss Privacy Law
+- Swiss resident
+- Third Country Transfer
+- Transfer restriction
+- Transparency Principle
+- UK GDPR
+- UK resident
+- United Kingdom Privacy Law
+- Vital Interest

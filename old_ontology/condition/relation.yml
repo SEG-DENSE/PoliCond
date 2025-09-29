@@ -1,0 +1,56 @@
+- source: no condition
+  target: third party
+  key: SUBSUM
+
+- source: no condition
+  target: special audience
+  key: SUBSUM
+
+- source: no condition
+  target: management
+  key: SUBSUM
+
+- source: no condition
+  target: user action
+  key: SUBSUM
+
+
+- source: third party
+  target: third party service
+  key: SUBSUM
+
+- source: third party
+  target: sharing
+  key: SUBSUM
+
+- source: special audience
+  target: children
+  key: SUBSUM
+
+- source: special audience
+  target: region
+  key: SUBSUM
+
+- source: management
+  target: non-business
+  key: SUBSUM
+
+- source: management
+  target: security
+  key: SUBSUM
+
+- source: management
+  target: retention
+  key: SUBSUM
+
+- source: user action
+  target: specific operation
+  key: SUBSUM
+
+- source: user action
+  target: consent
+  key: SUBSUM
+
+- source: user action
+  target: input
+  key: SUBSUM

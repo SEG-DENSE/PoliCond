@@ -1,0 +1,348 @@
+name: specific_operation
+patterns:
+- \b(when|if|during|while|upon|after|before)\b.?(you|user|customer)[s]?.?(access|visit|use|browse|interact|navigate|view|enter|open)
+- \b(when|if|during|while|upon|after|before)\b.?(you|user|customer)[s]?.?(register|sign.?up|sign.?in|log.?in|log.?on|log.?out|log.?off)
+- \b(when|if|during|while|upon|after|before)\b.?(you|user|customer)[s]?.?(purchase|buy|order|checkout|pay|payment|transaction)
+- \b(when|if|during|while|upon|after|before)\b.?(you|user|customer)[s]?.?(submit|send|upload|post|share|provide|enter)
+- \b(when|if|during|while|upon|after|before)\b.?(you|user|customer)[s]?.?(download|install|update|sync|backup|restore)
+- \b(when|if|during|while|upon|after|before)\b.?(you|user|customer)[s]?.?(click|tap|select|choose|press|touch)
+- \b(when|if|during|while|upon|after|before)\b.?(you|user|customer)[s]?.?(search|query|lookup|find|explore)
+- \b(when|if|during|while|upon|after|before)\b.?(you|user|customer)[s]?.?(contact|call|email|message|chat|communicate)
+- \b(when|if|during|while|upon|after|before)\b.?(you|user|customer)[s]?.?(subscribe|unsubscribe|follow|unfollow|join|leave)
+- \b(when|if|during|while|upon|after|before)\b.?(you|user|customer)[s]?.?(participate|engage|interact|respond|reply)
+- \b(when|if|during|while|upon|after|before)\b.?(you|user|customer)[s]?.?(create|setup|configure|customize|personalize)
+- \b(when|if|during|while|upon|after|before)\b.?(you|user|customer)[s]?.?(delete|remove|cancel|close|terminate)
+- \b(when|if|during|while|upon|after|before)\b.?(you|user|customer)[s]?.?(share|recommend|refer|invite|forward)
+- \b(when|if|during|while|upon|after|before)\b.?(you|user|customer)[s]?.?(comment|review|rate|feedback|evaluate)
+- \b(when|if|during|while|upon|after|before)\b.?(you|user|customer)[s]?.?(apply|request|inquire|consult|support)
+- \bupon.?(registration|signup|signin|login|purchase|checkout|submission|download)
+- \bduring.?(registration|signup|signin|login|purchase|checkout|submission|download)
+- \bwhile.?(using|browsing|accessing|visiting|interacting|navigating)
+- \bafter.?(registration|signup|signin|login|purchase|checkout|submission|download)
+- \bbefore.?(registration|signup|signin|login|purchase|checkout|submission|download)
+- \bat.?the.?point.?of.?(registration|signup|signin|login|purchase|checkout|submission)
+- \bin.?the.?process.?of.?(registration|signup|signin|login|purchase|checkout|submission)
+- \bfor.?the.?purpose.?of.?(registration|signup|signin|login|purchase|checkout|submission)
+- (access|visit|use|browse|interact).?(our|the).?(service|website|app|platform|site|system)
+- (register|signup|signin|login|logon|logout|logoff).?(to|for|with|on).?(our|the).?(service|website|app|platform|site|system)
+- (purchase|buy|order|checkout|pay|payment).?(from|through|via|on).?(our|the).?(service|website|app|platform|site|system)
+- (submit|send|upload|post|share|provide).?(to|through|via|on).?(our|the).?(service|website|app|platform|site|system)
+- (download|install|update).?(from|through|via).?(our|the).?(service|website|app|platform|site|system)
+- (click|tap|select).?(on|in).?(our|the).?(service|website|app|platform|site|system)
+- (search|query|lookup).?(in|on|through).?(our|the).?(service|website|app|platform|site|system)
+- (contact|call|email|message).?(us|support|service).?(through|via|on).?(our|the).?(service|website|app|platform|site|system)
+- (subscribe|unsubscribe).?(to|from).?(our|the).?(service|newsletter|updates|notifications)
+- (participate|engage).?(in|with).?(our|the).?(service|activities|programs|events)
+- (create|setup|configure).?(an|your).?(account|profile|settings|preferences)
+- specific.?(operation|action|activity|behavior|interaction|transaction)
+- particular.?(operation|action|activity|behavior|interaction|transaction)
+- certain.?(operation|action|activity|behavior|interaction|transaction)
+- designated.?(operation|action|activity|behavior|interaction|transaction)
+- triggered.?by.?(user|customer).?(action|operation|activity|behavior|interaction)
+- initiated.?by.?(user|customer).?(action|operation|activity|behavior|interaction)
+- resulting.?from.?(user|customer).?(action|operation|activity|behavior|interaction)
+synonym:
+- a/b test participation
+- account creation
+- account deletion
+- account registration
+- account setup
+- account verification
+- activity resumption
+- ad click event
+- ad impression event
+- add to cart
+- analytics event
+- api call
+- api request
+- api webhook
+- app download
+- app install
+- app update
+- audio play event
+- audit trail access
+- auto refresh event
+- auto save event
+- background processing
+- background task
+- backup creation
+- backup restoration
+- barcode scan
+- batch processing
+- behaviour tracking event
+- beta tester enrollment
+- bluetooth connect
+- bluetooth disconnect
+- bluetooth scan
+- booking confirmation
+- bookmark sync
+- bounce rate calculation
+- breadcrumb navigation
+- browser close event
+- browser extension install
+- bug report
+- cache clear event
+- calendar sync
+- callback execution
+- cart abandonment
+- ccpa request
+- change tracking
+- chargeback event
+- chat message
+- checkbox selection
+- checkout event
+- churn event
+- click event
+- click tracking
+- cloud sync
+- comment submission
+- compliance audit
+- compliance request
+- compliance verification
+- consent given
+- consent management request
+- consent withdrawn
+- contact support
+- contact sync
+- content download
+- content upload
+- content view duration
+- contest entry
+- contest win
+- cookie delete
+- cookie set
+- cookie update
+- court order response
+- crash report
+- cron job execution
+- cross device sync
+- customer support request
+- data access request
+- data deletion request
+- data export
+- data export request
+- data formatting
+- data import
+- data migration
+- data portability request
+- data processing
+- data synchronization
+- data transformation
+- desktop app launch
+- device fingerprinting
+- device pairing
+- device registration
+- device unregistration
+- digital signature
+- document signature
+- document view event
+- donation transaction
+- download completion
+- draft save
+- dropdown selection
+- dsar request
+- edit history
+- electronic signature
+- email click event
+- email open event
+- email verification
+- engagement metric
+- engagement scoring
+- error report
+- event handler
+- exit intent detection
+- face recognition
+- facial authentication
+- feature activation
+- feature opt-in
+- feature opt-out
+- feedback submission
+- field validation
+- file download
+- file upload
+- filter application
+- fingerprint scan
+- foreground activation
+- form auto complete
+- form submission
+- form validation
+- fraud report
+- gdpr request
+- geofence entry
+- geofence exit
+- gift card redemption
+- heatmap generation
+- help request
+- hipaa request
+- idle session detection
+- iframe interaction
+- image upload
+- image view event
+- in app purchase
+- in app transaction
+- in store purchase
+- infinite scroll trigger
+- input sanitization
+- installation complete
+- interaction depth
+- investigation cooperation
+- invitation accepted
+- invite sent
+- keyboard input tracking
+- law enforcement request
+- lazy loading trigger
+- legal discovery request
+- legal request
+- live chat interaction
+- location data collection
+- location sharing disabled
+- location sharing enabled
+- location-based offer
+- loyalty enrollment
+- loyalty points update
+- loyalty redemption
+- manual refresh event
+- manual save event
+- marketing opt-in
+- marketing opt-out
+- media upload
+- menu navigation
+- message forward
+- message send
+- mobile app launch
+- modal interaction
+- mouse movement tracking
+- multi factor authentication
+- multi platform sync
+- newsletter subscription
+- newsletter unsubscribe
+- offline refund
+- offline sync
+- offline transaction
+- order cancellation
+- order fulfillment
+- order placement
+- otp request
+- otp verification
+- page interaction
+- page scroll event
+- page view event
+- page visit
+- pagination click
+- password change
+- password reset
+- payment completion
+- payment processing
+- pdf download
+- personalization opt-in
+- personalization opt-out
+- phone call support
+- phone verification
+- pinch gesture
+- pixel tracking event
+- plugin activation
+- popup interaction
+- preference change
+- preference sync
+- privacy setting update
+- product search
+- product view
+- profile deletion
+- profile edit
+- profile update
+- promotion participation
+- promotion redemption
+- purchase transaction
+- push notification opt-in
+- push notification opt-out
+- qr code scan
+- questionnaire response
+- queue processing
+- radio button selection
+- rating submission
+- real time sync
+- referral click
+- referral conversion
+- refund issuance
+- regulatory compliance check
+- regulatory inspection
+- remove from cart
+- reservation booking
+- retention metric
+- retina scan
+- review submission
+- revision control
+- scheduled task
+- scroll depth tracking
+- search query
+- search result click
+- security incident report
+- session end
+- session recovery
+- session start
+- session timeout
+- settings sync
+- signature capture
+- slider interaction
+- sms verification
+- social post
+- social share
+- software download
+- software installation
+- sort application
+- speech recognition
+- state preservation
+- subpoena response
+- subscription cancellation
+- subscription pause
+- subscription purchase
+- subscription refund
+- subscription renewal
+- subscription resume
+- survey response
+- suspicious activity flag
+- swipe gesture
+- tab close event
+- tab switching
+- telemetry event
+- third party link click
+- third party redirect
+- ticket creation
+- ticket purchase
+- ticket resolution
+- time on page
+- timestamp creation
+- toggle switch
+- touch gesture tracking
+- tracking opt-in
+- tracking opt-out
+- trial activation
+- trigger activation
+- two factor authentication
+- two step verification
+- update install
+- user login
+- user logout
+- user registration
+- user signin
+- user signup
+- version control
+- video completion
+- video pause event
+- video play event
+- video upload
+- voice command
+- voice print
+- voice search
+- warrant response
+- web beacon firing
+- webhook trigger
+- website navigation
+- widget interaction
+- wifi connect
+- window blur event
+- window focus event
+- wishlist add
+- wishlist remove
+- zip file download
+- zoom gesture

@@ -1,0 +1,105 @@
+name: third_party
+patterns:
+- \b(third.?party|3rd.?party)\b(?!.*\b(service|provider|vendor|partner|contractor|supplier)\b)
+- \b(related|involving|concerning|regarding)\b.*(third.?party|3rd.?party)
+- \b(third.?party|3rd.?party).*(related|involvement|connection|interaction)
+- \b(external|outside|unaffiliated)\b.*(party|entity|organization)
+- \b(third.?party|3rd.?party).*(activities|operations|purposes|uses)
+- \b(with|to|from|via).*(third.?party|3rd.?party)
+- \b(third.?party|3rd.?party).*(context|circumstances|situations)
+- \b(involve|includes?|contains?).*(third.?party|3rd.?party)
+- \b(other|additional).*(third.?party|3rd.?party|parties)
+- \b(various|multiple|several).*(third.?party|3rd.?party|parties)
+synonym:
+- 3rd parties
+- 3rd party
+- 3rd-parties
+- 3rd-party
+- additional entity
+- additional organization
+- additional parties
+- additional party
+- affiliated entity
+- affiliated organization
+- applicable entity
+- applicable party
+- associated entity
+- associated party
+- business partner
+- certain entity
+- certain party
+- concerning third party
+- connected entity
+- connected party
+- contains third party
+- cooperation organization
+- cooperation partner
+- corresponding entity
+- corresponding party
+- designated entity
+- designated party
+- external entity
+- external organization
+- external parties
+- external party
+- from third party
+- identified entity
+- identified party
+- includes third party
+- involve third party
+- involving third party
+- linked entity
+- linked party
+- multiple parties
+- named entity
+- named party
+- other entity
+- other organization
+- other parties
+- other party
+- outside entity
+- outside organization
+- outside parties
+- outside party
+- particular entity
+- particular party
+- partner entity
+- partner organization
+- regarding third party
+- related third party
+- relevant entity
+- relevant party
+- respective entity
+- respective party
+- several parties
+- specific entity
+- specific party
+- third parties
+- third party
+- third party activities
+- third party circumstances
+- third party connection
+- third party context
+- third party interaction
+- third party involvement
+- third party operations
+- third party purposes
+- third party related
+- third party situations
+- third party uses
+- third-parties
+- third-party
+- thirdparties
+- thirdparty
+- to third party
+- unaffiliated entity
+- unaffiliated organization
+- unaffiliated parties
+- unaffiliated party
+- unnamed entity
+- unnamed party
+- unspecified entity
+- unspecified party
+- various parties
+- via third party
+- with third party

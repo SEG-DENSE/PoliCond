@@ -1,0 +1,31 @@
+name: 'special audience'
+patterns:
+  - (special|specific|particular) (audience|group|people|individuals|user)
+synonym:
+  - special_audience
+  - special audience
+  - SPECIAL_AUDIENCE
+  - SPECIAL AUDIENCE
+  - special user
+  - special users
+  - specific-characteristic user
+  - special group
+  - specific group
+  - particular group
+  - special people
+  - specific people
+  - particular people
+  - special individuals
+  - specific individuals
+  - particular individuals
+  - specific user
+  - particular user
+  - specific judicial characteristic user
+  - judicial proceeding
+  - judicial or governmental subpoenas
+  - judicial authorities
+  - law enforcement investigation
+  - law or legal process
+  - judicial proceeding
+  - court order
+  - legal process

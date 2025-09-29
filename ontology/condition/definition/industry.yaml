@@ -1,0 +1,215 @@
+name: industry
+patterns:
+- \b(industry standard|industrial standard)\b
+- \b(best practice|common practice)\b
+- \b(Do Not Track|DNT)\b
+- \b(ISO|IEC|IEEE)\b
+- \b(certification|accreditation|compliance)\b
+- \b(framework|guideline|principle)\b
+- \b(platform requirement|platform standard)\b
+- \b(self-regulatory|self-regulation)\b
+- \b(code of conduct|behavioral code)\b
+- \b(privacy by design|PbD)\b
+- \b(transparency framework|consent framework)\b
+- \b(technical standard|technology standard)\b
+- \b(sector-specific|industry-specific)\b
+- \b(recognized standard|established practice)\b
+- \b(professional standard|operational standard)\b
+synonym:
+- accreditation
+- accreditation standard
+- AdChoices
+- advertising standard
+- analytical standard
+- API standard
+- App Store guideline
+- architectural principle
+- assessment standard
+- audit requirement
+- audit standard
+- automated standard
+- awareness requirement
+- behavioral code
+- best practice
+- breach standard
+- browser signal
+- business specification
+- business standard
+- capability requirement
+- certification
+- certification mark
+- certification standard
+- Cloud Security Alliance
+- code of conduct
+- commercial standard
+- common practice
+- communication standard
+- compatibility standard
+- competency requirement
+- compliance assessment
+- compliance certification
+- compliance mark
+- compliance standard
+- comprehensive standard
+- consent framework
+- consent mechanism
+- control framework
+- corporate standard
+- correction standard
+- cross-platform standard
+- CSA standard
+- DAA principle
+- data framework
+- data handling standard
+- data processing standard
+- data protection standard
+- data retention standard
+- data specification
+- data standard
+- design principle
+- development standard
+- digital standard
+- disclosure requirement
+- disclosure standard
+- DNT
+- DNT signal
+- Do Not Track
+- Do Not Track mechanism
+- Do Not Track signal
+- documentation requirement
+- documentation standard
+- ecosystem standard
+- education requirement
+- electronic standard
+- engineering principle
+- enhancement standard
+- enterprise standard
+- established practice
+- ethics code
+- evaluation requirement
+- evaluation standard
+- external standard
+- functional specification
+- functional standard
+- holistic standard
+- hybrid standard
+- IAB standard
+- IEC standard
+- IEEE standard
+- implementation guideline
+- improvement standard
+- incident standard
+- independent certification
+- industrial practice
+- industrial standard
+- industry guideline
+- industry practice
+- industry standard
+- industry-specific standard
+- information framework
+- information handling standard
+- information processing standard
+- information protection standard
+- information specification
+- information standard
+- institutional standard
+- integrated standard
+- integration standard
+- interface standard
+- internal standard
+- internet standard
+- interoperability standard
+- ISO 27001
+- ISO 27018
+- ISO 27552
+- ISO 27701
+- ISO 29100
+- ISO 29134
+- ISO standard
+- management framework
+- manual standard
+- market standard
+- marketplace requirement
+- maturity requirement
+- methodological standard
+- modernization standard
+- monitoring requirement
+- monitoring standard
+- multi-platform standard
+- NIST framework
+- non-compliance standard
+- notification requirement
+- notification standard
+- operational guideline
+- operational standard
+- opt-out mechanism
+- opt-out signal
+- optimization standard
+- organizational standard
+- oversight standard
+- OWASP standard
+- partner standard
+- PbD
+- performance specification
+- performance standard
+- PIA standard
+- platform policy
+- platform requirement
+- platform standard
+- Play Store guideline
+- preparedness requirement
+- Privacy by Design
+- privacy certification
+- privacy framework
+- privacy impact assessment
+- privacy principle
+- privacy seal
+- privacy specification
+- privacy standard
+- procedural standard
+- professional code
+- professional standard
+- protocol standard
+- quality specification
+- quality standard
+- readiness requirement
+- recognized standard
+- record-keeping standard
+- regulatory standard
+- remediation standard
+- reporting requirement
+- reporting standard
+- response requirement
+- review requirement
+- review standard
+- risk assessment standard
+- risk framework
+- safety standard
+- sector guideline
+- sector standard
+- sector-specific standard
+- self-regulatory principle
+- standard practice
+- strategic standard
+- supplier standard
+- systematic standard
+- tactical standard
+- TCF
+- technical guideline
+- technical specification
+- technical standard
+- technology standard
+- third-party certification
+- third-party standard
+- tracking preference
+- training requirement
+- Transparency Consent Framework
+- transparency framework
+- trust mark
+- TrustArc
+- TRUSTe
+- user preference signal
+- vendor standard
+- violation standard
+- W3C standard
+- web standard

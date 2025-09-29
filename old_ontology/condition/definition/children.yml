@@ -1,0 +1,239 @@
+name: 'children'
+patterns:
+  - \d+ or older
+  - (\d+)-year-old
+  - under \d+
+  - ages? (\d+)-(\d+)
+  - ages? \d+
+  - \d+ year
+  - between the ages of \d+ and \d+
+  - \b(child|kid|youth|teen|minor|juvenile|preteen|toddler|baby)\b
+  - (age|baby|child|kid|youth|teen|minor|juvenile|preteen|toddler|baby) privacy
+synonym:
+  - child
+  - CHILDREN
+  - children
+  - 10 or older
+  - parents
+  - guardian
+  - children
+  - 10 years of age or older
+  - 10 years old
+  - 10-years-of-age
+  - 13 years of age or older
+  - 13 years old
+  - 13-years-of-age
+  - 18 or older
+  - 18 years of age or older
+  - 18 years old
+  - 18-years-of-age
+  - 21 or older
+  - 21 years of age or older
+  - 21 years old
+  - 21-years-of-age
+  - 24 or older
+  - 24 years of age or older
+  - 24 years old
+  - 24-years-of-age
+  - 8 years of age or older
+  - adolescents
+  - age 10
+  - age 10 or older
+  - age eighteen
+  - age eighteen or older
+  - age ten
+  - age ten or older
+  - age thirteen
+  - age thirteen or older
+  - age twenty-four
+  - age twenty-four or older
+  - age twenty-one
+  - age twenty-one or older
+  - ages 10
+  - ages 10-18
+  - ages ten-eighteen
+  - ages ten-thirteen
+  - ages thirteen-eighteen
+  - ages thirteen-twenty-four
+  - ages 21
+  - ages 21-24
+  - ages 24
+  - ages eighteen
+  - ages eighteen-twenty-four
+  - ages from 0 to 10
+  - ages from 0 to 13
+  - ages from 0 to 18
+  - ages from 0 to 21
+  - ages from 0 to 24
+  - ages from 0 to eighteen
+  - ages from 0 to ten
+  - ages from 0 to thirteen
+  - ages from 0 to twenty-four
+  - ages from 0 to twenty-one
+  - ages ten
+  - ages ten-24
+  - ages thirteen
+  - ages thirteen-24
+  - ages twenty-four
+  - ages twenty-four-24
+  - ages twenty-one
+  - ages twenty-one-24
+  - at least 10 years old
+  - at least 13 years old
+  - at least eighteen
+  - at least eighteen years old
+  - at least ten
+  - at least ten years old
+  - at least thirteen
+  - at least thirteen years old
+  - at least twenty-four
+  - at least twenty-four years old
+  - at least twenty-one
+  - at least twenty-one years old
+  - between the ages of 10 and 17
+  - between the ages of eight and seventeen
+  - between the ages of ten and seventeen
+  - between the ages of thirteen and seventeen
+  - between the ages of seventetn and twenty-four
+  - between the ages of seventetn and twenty-one
+  - child's privacy
+  - children under 12
+  - childrens information
+  - childrens privacy
+  - childrens privacy policy
+  - childrens' information
+  - childrens' privacy
+  - childrens' privacy policy
+  - eight years old
+  - eighteen or older
+  - eighteen years of age or older
+  - eighteen years old
+  - eighteen-years-of-age
+  - kids aged 10
+  - kids aged 13
+  - kids aged 18
+  - kids aged 21
+  - kids aged 24
+  - kids aged eighteen
+  - kids aged ten
+  - kids aged thirteen
+  - kids aged twenty-four
+  - kids aged twenty-one
+  - minors under 10
+  - minors under 13
+  - minors under 18
+  - minors under 21
+  - minors under 24
+  - minors under eighteen
+  - minors under ten
+  - minors under thirteen
+  - minors under twenty-four
+  - minors under twenty-one
+  - preteens
+  - ten or older
+  - ten years of age or older
+  - ten years old
+  - ten-years-of-age
+  - the age of 10
+  - the age of 10 years old
+  - the age of 13
+  - the age of 13 years old
+  - the age of 18
+  - the age of 18 years old
+  - the age of 21
+  - the age of 21 years old
+  - the age of 24
+  - the age of 24 years old
+  - the age of eighteen
+  - the age of eighteen years old
+  - the age of ten
+  - the age of ten years old
+  - the age of thirteen
+  - the age of thirteen years old
+  - the age of twenty-four
+  - the age of twenty-four years old
+  - the age of twenty-one
+  - the age of twenty-one years old
+  - thirteen or older
+  - thirteen years of age or older
+  - thirteen years old
+  - thirteen-years-of-age
+  - toddlers (ages 1-3)
+  - twenty-four or older
+  - twenty-four years of age or older
+  - twenty-four years old
+  - twenty-four-years-of-age
+  - twenty-one or older
+  - twenty-one years of age or older
+  - twenty-one years old
+  - twenty-one-years-of-age
+  - under 10
+  - under 10 years of age
+  - under 10 years old
+  - under 13
+  - under 13 years of age
+  - under 13 years old
+  - under 18
+  - under 18 years of age
+  - under 18 years old
+  - under 21
+  - under 21 years of age
+  - under 21 years old
+  - under 24
+  - under 24 years of age
+  - under 24 years old
+  - under 8
+  - under 8 years of age
+  - under age 10
+  - under age 13
+  - under age 18
+  - under age 21
+  - under age 24
+  - under age eighteen
+  - under age ten
+  - under age thirteen
+  - under age twenty-four
+  - under age twenty-one
+  - under eighteen
+  - under eighteen 13
+  - under eighteen years of age
+  - under eighteen years old
+  - under ten
+  - under ten 13
+  - under ten years of age
+  - under ten years old
+  - under thirteen
+  - under thirteen 10
+  - under thirteen 13
+  - under thirteen 18
+  - under thirteen 21
+  - under thirteen 24
+  - under thirteen eighteen
+  - under thirteen ten
+  - under thirteen thirteen
+  - under thirteen twenty-four
+  - under thirteen twenty-one
+  - under thirteen years of age
+  - under thirteen years old
+  - under twenty-four
+  - under twenty-four 13
+  - under twenty-four years of age
+  - under twenty-four years old
+  - under twenty-one
+  - under twenty-one 13
+  - under twenty-one years of age
+  - under twenty-one years old
+  - young adults
+  - youth under 10
+  - youth under 13
+  - youth under 18
+  - youth under 21
+  - youth under 24
+  - youth under eighteen
+  - youth under ten
+  - youth under thirteen
+  - youth under twenty-four
+  - youth under twenty-one
+  - guardian's approval
+  - guardian's consent
+  - guardian's permission

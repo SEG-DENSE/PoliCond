@@ -1,0 +1,275 @@
+name: personalization
+patterns:
+- \b(personaliz|customiz|tailor)\b
+- \b(preferences|preference)\b
+- \b(relevant|targeted|interest[_\s]*based)\b
+- \b(user\s+profile|customer\s+profile|individual\s+profile)\b
+- \b(recommend|suggestion|recommendation)\b
+- \b(content\s+curation|content\s+delivery)\b
+- \b(behavioral\s+targeting|demographic\s+targeting)\b
+- \b(adaptive|responsive|dynamic)\s+(content|service|experience)\b
+- \b(user\s+experience|customer\s+experience|UX)\b
+- \b(custom|bespoke|individualized|specialized)\b
+- \b(segment|audience|cohort|group)\s+(targeting|analysis)\b
+- \b(machine\s+learning|AI|algorithm)\s+(recommendation|personalization)\b
+synonym:
+- A/B testing personalization
+- acquisition-based personalization
+- activity analysis
+- activity pattern
+- activity tracking
+- activity-based personalization
+- adaptive content
+- adaptive optimization
+- advertising preference
+- AI personalization
+- AI-driven personalization
+- algorithm personalization
+- algorithm-driven personalization
+- algorithmic modeling
+- analytics-driven personalization
+- audience segmentation
+- audience targeting
+- automated optimization
+- automated personalization
+- behavior tracking
+- behavioral modeling
+- behavioral segmentation
+- behavioral targeting
+- browsing behavior
+- browsing tracking
+- churn-based personalization
+- click behavior
+- click tracking
+- CLV personalization
+- cohort targeting
+- collaborative filtering
+- communication preference
+- content curation
+- content delivery
+- content filtering
+- content preference
+- content recommendation
+- content selection
+- content-based personalization
+- context-aware personalization
+- contextual targeting
+- continuous optimization
+- conversion-based personalization
+- cross-channel personalization
+- currency preference
+- customer experience
+- customer interest
+- customer modeling
+- customer preferences
+- customer profile
+- customer segmentation
+- customization
+- customize
+- customize content
+- customized
+- customized advertising
+- customized campaign
+- customized communication
+- customized configuration
+- customized content
+- customized dashboard
+- customized email
+- customized experience
+- customized feature
+- customized interface
+- customized layout
+- customized messaging
+- customized notification
+- customized offer
+- customized promotion
+- customized recommendation
+- customized service
+- customized setting
+- customizing
+- data-driven personalization
+- demographic segmentation
+- demographic targeting
+- device-specific personalization
+- display preference
+- dynamic content
+- dynamic optimization
+- emotion-based personalization
+- engagement pattern
+- engagement tracking
+- engagement-based personalization
+- experience enhancement
+- experience optimization
+- experiment-based personalization
+- feature preference
+- frequency-based personalization
+- geographic segmentation
+- goal-based personalization
+- group targeting
+- hybrid personalization
+- individual
+- individual interest
+- individual preferences
+- individual profile
+- individualization
+- individualized
+- individualized experience
+- insight-driven personalization
+- intelligent content
+- intelligent optimization
+- intent-based personalization
+- interaction pattern
+- interaction tracking
+- interest analysis
+- interest modeling
+- interest tracking
+- interest-based advertising
+- interest-based content
+- interface preference
+- journey personalization
+- language preference
+- layout preference
+- lifecycle personalization
+- location-based personalization
+- loyalty-based personalization
+- machine learning personalization
+- marketing preference
+- membership-based personalization
+- ML-driven personalization
+- monetary-based personalization
+- mood-based personalization
+- multi-platform personalization
+- multivariate personalization
+- navigation behavior
+- navigation tracking
+- need-based personalization
+- notification preference
+- omnichannel personalization
+- optimization-based personalization
+- persona-based personalization
+- personal interest
+- personal preferences
+- personal profile
+- personalization
+- personalize content
+- personalized
+- personalized advertising
+- personalized campaign
+- personalized communication
+- personalized configuration
+- personalized content
+- personalized dashboard
+- personalized email
+- personalized experience
+- personalized feature
+- personalized interface
+- personalized layout
+- personalized messaging
+- personalized notification
+- personalized offer
+- personalized promotion
+- personalized recommendation
+- personalized service
+- personalized setting
+- personalizing
+- predictive modeling
+- predictive personalization
+- preference configuration
+- preference customization
+- preference management
+- preference modeling
+- preference selection
+- preference setting
+- preference tracking
+- privacy preference
+- product preference
+- product recommendation
+- profile building
+- profile creation
+- profile development
+- profile enhancement
+- profile management
+- profile optimization
+- psychographic segmentation
+- psychographic targeting
+- purchase behavior
+- purchase tracking
+- real-time optimization
+- real-time personalization
+- recency-based personalization
+- recommend
+- recommendation
+- recommendations
+- relevant advertising
+- relevant campaign
+- relevant communication
+- relevant content
+- relevant email
+- relevant messaging
+- relevant notification
+- relevant offer
+- relevant promotion
+- responsive content
+- retention-based personalization
+- RFM personalization
+- role-based personalization
+- rule-based personalization
+- search behavior
+- search tracking
+- segment targeting
+- sentiment-based personalization
+- service preference
+- service recommendation
+- situation-aware personalization
+- smart content
+- smart optimization
+- stage-based personalization
+- statistical modeling
+- subscription-based personalization
+- tailor
+- tailor content
+- tailored
+- tailored advertising
+- tailored campaign
+- tailored communication
+- tailored configuration
+- tailored content
+- tailored dashboard
+- tailored email
+- tailored experience
+- tailored feature
+- tailored interface
+- tailored layout
+- tailored messaging
+- tailored notification
+- tailored offer
+- tailored promotion
+- tailored recommendation
+- tailored service
+- tailored setting
+- tailoring
+- targeted advertising
+- targeted campaign
+- targeted communication
+- targeted content
+- targeted email
+- targeted messaging
+- targeted notification
+- targeted offer
+- targeted promotion
+- targeting preference
+- testing-based personalization
+- theme preference
+- tier-based personalization
+- time-based personalization
+- timezone preference
+- usage pattern
+- user experience
+- user interest
+- user modeling
+- user preferences
+- user profile
+- user segmentation
+- UX personalization
+- value-based personalization
+- view tracking

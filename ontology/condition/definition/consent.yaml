@@ -1,0 +1,114 @@
+name: consent
+patterns:
+- \b(accept|acknowledge|agree|approve|disagree|refuse|reject|deny|decline|assent|dissent|comply)\b
+- \b(approval|agreement|consensus|consent|assent|permission)\b
+- \bagree\b
+- \bauthoriz
+- \bconsent\b
+- \bopt[_\-\s]*(in|out)\b
+- \bpermission\b
+- if you consent
+- user agrees
+- user choice
+- user consent
+- with your consent
+- parental consent
+- explicit consent
+- informed consent
+- \b(opt[_\s]*in|consent|permission|authorization)\b
+synonym:
+- accept
+- acceptance
+- acknowledgment
+- active consent
+- advertising consent
+- affirmative consent
+- agree
+- agreement
+- agreement grant
+- allow
+- analytics consent
+- approval
+- approval grant
+- approve
+- assent
+- authorization
+- authorization grant
+- authorize
+- collection consent
+- communication consent
+- compliance
+- conditional consent
+- confirm consent
+- consent
+- consent banners
+- consent choices
+- consent controls
+- consent forms
+- consent management
+- consent notices
+- consent options
+- consent preferences
+- consent settings
+- cookie consent
+- customer consent
+- data consent
+- decline
+- deny
+- digital consent
+- direct consent
+- disagree
+- electronic consent
+- explicit consent
+- express consent
+- free consent
+- give consent
+- grant permission
+- granular consent
+- guardian approval
+- guardian consent
+- informed consent
+- marketing consent
+- mobile consent
+- obtain consent
+- ongoing consent
+- online consent
+- opt in
+- opt out
+- opt-in
+- opt-in authorization
+- opt-in consent
+- opt-in permission
+- opt-in request
+- opt-out
+- opting in
+- opting out
+- parental approval
+- parental consent
+- permission
+- permission grant
+- permit
+- personalization consent
+- prior consent
+- processing consent
+- provide consent
+- refuse
+- reject
+- request consent
+- require consent
+- revoke consent
+- revoke permission
+- seek consent
+- sharing consent
+- specific consent
+- temporary consent
+- tracking consent
+- usage consent
+- user agreement
+- user approval
+- user consent
+- user permission
+- verify consent
+- voluntary consent
+- withdraw consent
+- written consent

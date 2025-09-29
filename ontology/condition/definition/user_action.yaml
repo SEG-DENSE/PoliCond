@@ -1,0 +1,102 @@
+name: user_action
+patterns:
+- \b(user|customer|visitor|individual|person)s?\s*(action|behavior|operation|activity|conduct|performance)
+- \b(user|customer|visitor|individual|person)s?\s*(related|based|driven|triggered)\s*(action|behavior|activity)
+- \b(action|behavior|activity|conduct|performance)\s*(of|by|from)\s*(user|customer|visitor|individual|person)s?
+- \b(related|involving|concerning|regarding)\s*(user|customer|visitor|individual|person)s?\s*(action|behavior|activity)
+- \b(user|customer|visitor|individual|person)s?\s*(action|behavior|activity)\s*(related|based|driven|triggered)
+- \b(based\s*on|depending\s*on|according\s*to)\s*(user|customer|visitor|individual|person)s?\s*(action|behavior|activity)
+- \b(user|customer|visitor|individual|person)s?\s*(interaction|engagement|participation|involvement)
+- \b(interaction|engagement|participation|involvement)\s*(with|by|from)\s*(user|customer|visitor|individual|person)s?
+- \b(track|monitor|analyze|record)\s*(user|customer|visitor|individual|person)s?\s*(action|behavior|activity)
+- \b(user|customer|visitor|individual|person)s?\s*(pattern|trend|habit|routine)
+synonym:
+- according to user action
+- action related
+- action related user
+- activity related
+- activity related user
+- analyze user action
+- analyze user behavior
+- based on user action
+- behavior pattern
+- behavior related
+- behavior related user
+- concerning action
+- concerning user action
+- conduct pattern
+- conduct related
+- customer action
+- customer action pattern
+- customer actions
+- customer activity
+- customer behavior
+- customer conduct
+- customer engagement
+- customer habit
+- customer interaction
+- customer operation
+- customer participation
+- customer pattern
+- customer trend
+- depending on user action
+- engagement with user
+- individual action
+- individual actions
+- individual activity
+- individual behavior
+- individual engagement
+- individual interaction
+- individual trend
+- interaction with user
+- involvement by user
+- involving action
+- involving user action
+- monitor user action
+- monitor user behavior
+- participation by user
+- performance related
+- person action
+- person actions
+- person activity
+- person behavior
+- person engagement
+- person interaction
+- person trend
+- record user action
+- record user behavior
+- regarding action
+- regarding user action
+- related action
+- related user action
+- track user action
+- track user behavior
+- user action
+- user action related
+- user actions
+- user activity
+- user activity related
+- user based action
+- user behavior
+- user behavior related
+- user conduct
+- user driven action
+- user engagement
+- user habit
+- user interaction
+- user involvement
+- user operation
+- user participation
+- user performance
+- user related action
+- user routine
+- user trend
+- user triggered action
+- USER_ACTION
+- visitor action
+- visitor actions
+- visitor activity
+- visitor behavior
+- visitor engagement
+- visitor interaction
+- visitor trend

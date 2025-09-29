@@ -1,0 +1,241 @@
+# 1. location
+- source: location
+  target: coarse_location
+  key: SUBSUM
+
+- source: location
+  target: fine_location
+  key: SUBSUM
+
+# coarse_location
+- source: coarse_location
+  target: city
+  key: SUBSUM
+
+- source: coarse_location
+  target: country
+  key: SUBSUM
+
+- source: coarse_location
+  target: region
+  key: SUBSUM
+
+- source: coarse_location
+  target: ip_address
+  key: SUBSUM
+
+- source: coarse_location
+  target: wifi
+  key: SUBSUM
+
+# fine_location
+- source: fine_location
+  target: GPS
+  key: SUBSUM
+
+- source: fine_location
+  target: address
+  key: SUBSUM
+
+#  2. internet activity
+- source: internet_activity
+  target: application
+  key: SUBSUM
+
+- source: internet_activity
+  target: account
+  key: SUBSUM
+
+- source: internet_activity
+  target: usage_statistics
+  key: SUBSUM
+
+- source: internet_activity
+  target: log
+  key: SUBSUM
+
+- source: internet_activity
+  target: advertising
+  key: SUBSUM
+
+- source: advertising
+  target: advertising_statistics
+  key: SUBSUM
+
+- source: advertising
+  target: advertising_id
+  key: SUBSUM
+
+- source: software_identifier
+  target: advertising_id
+  key: SUBSUM
+
+- source: internet_activity
+  target: analytics
+  key: SUBSUM
+
+- source: internet_activity
+  target: browsing
+  key: SUBSUM
+
+# government identifier
+- source: government_identifier
+  target: id_card
+  key: SUBSUM
+
+- source: government_identifier
+  target: passport
+  key: SUBSUM
+
+- source: government_identifier
+  target: driver_license
+  key: SUBSUM
+
+- source: contact_information
+  target: address
+  key: SUBSUM
+
+- source: contact_information
+  target: email
+  key: SUBSUM
+
+- source: contact_information
+  target: personal_name
+  key: SUBSUM
+
+- source: contact_information
+  target: phone_number
+  key: SUBSUM
+
+- source: sensitive_info
+  target: gender
+  key: SUBSUM
+
+- source: sensitive_info
+  target: race
+  key: SUBSUM
+
+- source: sensitive_info
+  target: date_of_birth
+  key: SUBSUM
+
+- source: sensitive_info
+  target: age
+  key: SUBSUM
+
+- source: software_identifier
+  target: ip_address
+  key: SUBSUM
+
+- source: software_identifier
+  target: wifi
+  key: SUBSUM
+
+- source: software_identifier
+  target: android_id
+  key: SUBSUM
+
+- source: software_identifier
+  target: gsf_id
+  key: SUBSUM
+
+- source: software_identifier
+  target: cookie
+  key: SUBSUM
+
+- source: software_identifier
+  target: os
+  key: SUBSUM
+
+- source: software_identifier
+  target: uuid
+  key: SUBSUM
+
+- source: hardware_identifier
+  target: mac_address
+  key: SUBSUM
+
+- source: hardware_identifier
+  target: imei
+  key: SUBSUM
+
+- source: hardware_identifier
+  target: sim_serial_number
+  key: SUBSUM
+
+- source: hardware_identifier
+  target: serial_number
+  key: SUBSUM
+
+- source: biometric_information
+  target: voiceprint
+  key: SUBSUM
+
+- source: biometric_information
+  target: fingerprint
+  key: SUBSUM
+
+- source: personal_info
+  target: sensitive_info
+  key: SUBSUM
+
+# protected_information
+- source: protected_information
+  target: location
+  key: SUBSUM
+  
+- source: protected_information
+  target: contact_information
+  key: SUBSUM
+  
+- source: protected_information
+  target: government_identifier
+  key: SUBSUM
+    
+- source: protected_information
+  target: sensitive_info
+  key: SUBSUM 
+  
+- source: protected_information
+  target: biometric_information
+  key: SUBSUM 
+  
+# device sub
+- source: device
+  target: hardware_identifier
+  key: SUBSUM
+  
+- source: device
+  target: software_identifier
+  key: SUBSUM
+    
+- source: device
+  target: internet_activity
+  key: SUBSUM
+
+# non_personal_information
+- source: non_personal_info
+  target: anonymous
+  key: SUBSUM
+
+- source: non_personal_info
+  target: aggregate
+  key: SUBSUM
+
+- source: non_personal_info
+  target: encryption
+  key: SUBSUM
+
+- source: non_personal_info
+  target: pseudonymous
+  key: SUBSUM
+
+# personal_information
+- source: personal_info
+  target: protected_information
+  key: SUBSUM
+
+- source: personal_info
+  target: device
+  key: SUBSUM
+

@@ -1,0 +1,388 @@
+name: security
+patterns:
+- \b(encrypt|encrypted|encryption)\b
+- \b(SSL|TLS|HTTPS)\b
+- \b(secure|security)\b
+- \b(anonymiz|anonymis)(ed|ation)\b
+- \b(pseudonymiz|pseudonymis)(ed|ation)\b
+- \bde.?identif(ied|ication)\b
+- \b(aggregate|aggregated)\b
+- \bmask(ed|ing)\b
+- \bhash(ed|ing)\b
+- \btoken(ized|ization)\b
+- \bdifferential.?privacy\b
+- \bk.?anonymity\b
+- \bzero.?trust\b
+- \bend.?to.?end.?encryption\b
+- \bmulti.?factor.?authentication\b
+- \btwo.?factor.?authentication\b
+- \baccess.?control\b
+- \bdata.?protection\b
+- \bprivacy.?preserving\b
+- \bconfidential.?computing\b
+- \bfederated.?learning\b
+- \bsynthetic.?data\b
+- \bdata.?minimization\b
+- \bpseudonymous\b
+- \banonymous\b
+- \bnon.?personal\b
+- \bnon.?PII\b
+- \bnon.?identif\w+\b
+- (information|data).*?(cannot|no[nt]?).*?identify
+- secure.?(storage|transmission|processing|access)
+- (data|information).?(security|encryption|protection)
+- privacy.?(enhancing|preserving|protecting)
+- security.?(measures|controls|protocols|standards)
+synonym:
+- 24/7 monitoring
+- abstracted data
+- abstracted information
+- access control
+- access controls
+- AES encryption
+- aggregate
+- aggregate data
+- aggregate information
+- aggregate statistics
+- aggregated
+- aggregated data
+- aggregated information
+- aggregated statistics
+- aggregation
+- ai-powered security
+- altered data
+- altered information
+- anomaly detection
+- anonymised
+- anonymised data
+- anonymised information
+- anonymization
+- anonymized
+- anonymized data
+- anonymized information
+- anonymous
+- anonymous data
+- anonymous identifier
+- anonymous identifiers
+- anonymous information
+- antivirus protection
+- api security
+- application security
+- artificial data
+- artificial information
+- asymmetric encryption
+- attribute-based access control
+- attribute-based encryption
+- audit trail
+- automated security
+- behavioral analytics
+- binned data
+- binned information
+- biometric authentication
+- blockchain security
+- blurred data
+- blurred information
+- cannot identify
+- ccpa compliance
+- certificate authority
+- chief security officer
+- cleaned data
+- cleaned information
+- cloud security
+- clustered data
+- clustered information
+- communication encryption
+- compliance monitoring
+- confidential computing
+- container security
+- continuous monitoring
+- controlled data
+- controlled information
+- converted data
+- converted information
+- cryptographic hash
+- cryptographic protocol
+- cybersecurity
+- data aggregation
+- data at rest encryption
+- data encoding
+- data encryption
+- data generalization
+- data hashing
+- data in transit encryption
+- data loss prevention
+- data masking
+- data minimization
+- data obfuscation
+- data protection officer
+- data redaction
+- data risk management
+- data scrambling
+- data security
+- data suppression
+- data synthesis
+- data tokenization
+- database encryption
+- database security
+- de-identification
+- de-identified
+- de-identified data
+- de-identified information
+- defense in depth
+- deidentification
+- deidentified
+- deidentified data
+- deidentified information
+- devops security
+- devsecops
+- differential privacy
+- digital certificate
+- digital signature
+- disk encryption
+- distorted data
+- distorted information
+- distributed ledger security
+- does not identify
+- edge computing security
+- email encryption
+- encoded data
+- encoded information
+- encoding
+- encrypted communication
+- encrypted transfer
+- encrypted transmission
+- encryption
+- end-to-end encryption
+- endpoint security
+- federated identity
+- federated learning
+- file encryption
+- filtered data
+- filtered information
+- firewall protection
+- gdpr compliance
+- generalization
+- generalized data
+- generalized information
+- grouped data
+- grouped information
+- hardware security module
+- hash function
+- hashed data
+- hashed information
+- hashing
+- hipaa compliance
+- homomorphic encryption
+- HTTPS encryption
+- identifier removal
+- identifier stripping
+- identity verification
+- immutable logging
+- incident response
+- incident response team
+- information aggregation
+- information encoding
+- information encryption
+- information generalization
+- information hashing
+- information masking
+- information obfuscation
+- information redaction
+- information scrambling
+- information security
+- information suppression
+- information synthesis
+- information tokenization
+- infrastructure security
+- intrusion detection
+- intrusion prevention
+- iot security
+- iso 27001
+- k-anonymity
+- key management
+- key management service
+- kubernetes security
+- l-diversity
+- layered security
+- limited data
+- limited information
+- machine learning security
+- malware protection
+- masked data
+- masked identifiers
+- masked information
+- message encryption
+- microservices security
+- minimal data
+- minimal information
+- mobile app security
+- mobile security
+- modified data
+- modified information
+- multi-factor authentication
+- network security
+- nist framework
+- noisy data
+- noisy information
+- non-identifiable
+- non-identifiable data
+- non-identifiable information
+- non-identifying
+- non-identifying data
+- non-identifying information
+- non-personal
+- non-personal data
+- non-personal information
+- non-personally identifiable
+- non-personally identifiable data
+- non-personally identifiable information
+- non-PII
+- not directly identifiable
+- not individually identifiable
+- not personally identifiable
+- obfuscated data
+- obfuscated information
+- pattern recognition
+- pci dss compliance
+- penetration testing
+- perturbed data
+- perturbed information
+- platform security
+- policy-based access control
+- post-quantum cryptography
+- privacy by design
+- privacy certification
+- privacy risk management
+- privacy security
+- privacy-enhanced
+- privacy-enhanced data
+- privacy-enhanced information
+- privacy-preserving
+- privacy-preserving data
+- privacy-preserving information
+- privacy-protected
+- privacy-protected data
+- privacy-protected information
+- processed data
+- processed information
+- protected data
+- protected information
+- pseudonymisation
+- pseudonymised
+- pseudonymization
+- pseudonymized
+- pseudonymous
+- pseudonymous data
+- pseudonymous identifier
+- pseudonymous identifiers
+- pseudonymous information
+- public key infrastructure
+- quantum-safe cryptography
+- randomized data
+- randomized information
+- real-time monitoring
+- redacted data
+- redacted information
+- redaction
+- reduced data
+- reduced information
+- regulatory compliance
+- removed identifiers
+- restricted data
+- restricted information
+- risk assessment
+- risk management
+- role-based access control
+- rounded data
+- rounded information
+- RSA encryption
+- safeguarded data
+- safeguarded information
+- sanitized data
+- sanitized information
+- scrambled data
+- scrambled information
+- scrambling
+- screened data
+- screened information
+- searchable encryption
+- secure access
+- secure coding
+- secure communication
+- secure development
+- secure exchange
+- secure multi-party computation
+- secure processing
+- secure protocol
+- secure transfer
+- secure transmission
+- security
+- security assessment
+- security audit
+- security automation
+- security awareness
+- security baseline
+- security by design
+- security certification
+- security controls
+- security dashboard
+- security frameworks
+- security governance
+- security kpi
+- security maturity
+- security measures
+- security metrics
+- security monitoring
+- security operations center
+- security orchestration
+- security policies
+- security posture
+- security procedures
+- security protocols
+- security reporting
+- security risk management
+- security standards
+- security training
+- shift-left security
+- simulated data
+- simulated information
+- single sign-on
+- SSL encryption
+- statistical aggregation
+- storage encryption
+- stripped of identifiers
+- summarized data
+- summarized information
+- suppressed data
+- suppressed information
+- suppression
+- symmetric encryption
+- synthetic data
+- synthetic information
+- system security
+- t-closeness
+- threat assessment
+- threat intelligence
+- threat modeling
+- threat protection
+- TLS encryption
+- tokenization
+- tokenized data
+- tokenized information
+- tokens
+- transformed data
+- transformed information
+- transport encryption
+- truncated data
+- truncated information
+- trusted execution environment
+- two-factor authentication
+- unable to identify
+- user authentication
+- vulnerability assessment
+- vulnerability management
+- web application security
+- without identifiers
+- zero trust
+- zero trust architecture
+- zero trust security

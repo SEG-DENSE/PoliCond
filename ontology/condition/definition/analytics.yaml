@@ -1,0 +1,125 @@
+name: analytics
+patterns:
+- \b(analytic|analysis|analyze|track|usage|statistics)\b
+- analytics
+- analyze
+- measure
+- statistical
+- track usage
+- data analysis
+- usage patterns
+- user behavior
+- performance metrics
+- web analytics
+- data insights
+- behavioral analysis
+synonym:
+- A/B testing
+- advanced analytics
+- aggregate analysis
+- aggregated data
+- AI analytics
+- analytics
+- analytics data
+- analytics information
+- analytics insights
+- analytics metrics
+- analytics monitoring
+- analytics purposes
+- analytics reporting
+- analytics research
+- analytics tracking
+- anonymized data
+- anonymous analysis
+- application usage
+- attribution analysis
+- automated analytics
+- behavior analysis
+- behavior tracking
+- behavioral data
+- behavioral information
+- behavioral insights
+- behavioral metrics
+- behavioral monitoring
+- business intelligence
+- churn analysis
+- click tracking
+- cohort analysis
+- complete analysis
+- comprehensive analytics
+- conversion tracking
+- cross-device tracking
+- custom analytics
+- dashboard analytics
+- data analysis
+- data insights
+- data mining
+- data reporting
+- data visualization
+- deep analysis
+- demographic analysis
+- descriptive analytics
+- detailed analytics
+- diagnostic analytics
+- engagement analysis
+- extensive analysis
+- full analysis
+- funnel analysis
+- granular analysis
+- in-depth analysis
+- intelligent analytics
+- interaction analysis
+- lifetime value analysis
+- machine learning analytics
+- macro-analytics
+- micro-analytics
+- multivariate testing
+- page views
+- path analysis
+- performance analysis
+- performance data
+- performance information
+- performance insights
+- performance metrics
+- performance monitoring
+- performance reporting
+- performance tracking
+- platform usage
+- predictive analytics
+- prescriptive analytics
+- real-time analytics
+- retention analysis
+- segmentation analysis
+- service usage
+- session analysis
+- site analytics
+- site statistics
+- site usage
+- smart analytics
+- statistical analysis
+- statistical data
+- statistical information
+- statistical metrics
+- statistical monitoring
+- statistical reporting
+- statistical tracking
+- thorough analysis
+- traffic analysis
+- trend analysis
+- usage analysis
+- usage data
+- usage information
+- usage insights
+- usage metrics
+- usage monitoring
+- usage patterns
+- usage reporting
+- usage statistics
+- usage tracking
+- user analytics
+- user behavior
+- user engagement
+- user journey analysis
+- user statistics
+- web analytics
+- website usage

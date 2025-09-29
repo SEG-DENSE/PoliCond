@@ -1,0 +1,127 @@
+name: 'input'
+patterns:
+  - questionnaire
+  - email
+  - user survey
+  - input information
+  - content which can be accessed, edited, deleted by user
+  - content which can be controlled by user
+  - contact
+  - (when|if) (user|customer)[s]? join.? our (input|survey|feedback|opinion|questionnaire|form|contact|mail|message|email)
+  - (when|if) (user|customer)[s]? fill out.? our (input|survey|feedback|opinion|questionnaire|form|contact|mail|message|email)
+  - (user|customer)\s+(survey|feedback|opinion|questionnaire|form|contact|mail|message|email)
+synonym:
+  - INPUT
+  - input
+  - user input
+  - USER INPUT
+  - information you provide to us
+  - contact us
+  - contact Us
+  - you contact us
+  - you may contact us
+  - you provide information
+  - administer contests, sweepstakes, promotions, and surveys
+  - call our customer service
+  - collected on a voluntary basis
+  - comments, email, and chat session participation
+  - comments, suggestions, questions, information, and feedback become property of caribou
+    coffee
+  - communicate with us by e-mail
+  - communicate with us by phone
+  - communicate with you about those requests
+  - complete a feedback form
+  - complete a questionnaire or a contest
+  - contact customer service for store experience, marketing preferences, and general
+    feedback/questions
+  - contact us - send promotional materials, newsletters, notifications
+  - contact us at feedback@nytimes.com to unsubscribe
+  - engage in chat rooms or message boards
+  - feedback directed to the feedback tab
+  - feedback forms on websites, feedback is property of the news-post, may use for marketing
+    or contact you
+  - feedback on nytimes.com and products/services
+  - feedback, commentary, surveys, message boards, chat rooms
+  - fill out surveys
+  - fulfill your requests for products and services
+  - invite you to participate in user surveys
+  - participate in discussion boards or other community features
+  - participate in a promotional offer
+  - participate in user surveys
+  - participating in contests and sweepstakes
+  - participating in polls
+  - participating in polls, surveys, and questionnaires
+  - participating in questionnaires
+  - participating in surveys, and questionnaires
+  - posting in or commenting on message boards
+  - provide personally identifiable information through various website activities
+  - provide additional pin and demographic information
+  - provide and rate reviews
+  - provide feedback in an online survey
+  - provide feedback on the quality of the service
+  - provide feedback or commentary
+  - provide feedback through online forms and surveys, voluntary information
+  - provide information in your account
+  - provide information when searching, buying, participating in contests/questionnaires,
+    communicating with customer service
+  - provide personalized articles related to content you visited
+  - provide your email address and newsletter name to unsubscribe
+  - question
+  - questions and feedback
+  - questions, concerns, and feedback about the policy
+  - receive email in error, contact feedback@nytimes.com
+  - respond to reviews, comments, or other feedback
+  - respond with feedback and data
+  - respond with information including feedback and data
+  - send feedback to
+  - solicit input and feedback to improve sites and services, customize user experience
+  - submit other content and suggestions
+  - submit personal information to the company
+  - submit personal information to use certain website features
+  - survey email
+  - survey email invitations for user feedback
+  - unresolved privacy or data use concern, contact truste at xxx@yyy.com
+  - use personal data for editorial and feedback purposes
+  - user contributions are posted and transmitted at your own risk
+  - user surveys help improve the nyt services
+  - welcomes questions, concerns, and feedback about this policy
+  - when you contact us or provide us information directly
+  - when you post comments in response to a story or video
+  - when you provide information about your investments
+  - when you submit information to discuss support or renewal
+  - you might supply us with such information as your name
+  - you provide information
+  - you provide most such information
+  - all information you input
+  - communication record
+  - contact us at email
+  - displayed publicly as "user contributions" on the website (e.g. blogs, forums, message
+    boards)
+  - email contact
+  - email contact for "privacy policy matters" listed here
+  - email contact us at xxx@xxx.com
+  - email us by completing our feedback form
+  - feedback
+  - mail contact
+  - notify us in writing by sending a notice
+  - or contacting us at
+  - participate in a contest or questionnaire
+  - provide such information voluntarily
+  - questionnaire
+  - send an email to the applicable fsd service
+  - sending a notice to
+  - submit feedback, enter a contest, fill out a survey, or communicate with us
+  - telephone contact
+  - user comment
+  - user feedback
+  - user input
+  - user opinion
+  - user response
+  - user suggestion
+  - user survey
+  - voluntary information required for certain activities
+  - when user join our user survey
+  - when user send us an email
+  - you may notify us at
+  - you provide most such information
+  - you voluntarily provide us via online forms and questionnaires

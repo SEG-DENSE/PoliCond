@@ -1,0 +1,17 @@
+name: 'user action'
+patterns:
+  - (user|customer|people) (action|operation|activity|behavior)
+  - \b(user action)\b
+  - '(user|customer)s?[_\s]*(action|behavior|operation|activity)'
+synonym:
+  - user actions
+  - user operation
+  - USER_ACTION
+  - user operation
+  - user activity
+  - user behavior
+  - user choice
+  - user decision
+  - customer action
+  - customer operation
+  - customer activity

@@ -1,0 +1,75 @@
+name: 'third party service'
+patterns:
+  - third(-| )part(y|ies) (service|provider)
+synonym:
+  - THIRD_PARTY_SERVICE
+  - 3rd party service
+  - 3rd-party service
+  - 3rd-party services
+  - 3rd party services
+  - third-party service
+  - third party services
+  - use third parties to perform site-related services
+  - employ third parties to perform site-related services
+  - engage third parties to perform services on our behalf
+  - disclose your Personal Information to third-party service providers
+  - use third-party service providers to manage credit card and payment processing
+  - provide order information to third parties that help us deliver the services
+  - disclose your Personal Information to third parties in order to perform services you request
+  - link to our Online Services through any social networking or third party websites, applications or services
+  - may share your personal information with a third party for its marketing purposes
+  - may use it to send you information about third-party products and services
+  - applications developed and maintained by third parties
+  - use third-party service providers to provide
+  - third party service providers
+  - third party services
+  - online store and personals providers
+  - service providers
+  - provider partners
+  - third-party advertisers
+  - Co-Registration Vendors
+  - advertising partner
+  - advertising companies
+  - outsourced or subcontracted processing services
+  - card associations
+  - financial institutions
+  - third-party advertisement services
+  - third-party web optimization services
+  - external service providers
+  - collaborating third parties
+  - affiliated third-party providers
+  - contracted third-party services
+  - third-party contractors
+  - third party contractors
+  - third-party vendors
+  - third party vendors
+  - 3rd party vendors
+  - third-party partners
+  - third party partners
+  - 3rd party partners
+  - third-party affiliates
+  - third-party agencies
+  - third-party consultants
+  - third-party facilitators
+  - third-party operators
+  - third-party support services
+  - third-party maintenance providers
+  - third-party marketing firms
+  - third-party analytics providers
+  - third-party data handlers
+  - third-party logistics providers
+  - third-party customer service providers
+  - third-party technology providers
+  - third-party content providers
+  - third-party data providers
+  - third-party service providers
+  - 3rd party service providers
+  - third party service providers
+  - third-party solution providers
+  - third-party resource providers
+  - third-party delivery services
+  - third-party hosting services
+  - third-party security providers
+  - third-party payment providers
+  - third-party software providers
+  - third-party research providers

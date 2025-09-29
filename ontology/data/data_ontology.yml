@@ -1,0 +1,529 @@
+# verb group: (get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])
+- name: 'personal_info'
+  patterns:
+#    - 'personal information'
+#    - 'personal info'
+    - 'personal[_\s]*info(rmation)?'
+    - 'personal[_\s]*data'
+    - 'personal[_\s]*detail'
+    - 'personal data'
+    - 'individual[_\s]*info(rmation)?'
+    - 'individual[_\s]*data'
+    - 'people[_\s]*info(rmation)?'
+    - 'people[_\s]*data'
+    - 'user[_\s]*info(rmation)?'
+    - 'user[_\s]*data'
+    - 'customer[_\s]*info(rmation)?'
+    - 'customer[_\s]*data'
+    - 'client[_\s]*info(rmation)?'
+    - 'client[_\s]*data'
+    - 'patient[_\s]*info(rmation)?'
+    - 'patient[_\s]*data'
+    - 'visitor[_\s]*info(rmation)?'
+    - 'visitor[_\s]*data'
+    - '(member|employee|staff|worker|guest)[_\s]*info(rmation)?'
+    - '(member|employee|staff|worker|guest)[_\s]*data'
+
+# 1 location  - [coarse,fine]
+- name: "location"
+  patterns:
+    - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_a-z]*?(location|position)'
+    - '(location_?id)'
+    - '[^a-z]location[^a-z]'
+    - '^location$'
+    - '(geo-?(graphic)?\s*)?location'
+    - '(geo-?)?location(al)?[_\s]*(information|data|datum|history|detail)'
+    - 'geographic(al)?[_\s]*(information|data|datum|history|detail)'
+    - 'location[_\s]*(base|relate|specific)'
+    - 'location[_\s]*(mapping|tracking)[_\s]*data'
+    - '(physical|your)[_\s]*location'
+
+- name: "coarse_location"
+  patterns:
+    - 'android.permission.coarse_location'
+    - 'coarse_?location'
+    - '(coarse|imprecise|broad|non-precise|approximate|country|city).*?(geo-?(graphic)?\s*)?location'
+
+- name: "city"
+  patterns:
+  - '\b(city|cities)\b'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_a-z]*?(city|cities)'
+  - 'city[_\s]*(name|info|information|data)'
+  - 'urban[_\s]*(area|location|region)'
+  - 'metropolitan[_\s]*(area|city|region)'
+
+- name: "country"
+  patterns:
+  - '\b(country|countries)\b'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_a-z]*?(country|countries)'
+  - 'country[_\s]*(code|name|info|information|data)'
+  - 'nation(al)?[_\s]*(location|region|area)'
+  - 'geographic[_\s]*country'
+
+- name: "region"
+  patterns:
+  - '\b(region)\b'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_a-z]*?(region)'
+  - 'region(al)?[_\s]*(info|information|data|code)'
+  - 'geographic[_\s]*region'
+  - '(state|province|area)[_\s]*region'
+
+- name: "fine_location"
+  patterns:
+  - 'android.permission.fine_location'
+  - 'fine[\s_]*location'
+  - 'precise[\s_]*location'
+  - '(precise|fine).*?(geo-?(graphic)?\s)?location'
+  - 'location[\s_]*coordinate'
+  - '(latitude|longitude)'
+
+- name: "GPS"
+  patterns:
+  - '[^a-z]gps[^a-z]'
+  - '\bgps\b'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_a-z]*?gps'
+  - '([^a-z]gps[_a-z]+)'
+  - '=a?gps'
+
+# 2 internet_activity   - [application, http]
+- name: "internet_activity"
+  patterns:
+  - '[^a-z]internet[^a-z]'
+  - '[^a-z]network[^a-z]'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_a-z]*?(network|internet)'
+  - '(internet|website|app(lication)?|in-game|on-?line|player|user|system|network)[_\s]*?(activity|usage)'
+  - '(activity|usage|access)[_\s]*?(history|data|datum)'
+
+- name: "application" #package dump in poligraph
+  patterns:
+  - '(package|application|software)[_\s]*(manager|info)'
+  - '(\b(app)|application|software)[_\s]*list'
+  - 'package[_\s]*dump'
+  - 'install[_\s]*(package|app(lication)?|software)'
+  - '(package|app(lication)?|icon)[_\s]*instal'
+  - 'list[_\s]*of\b.*\b(package|app(lication)?)'
+  - 'app(lication)?[_\s]*list'
+  - 'app(lication)?[_\s]*type'
+  - 'app(lication)?[_\s]*?id'
+  - 'shared[_\s]*preferences?'
+  - 'module[_\s]*info'
+#        - name: "http"
+#          patterns:
+#            - 'https?://'
+#            - 'https?_?url_?connection'
+#            - 'https?_?response'
+#            - '([^a-z]response[^a-z])'
+#            - 'net\.url'
+#            - '\burl\b'
+- name: "account"
+  patterns:
+  - '[^a-z]accounts?'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_a-z]*?(accounts?)'
+  - 'user_?account'
+  - '\b(account)\b'
+  - 'account[_\s]*(info|information|data|detail|id|identifier)'
+
+- name: "usage_statistics"
+  patterns:
+  - '(app_background)|(app_clear_data)|(app_exception)|(app_remove)|(app_store_refund)'
+  - '(app_store_subscription[a-z_]+)|(first_visit)|(first_open)'
+  - '(user_engagement)|(in_app_purchase)|(usagestat)|(usage_stat(istics)?)'
+  - 'usage[_\s]*events?'
+  - '(notification_[a-z]+)|(session_start[a-z_]+)'
+  - 'app[_\s]*run[_\s]*count'
+
+- name: "log"
+  patterns:
+  - '\blog\b'
+  - 'util\.log'
+  - '[^a-z]log[^a-z]'
+  - 'log[_\s]*(file|data|entry|record|info)'
+  - '(system|error|access|activity)[_\s]*log'
+
+#- name: 'stack'
+#  patterns:
+#- 'stack[_\s]*trace'
+#- 'exception[_\s]*stack'
+
+- name: "advertising_statistics"
+  patterns:
+  - '(friendlyobstruction)|(ad_?traffic)|(click_?rate)|(ads?_?service)'
+  - '(ads?_?view)|(advertis(?!.*id\b.*)[a-z]*)|(adactivity)|(ads?_?config)'
+  - '(ad_?session)|(ad_personalization)|(ad_user_data)|(ad_format)|(ad_source)'
+  - '(ad_storage)|(ad_click)|(ad_activeview)'
+  - '(ad_exposure)|(ad_query)|(ad_reward)|(adunit_exposure)'
+  - 'rate[_\s]*stars'
+  - 'app[_\s]*rated'
+
+
+- name: "analytics"
+  patterns:
+  - "analytics_storage"
+  - 'analytics_stat'
+  - '\banalytics?'
+  - '[^a-z]analytics?'
+  - 'analyze'
+  - 'analyzing'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_a-z]*?(analytics?)'
+# 3 government_identifier
+- name: "government_identifier"
+  patterns:
+  - 'government(al)?[_\s]*id(entification)?[_\s]*?number'
+  - 'government(al)?[_\s]*id(entifier)?'
+  - 'govern[_\s]*id(entifier)?'
+  - 'official[_\s]*id(entifier|entification)?'
+  - 'state[_\s]*issued[_\s]*id(entifier|entification)?'
+
+- name: "id_card" # data_equals to the 'SSN' in poligraph
+  patterns:
+  - 'social[_\s]*security[_\s]*number'
+  - '[^a-z]ssn[^a-z]'
+  - 'resident(al)?[_\s]*id(entity)?[_\s]*card' # resident_id_card √
+  - 'citizen[_\s]*id(entity)?[_\s]*card' # citizen_id_card √
+  - 'national[_\s]*id(entity)?[_\s]*(card|number)'
+
+- name: "passport"
+  patterns:
+  - 'passport[_\s]*(number|detail|no)'
+  - 'passport[_\s]*id(entifier)?'
+  - 'passport[_\s]*info(rmation)?'
+  - 'passport[_\s]*(data|document)'
+  - 'travel[_\s]*document[_\s]*number'
+
+- name: "driver_license"
+  patterns:
+  - '(driving|driver(.s)?)[_\s]*license[_\s]*(number|information|copy)'
+  - 'driver[_\s]*license[_\s]*id(entifier)?'
+  - 'driver[_\s]*info(rmation)?'
+  - 'driving[_\s]*permit[_\s]*(number|info)'
+  - 'dl[_\s]*(number|info|data)'
+
+# 4 contact_information
+- name: "contact_information"
+  patterns:
+  - 'contact.*?(info(rmation)?|data|detail|method)'
+  - 'information.*?contact'
+  - '(customer|emergency)[_\s]*contact'
+  - '[^a-z]sms[^a-z]'
+  - '[^a-z]mms[^a-z]'
+  - '[^a-z]call[_\s]*?log[^a-z]'
+  - '[^a-z]contact[^a-z]'
+  - 'contact information'
+
+- name: "address"
+  patterns:
+  - '\b(address)\b'
+  - '^address$'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_a-z]*?(address)'
+  - '(home|work|postal|physical|residential|street|billing|accurate|shipping|delivery|your|mail|mailing|primary)[_\s]*address'
+  - 'user_?address'
+
+- name: "email"
+  patterns:
+  - '\b(email|email_?address)\b'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_a-z]*?(email)'
+  - '\b(mailto)\b'
+  - '(e-?mail|electronic[_\s]*mail)\b.*\b(address|account|address[_\s]*information)'
+  - '^e-?mail[_\s]*?(id)?$'
+
+- name: "personal_name"
+  patterns:
+  - '(your|first|last|family|middle|given|real|legal|maiden|person|contact|passenger|personal|full|sur|billing)[\s_]*name'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_a-z]*?(username)'
+  - '\bname\b'
+
+- name: "phone_number"
+  patterns:
+  - 'phonenumber'
+  - 'phone number'
+  - 'phone'
+  - '(tele)?phone[\s_]*(mobile[\s_]*)?number'
+  - '(mobile|fax|contact)[\s_]*number'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_\s]*(phone|mobile)?[_\s]*number'
+
+# 5 software_identifier
+- name: "software_identifier"
+  patterns:
+  - 'software.*?id(entifier)?'
+  - 'application[_\s]*id(entifier)?'
+  - 'app[_\s]*id(entifier)?'
+  - 'program[_\s]*id(entifier)?'
+  - 'software[_\s]*(version|info|data)'
+
+- name: "ip_address"
+  patterns:
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_a-z]*?ip\b'
+  - 'ip[_\s]?address'
+  - '\b(ipv4|ipv6|ip)\b'
+  - 'internet[_\s]*protocol[_\s]*address'
+
+- name: "wifi" #router ssid:
+  patterns:
+  - '[^a-z]wi.?fi[^a-z]'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_\s]*wi.?fi'
+  - 'b?ssids?'
+  - 'id(entifier?)?[_\s]*router'
+  - 'wi[.]?fi[_\s]*((end|access)[_\s]*?point|name)'
+  - '\b(wi[.]?fi|wlan|wireless)\b'
+  - '\b(WiFi)\b'
+  - '\b(wi[- _]fi)\b'
+  - '\b(Wi[- _]Fi)\b'
+  - 'wifi[_\s]*network'
+  - 'wifi[_\s]*info(rmation)?'
+
+- name: "android_id"
+  patterns:
+  - 'android[_\s]*?(ud)?id(entifier)?'
+  - 'android[_\s]*?device[_\s]*?id(entifier)?'
+  - 'Android ID'
+  - 'android id'
+  - 'ssaid'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_\s]*?android[_\s]*?(ud)?id'
+
+- name: "gsf_id"
+  patterns:
+  - 'google[_\s]*?service[_\s]*?framework[_\s]*?id'
+  - 'gsf[_\s]*id'
+  - 'google[_\s]*framework[_\s]*id'
+  - 'gservices[_\s]*id'
+  - 'google[_\s]*play[_\s]*services[_\s]*id'
+
+- name: "advertising_id"
+  patterns:
+  - 'advertiser[_\s]*id'
+  - 'advertising[_\s]*id'
+  - 'id for Advertisers'
+  - 'id for advertisers'
+  - '[^a-z]aclid[^a-z]' # from Advertiser Client ID
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])?[_\s]*android[_\s]*?aclid'
+  - 'advertiser[_\s]*client[_\s]*id'
+  - 'ad(vertis(ing|er))?[_\s]*id(entifier)?'
+  - 'advertising[_\s]*id(entification)?[_\s]*number'
+  - 'id(entifier?)?.*?advertising'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])?[_\s]*(a[ad]id|idfa|gaid)'
+
+- name: 'browsing'
+  patterns:
+    - '(browsing|search|browser?)[_\s]*(history|behaviour|behavior|activity|data)'
+    - '\b(browsing|browser)\b'
+    - '(browser|browsing)[_\s]*?(history|activity|data|behaviour)'
+
+
+- name: "cookie"
+  patterns:
+  - '[^a-z]cookie'
+  - 'cookie_?sync_?manager'
+  - 'cookies?'
+  - 'pixel[_\s]*tag'
+  - 'web[_\s]*(beacon|bug)'
+  - '(clear|transparent|invisible)[_\s]*(gif|graphic|image)s?'
+  - '(pixel|gif)[_\s]*tag'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])?(cookies?)'
+
+- name: "os"
+  patterns:
+  - 'os_?version'
+  - '[^a-z]os[^a-z]*?(version|name|arch)'
+  - '[^a-z]operating.*?system[^a-z]*?(version|name|arch)'
+  - 'platform[_\s]*(version|info|data)'
+  - 'system[_\s]*(version|info|data)'
+
+- name: "uuid"
+  patterns:
+  - 'uuid'
+  - 'universally[_\s]*unique[_\s]*id(entifier)?'
+  - 'unique[_\s]*id(entifier)?'
+  - 'guid'
+  - 'globally[_\s]*unique[_\s]*id(entifier)?'
+
+# 6 hardware_identifier
+- name: "hardware_identifier"
+  patterns:
+  - 'hardware.*?id(entifier)?'
+  - 'hardware.*?info(mation)?'
+  - 'device[_\s]*hardware[_\s]*id'
+  - 'hw[_\s]*id(entifier)?'
+  - 'hardware[_\s]*(serial|uuid|fingerprint)'
+
+- name: "mac_address"
+  patterns:
+  - '[^a-z]mac[^a-z]'
+  - 'mac[_\s]*?(address|addr)'
+  - '\b(mac)\b'
+  - 'mac[_\s]*address(es)?'
+  - 'media[_\s]*access[_\s]*control'
+  - 'network[_\s]*card[_\s]*address(es)?'
+  - 'mac address'
+  - 'mac_address'
+  - 'MAC Address'
+  - 'MAC[_\s]*ADDR(ESS)?'
+  - 'physical[_\s]*address'
+  - 'hardware[_\s]*address'
+  - 'ethernet[_\s]*address'
+  - 'network[_\s]*interface[_\s]*address'
+  - 'nic[_\s]*address'
+  - 'lan[_\s]*address'
+  - 'wifi[_\s]*mac'
+  - 'wireless[_\s]*mac'
+  - 'bluetooth[_\s]*mac'
+  - 'device[_\s]*mac'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_a-z]*?(mac)'
+
+- name: "imei"
+  patterns:
+  - '[^a-z]imei[^a-z]'
+  - '\b(imei)\b'
+  - 'international[_\s]*mobile[_\s]*(equipment|device)[_\s]*id(entification|entity)?'
+  - 'International Mobile Equipment Identity'
+  - 'international mobile equipment identity'
+
+- name: "sim_serial_number"
+  patterns:
+  - 'imsi'
+  - 'international[_\s]*mobile[_\s]*subscriber[_\s]*id(entification)?[_\s]*number'
+  - 'sim[_\s]*code'
+  - 'sim serial number'
+  - 'iccid'
+  - 'sim[_\s]*card[_\s]*(id|number|serial)'
+  - 'subscriber[_\s]*id(entity)?'
+
+- name: "serial_number"
+  patterns:
+  - '(device|android)(.s)?[_\s]*serial[_\s]*(number|no)'
+  - '^serial[_\s]*number'
+  - 'hardware[_\s]*serial[_\s]*(number|no)'
+  - 'product[_\s]*serial[_\s]*(number|no)'
+  - 'manufacturing[_\s]*serial[_\s]*(number|no)'
+
+- name: "device"
+  patterns:
+  - '(device|mobile|phone)[_\s]*id(entifier)?'
+  - 'identifier[_\s]*(for|of|link|associate|assign|match|tie|specific).*?device'
+  - 'udid' #UDID# -> tolower()
+  - 'device_?(info|type)'
+  - '[^a-z]device'
+  - 'sd[_\s]*card'
+  - '[^a-z]storage[^a-z]'
+  - 'user[^a-z]*[_\s]*photo[^a-z]'
+  - 'user[^a-z]*[_\s]*video[^a-z]'
+
+# 7 protected_information
+- name: "protected_information" #  protected classification:  - 'protect(ed)? classification'
+  patterns:
+  - 'protect(ed)?[_\s]*(graph(ification)?|info(rmation)?)'
+  - 'other relevant information'
+  - 'protected_information'
+  - 'personally identifiable information'
+  - 'information by which you can be identified'
+
+- name: "sensitive_info"
+  patterns:
+    - 'sensitive[_\s]*info(rmation)?'
+    - 'sensitive[_\s]*data'
+    - 'sensitive[_\s]*detail'
+    - 'sensitive[_\s]*personal[_\s]*info(rmation)?'
+    - 'user[_\s]*sensitive[_\s]*info(rmation)?'
+
+- name: "gender"
+  patterns:
+  - '[^a-z](gender)[^a-z]'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_\s]*(gender)'
+  - 'gender[_\s]*(info|information|data)'
+  - 'sex[_\s]*(info|information|data)'
+  - '(male|female)[_\s]*identification'
+
+- name: "race"
+  patterns:
+  - '[^a-z](race|ethnicity)[^a-z]'
+  - '(get|access|request|find|query|fetch|load|set|update|delete|create|add|remove|check|valid|publish|broadcast|log|clea[rn])[_\s]*(race|ethnicity)'
+  - 'racial[_\s]*(info|information|data|background)'
+  - 'ethnic[_\s]*(info|information|data|background|origin)'
+  - '(race|ethnicity)[_\s]*(category|classification)'
+- name: "date_of_birth"
+  patterns:
+  - 'date[_\s]*of[_\s]*birth'
+  - 'birth[_\s]*(day|date)'
+  - 'dob'
+  - 'birth[_\s]*(info|information|data)'
+  - 'born[_\s]*(on|date)'
+- name: "age"
+  patterns:
+  - '\bage\b'
+  - '[^a-z]age[^a-z]'
+  - '[^a-z]age[_\s]*(range|level|information)'
+  - 'age[_\s]*(group|category|bracket)'
+  - 'birth[_\s]*year'
+
+# 8 biometric_information:
+- name: "biometric_information"
+  patterns:
+  - 'biometrics'
+  - 'biometric[_\s]*?(data|information|identifier|detail|technology)'
+
+- name: "voiceprint"
+  patterns:
+  - 'voiceprint'
+  - 'voice[_\s]*(record(ing)?|pattern)'
+  - 'voice[_\s]*(recognition|identification|biometric)'
+  - 'vocal[_\s]*(pattern|signature|print)'
+  - 'speech[_\s]*(pattern|recognition|biometric)'
+
+- name: "fingerprint"
+  patterns:
+  - 'fingerprint'
+  - 'finger[_\s]*(print|scan|biometric)'
+  - 'thumbprint'
+  - 'biometric[_\s]*finger'
+  - 'touch[_\s]*id'
+
+# 9 'aggregate / deidentified / pseudonymized information';  anonymous identifier:
+# && 10 others-non_personal_info
+
+- name: "non_personal_info"
+  patterns:
+  - 'non[_\s]*personal.*?(information|data)'
+  - 'non[_\s]*?personal[_\s]*?info(rmation)?'
+  - 'non[_\s]*(personally|directly)\b.*\bidentif\w+\b.*\b(information|data)'
+  - 'non[_\s]*PII'
+  - 'information.*?(cannot|no[nt]?).*?identify.*?(you|individual|person|user)'
+  - 'non[_\s]*personal.*?(information|data)'
+
+- name: "security"
+  patterns:
+  - 'security[_\s]*?policy'
+  - 'network[_\s]*?security[_\s]*?policy'
+  - 'security[_\s]*(info|information|data|measure)'
+  - 'cyber[_\s]*security'
+  - 'data[_\s]*security'
+
+- name: "encryption"
+  patterns:
+  - '\b(encrypt)\b'
+  - '\b(encryption)\b'
+  - '\b(decryption)\b'
+  - '\b(blake2s)\b'
+  - '\b(base64)\b'
+  - '\b(md5)\b'
+
+- name: 'pseudonymous'
+  patterns:
+  - 'pseudonymous[_\s]*?(information|data|detail|identifier|record|email|address|info)'
+  - '\bpseudonymization\b'
+  - '\bpseudonymous\b'
+
+- name: 'anonymous'
+  patterns:
+  - 'anonymous[_\s]*?(information|data|detail|identifier|record|email|address|info)'
+  - 'anonymized[_\s]*?(information|data|detail|identifier|record|email|address|info)'
+  - 'anonymization'
+  - '(anonymized|anonymised|anonymous|de.?identified)[_\s]*(data|info(rmation)?)'
+  - 'anonymous.*?identifier'
+
+- name: 'aggregate'
+  patterns:
+  - 'aggregate[_\s]*?(information|data|detail|identifier|record|email|address|info)'
+  - '\baggregate\b'
+  - 'aggregated?[_\s]*data'
+  - 'aggregated?[_\s]*info(rmation)?'
+  - 'aggregated?[_\s]*info'
+  - 'aggregated?[_\s]*identifier'

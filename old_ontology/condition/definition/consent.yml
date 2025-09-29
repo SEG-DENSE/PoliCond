@@ -1,0 +1,108 @@
+name: 'consent'
+patterns:
+  - user consent
+  - user choice
+  - \b(opportunity|cookie|consensus|consent|assent|agreement|approval)\b
+  - \bopt-?(in|out)\b
+  - \b(accept|acknowledge|agree|approve|disagree|refuse|reject|deny|decline|assent|dissent|comply)\b
+  - \b(approval|agreement|consensus|consent|assent)\b
+synonym:
+  - CONSENT
+  - consent
+  - USER CONSENT
+  - user consent
+  - agree
+  - agree to the terms of our privacy policy
+  - authorize
+  - choice consistent with our notification
+  - compliance
+  - confirm
+  - confirm that a parent consents
+  - consent
+  - consent from your parents
+  - consent of affected customers
+  - consent to have information about activities
+  - consent to have information about activities shared
+  - contact the individuals depicted
+  - controls and choices
+  - express consent
+  - if we do not have parental consent
+  - if you do not agree
+  - if you do not agree with all of the terms
+  - if you do not want to receive such offers
+  - obtain your permission
+  - opt out
+  - opt out of tracking
+  - opt-in means
+  - opt-out of cookies, disable cookies will not restrict access to core content
+  - opt-out of receiving communications
+  - opt-out of receiving emails
+  - opt-out of receiving marketing messages
+  - opt-out of receiving messages
+  - opt-out of receiving newsletters
+  - opt-out of sharing email/postal contact information with third parties for marketing
+  - opting out of data sharing/disclosure
+  - parent consent
+  - permission to share
+  - permission to use these images should be obtained
+  - permitted
+  - prior consent to do so
+  - request parent consent
+  - user consent
+  - when you acknowledge you may receive emails
+  - when you choose to disable cookies
+  - when you consent to receive materials
+  - when you decline consent at the time your personal information is collected
+  - when you opt-out from any meredith email newsletter
+  - when you opt-out using the methods listed
+  - with parental consent
+  - with your consent
+  - with your express consent
+  - without first obtaining your permission
+  - without providing us with consent
+  - written consent
+  - you agree to be bound
+  - you agree to our privacy policy
+  - you are consenting to our processing
+  - you have the option to block any communication
+  - you may choose to opt out
+  - you may choose to stop
+  - you may choose service
+  - you may select service
+  - you may use service
+  - you may opt out
+  - you may opt-out
+  - you must provide your consent
+  - you retain control and choice
+  - you will be deemed to have agreed
+  - your permission
+  - your understanding and acceptance
+  - consent to use information for stated purpose
+  - cookie
+  - decline
+  - deny
+  - disagree
+  - dissent
+  - opportunities
+  - opportunity
+  - opt-in standard
+  - opt-out means we may contact you
+  - opt-out standard for sharing
+  - parent's consent
+  - parental approval
+  - parental consent
+  - permission
+  - refuse
+  - reject
+  - under guardian supervision
+  - under parental supervision
+  - use an opt-out standard
+  - wish to opt out of having your information shared
+  - with guardian consent
+  - with parental approval
+  - with parental consent
+  - with your affirmative consent.
+  - without guardian consent
+  - without parental approval
+  - without parental consent
+  - you may opt out of online behavioral advertising

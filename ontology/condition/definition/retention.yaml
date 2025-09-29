@@ -1,0 +1,367 @@
+name: retention
+patterns:
+- \b(retention|retain|retaining)\b
+- \b(storage|store|storing)\b
+- \b(preservation|preserve|preserving)\b
+- \b(maintenance|maintain|maintaining)\b
+- \b(archival|archive|archiving)\b
+- \b(backup|back[_\s]*up)\b
+- \b(deletion|delete|deleting|destroy|destruction)\b
+- \b(purge|purging|removal|removing)\b
+- \b(expiration|expire|expiring|expiry)\b
+- \b(retention\s+period|storage\s+period|preservation\s+period)\b
+- \b(data\s+lifecycle|information\s+lifecycle)\b
+- \b(long[_\s]*term\s+storage|short[_\s]*term\s+storage)\b
+- \b(permanent\s+storage|temporary\s+storage)\b
+- \b(active\s+storage|inactive\s+storage)\b
+- \b(automatic\s+deletion|scheduled\s+deletion)\b
+synonym:
+- active storage
+- aging policy
+- aging process
+- archival
+- archive
+- archive management
+- archive migration
+- archive period
+- archive policy
+- archive retention
+- archive retention period
+- archive retention policy
+- archive storage
+- archive storage period
+- archive storage policy
+- archive system
+- automated backup
+- automatic deletion
+- automatic expiration
+- automatic purge
+- automatic removal
+- backup
+- backup management
+- backup policy
+- backup retention
+- backup retention period
+- backup retention policy
+- backup schedule
+- backup storage
+- backup storage period
+- backup storage policy
+- backup system
+- batch deletion
+- certified destruction
+- cloud storage
+- cold storage
+- compressed storage
+- content archival
+- content archive
+- content backup
+- content deletion
+- content destruction
+- content disposal
+- content expiration
+- content lifecycle
+- content maintenance
+- content migration
+- content preservation
+- content purge
+- content removal
+- content retention
+- content retention period
+- content retention policy
+- content storage
+- content storage period
+- content storage policy
+- daily backup
+- data aging
+- data aging policy
+- data aging process
+- data archival
+- data archive
+- data archive period
+- data archive policy
+- data backup
+- data backup policy
+- data backup schedule
+- data deletion
+- data deletion policy
+- data deletion requirement
+- data deletion schedule
+- data destruction
+- data destruction policy
+- data destruction requirement
+- data destruction schedule
+- data disposal
+- data disposal method
+- data disposal policy
+- data disposal requirement
+- data disposal schedule
+- data expiration
+- data expiration date
+- data expiration period
+- data expiration policy
+- data lifecycle
+- data lifecycle management
+- data lifecycle policy
+- data lifecycle stage
+- data maintenance
+- data maintenance policy
+- data maintenance schedule
+- data migration
+- data migration policy
+- data migration process
+- data migration schedule
+- data preservation
+- data preservation period
+- data preservation policy
+- data preservation requirement
+- data purge
+- data purge policy
+- data purge schedule
+- data removal
+- data removal policy
+- data removal schedule
+- data retention
+- data retention limit
+- data retention period
+- data retention policy
+- data retention requirement
+- data retention schedule
+- data storage
+- data storage duration
+- data storage limit
+- data storage period
+- data storage policy
+- database backup
+- database maintenance
+- database purge
+- deletion
+- deletion policy
+- deletion requirement
+- deletion schedule
+- destruction
+- destruction policy
+- destruction requirement
+- destruction schedule
+- differential backup
+- digital preservation
+- disposal
+- disposal method
+- disposal policy
+- disposal requirement
+- disposal schedule
+- document aging
+- document archival
+- document archive
+- document backup
+- document deletion
+- document destruction
+- document disposal
+- document expiration
+- document lifecycle
+- document maintenance
+- document migration
+- document preservation
+- document purge
+- document removal
+- document retention
+- document retention period
+- document retention policy
+- document storage
+- document storage period
+- document storage policy
+- email archival
+- email archive
+- email deletion
+- email retention
+- email storage
+- encrypted storage
+- expiration
+- expiration date
+- expiration period
+- expiration policy
+- file aging
+- file archival
+- file archive
+- file backup
+- file deletion
+- file destruction
+- file disposal
+- file expiration
+- file lifecycle
+- file maintenance
+- file migration
+- file preservation
+- file purge
+- file removal
+- file retention
+- file retention period
+- file retention policy
+- file storage
+- file storage period
+- file storage policy
+- full backup
+- hard deletion
+- hot storage
+- inactive storage
+- incremental backup
+- information aging
+- information aging policy
+- information archival
+- information archive
+- information archive period
+- information archive policy
+- information backup
+- information backup policy
+- information deletion
+- information deletion policy
+- information destruction
+- information destruction policy
+- information disposal
+- information disposal policy
+- information expiration
+- information expiration date
+- information expiration period
+- information expiration policy
+- information lifecycle
+- information lifecycle management
+- information lifecycle policy
+- information lifecycle stage
+- information maintenance
+- information maintenance policy
+- information maintenance schedule
+- information migration
+- information preservation
+- information preservation period
+- information preservation policy
+- information preservation requirement
+- information purge
+- information purge policy
+- information removal
+- information removal policy
+- information retention
+- information retention limit
+- information retention period
+- information retention policy
+- information retention requirement
+- information retention schedule
+- information storage
+- information storage duration
+- information storage limit
+- information storage period
+- information storage policy
+- lifecycle
+- lifecycle management
+- lifecycle policy
+- lifecycle stage
+- local storage
+- log archival
+- log archive
+- log deletion
+- log retention
+- log storage
+- long-term preservation
+- long-term storage
+- maintenance
+- maintenance policy
+- maintenance schedule
+- message deletion
+- message retention
+- message storage
+- migration
+- migration policy
+- migration process
+- migration schedule
+- monthly backup
+- offline storage
+- online storage
+- periodic backup
+- periodic deletion
+- periodic purge
+- permanent deletion
+- permanent storage
+- preservation
+- preservation period
+- preservation policy
+- preservation requirement
+- purge
+- purge policy
+- purge schedule
+- record aging
+- record aging policy
+- record archival
+- record archive
+- record archive period
+- record archive policy
+- record backup
+- record deletion
+- record deletion policy
+- record destruction
+- record destruction policy
+- record disposal
+- record disposal policy
+- record expiration
+- record expiration date
+- record expiration period
+- record expiration policy
+- record lifecycle
+- record lifecycle management
+- record lifecycle policy
+- record lifecycle stage
+- record maintenance
+- record maintenance policy
+- record maintenance schedule
+- record migration
+- record preservation
+- record preservation period
+- record preservation policy
+- record preservation requirement
+- record purge
+- record purge policy
+- record removal
+- record removal policy
+- record retention
+- record retention limit
+- record retention period
+- record retention policy
+- record retention requirement
+- record retention schedule
+- record storage
+- record storage duration
+- record storage limit
+- record storage period
+- record storage policy
+- regular backup
+- remote storage
+- removal
+- removal policy
+- removal schedule
+- retention
+- retention limit
+- retention period
+- retention policy
+- retention requirement
+- retention schedule
+- scheduled backup
+- scheduled deletion
+- scheduled expiration
+- scheduled purge
+- scheduled removal
+- secure deletion
+- secure destruction
+- secure disposal
+- secure storage
+- short-term storage
+- soft deletion
+- storage
+- storage duration
+- storage limit
+- storage migration
+- storage period
+- storage policy
+- system backup
+- system maintenance
+- system purge
+- temporary storage
+- warm storage
+- weekly backup

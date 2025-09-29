@@ -1,0 +1,273 @@
+name: third_party_service
+patterns:
+- \b(third.?party|3rd.?party)\b.?(service|provider|vendor|partner|contractor|supplier)
+- \b(external|outside|contracted|outsourced)\b.?(service|provider|vendor|partner|contractor|supplier)
+- \b(service.?provider|vendor|contractor|partner|supplier|affiliate)\b
+- \b(authentication|auth)\b.?(service|provider|system|platform)
+- \b(payment|billing|transaction)\b.?(service|provider|processor|gateway|system)
+- \b(email|messaging|communication)\b.?(service|provider|platform|system)
+- \b(social.?media|social.?network)\b.?(service|provider|platform|integration)
+- \b(cloud|hosting|storage)\b.?(service|provider|platform|system)
+- \b(analytics|tracking|monitoring)\b.?(service|provider|platform|system)
+- \b(advertising|marketing|promotion)\b.?(service|provider|platform|network)
+- \b(content|media|streaming)\b.?(service|provider|platform|delivery)
+- \b(security|fraud|verification)\b.?(service|provider|system|platform)
+- \b(logistics|shipping|delivery)\b.?(service|provider|system|partner)
+- \b(customer.?service|support|helpdesk)\b.?(service|provider|platform|system)
+- \b(integration|api|plugin|widget)\b.?(service|provider|platform)
+- \bsaas\b.?(service|provider|platform|solution)
+- \bpaas\b.?(service|provider|platform|solution)
+- \biaas\b.?(service|provider|platform|solution)
+- (google|facebook|twitter|amazon|microsoft|apple|stripe|paypal).?(service|api|platform|integration)
+- (oauth|saml|openid|sso).?(service|provider|authentication|integration)
+- (aws|azure|gcp).?(service|platform|integration)
+- integrated.?with.?(third.?party|external).?(service|platform|system)
+- provided.?by.?(third.?party|external).?(service|provider|vendor|partner)
+- powered.?by.?(third.?party|external).?(service|provider|platform)
+- through.?(third.?party|external).?(service|provider|platform|integration)
+synonym:
+- ab testing service
+- ad network
+- ad provider
+- ad service
+- advertising platform
+- advertising provider
+- advertising service
+- ai service
+- analytics platform
+- analytics provider
+- analytics service
+- antivirus service
+- api service
+- application service
+- assessment service
+- audio service
+- audit service
+- auth service provider
+- authentication platform
+- authentication service
+- aws service
+- azure service
+- backup service
+- banking service
+- billing provider
+- billing service
+- booking platform
+- booking service
+- calendar service
+- call center service
+- campaign service
+- cdn service
+- certificate service
+- certification platform
+- certification service
+- chatbot service
+- cloud platform
+- cloud provider
+- cloud service
+- collaboration service
+- communication platform
+- communication service
+- compliance service
+- conference service
+- consultancy service
+- content delivery network
+- content delivery service
+- content platform
+- content provider
+- content service
+- contracted service
+- course platform
+- credit card processor
+- crm service
+- customer service provider
+- customer support platform
+- data analytics service
+- data processing service
+- data storage service
+- delivery provider
+- delivery service
+- development service
+- document processing service
+- education service
+- email platform
+- email provider
+- email service
+- embed service
+- encryption service
+- entertainment service
+- etl service
+- event service
+- examination service
+- experimentation service
+- external integration
+- external provider
+- external service
+- facebook integration
+- facial recognition service
+- feedback service
+- file storage service
+- financial service
+- financial service provider
+- firewall service
+- fitness service
+- food delivery service
+- fraud detection service
+- fraud prevention service
+- fulfillment service
+- gaming service
+- google analytics
+- google cloud service
+- google integration
+- health service
+- helpdesk service
+- hosting provider
+- hosting service
+- iaas provider
+- iaas service
+- identity platform
+- identity provider
+- identity service
+- image recognition service
+- image service
+- infrastructure provider
+- infrastructure service
+- instagram integration
+- integration platform
+- integration service
+- job service
+- learning platform
+- legal service
+- linkedin integration
+- live chat service
+- localization service
+- login service
+- logistics provider
+- logistics service
+- machine learning service
+- mail delivery service
+- maintenance service
+- managed provider
+- managed service
+- marketing platform
+- marketing provider
+- marketing service
+- marketplace service
+- measurement service
+- media provider
+- media service
+- medical service
+- merchant service
+- messaging platform
+- messaging provider
+- messaging service
+- middleware service
+- monitoring provider
+- monitoring service
+- notification platform
+- notification service
+- oauth provider
+- ocr service
+- office service
+- openid provider
+- optimization service
+- outside service
+- outsourced service
+- paas provider
+- paas service
+- payment facilitator
+- payment gateway
+- payment platform
+- payment processor
+- payment provider
+- payment service
+- paypal service
+- personalization service
+- platform service
+- plugin service
+- polling service
+- proctoring service
+- productivity service
+- professional service
+- promotion service
+- push notification service
+- qa service
+- rating service
+- recommendation service
+- recruitment service
+- reporting service
+- research service
+- reservation service
+- retail service
+- review service
+- risk assessment service
+- saas platform
+- saas provider
+- saas service
+- saml provider
+- scheduling service
+- security platform
+- security provider
+- security service
+- server hosting
+- service partner
+- service provider
+- service vendor
+- shipping provider
+- shipping service
+- single sign-on service
+- sms service
+- smtp service
+- social authentication
+- social login service
+- social media platform
+- social media provider
+- social media service
+- social network platform
+- social network provider
+- social network service
+- software service
+- speech service
+- ssl service
+- sso service
+- storage provider
+- storage service
+- streaming provider
+- streaming service
+- stripe service
+- subcontracted service
+- support service provider
+- survey service
+- technical service
+- testing service
+- text messaging service
+- third party affiliate
+- third party contractor
+- third party integration
+- third party partner
+- third party provider
+- third party service
+- third party supplier
+- third party vendor
+- threat detection service
+- ticketing platform
+- ticketing service
+- tracking provider
+- tracking service
+- training service
+- transaction processor
+- translation service
+- transportation service
+- travel service
+- twitter integration
+- verification service
+- video provider
+- video service
+- voice service
+- warehouse service
+- web analytics service
+- web hosting service
+- webhook service
+- webinar service
+- widget service
+- youtube integration
