@@ -36,6 +36,10 @@ python .\analyze_launcher.py --single --jsonl ".\test\Bluesky\analysis.jsonl"  -
 ```
 And we can see related outputs in folder `test`.
 Next, you can also run the `post_launcher.py` to infer more tuples from existing results.
+Like this command:
+```bash
+python post_launcher.py --single --input ./test/Bluesky.yaml
+```
 
 ## Demo Video
 We supplemented a demo video in the release page to show how to use PoliCond.
