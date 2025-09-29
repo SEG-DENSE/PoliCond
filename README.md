@@ -45,7 +45,7 @@ python post_launcher.py --single --input ./test/Bluesky.yaml
 We supplemented a demo video in the release page to show how to use PoliCond.
 To note, it was recorded in a previous version of PoliCond, which described both contradiction detection and a deprecated implementation of compliance check.
 We hope users can find it helpful and ignore the deprecated part (compliance check).
-
+Link: [PoliCond Demo Video](https://github.com/SEG-DENSE/PoliCond/releases/tag/POLICOND-Artifact-v1)
 
 ## Folder structure
 
