@@ -86,6 +86,7 @@ The repository is organized into the following components:
     - input: jsonl files by LLMs, privacy policy files
 11. config.py: configuration items and logger config. 
    - set KEY and BASE_URL in config.py to run the pipeline
+   - it also defines the logger by method `get_logger()`, which contains two implementations: one is normal logger, and the other is a logger that may hide sensitive information for double-blind review.
 12. figures: stores figures about 3 ontologies, entity ontology, condition ontology, data ontology.
 
 To note, node.py defines the fundamental data structures (4-tuples), and the configuration file (config.py) defines key variables.
